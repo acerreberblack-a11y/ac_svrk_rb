@@ -35,52 +35,76 @@ namespace SpravkoBot_AsSapfir
                                     return;
                                 }*/
 
-                // Запуск через FlaUI
-                var app = Application.Launch(_pathSAPLoginApp);
+                Application app = null;
 
                 try
                 {
-                    var desktop = automation.GetDesktop();
-                    Window mainWindow = null;
-                    var startTime = DateTime.Now;
+                    // Запуск через FlaUI
+                    app = Application.Launch(_pathSAPLoginApp);
 
-                    // Ожидание окна до 20 секунд
-                    while (mainWindow == null && (DateTime.Now - startTime).TotalSeconds < 20)
+                    try
                     {
-                        mainWindow =
-                            desktop
-                                .FindFirstChild(cf => cf.ByName("SAP Logon 750")
-                                                          .And(cf.ByControlType(FlaUI.Core.Definitions.ControlType.Window)))
-                                ?.AsWindow();
+                        var desktop = automation.GetDesktop();
+                        Window mainWindow = null;
+                        var startTime = DateTime.Now;
+
+                        // Ожидание окна до 20 секунд
+                        while (mainWindow == null && (DateTime.Now - startTime).TotalSeconds < 20)
+                        {
+                            mainWindow =
+                                desktop
+                                    .FindFirstChild(cf => cf.ByName("SAP Logon 750")
+                                                              .And(cf.ByControlType(FlaUI.Core.Definitions.ControlType.Window)))
+                                    ?.AsWindow();
+
+                            if (mainWindow == null)
+                            {
+                                Thread.Sleep(1000); // Пауза перед следующей попыткой
+                            }
+                        }
 
                         if (mainWindow == null)
                         {
-                            Thread.Sleep(1000); // Пауза перед следующей попыткой
+                            throw new TimeoutException("Не удалось запустить SAP Logon в течение заданного времени.");
                         }
-                    }
 
-                    if (mainWindow == null)
+                        // Дополнительное ожидание для стабилизации
+                        Thread.Sleep(2000);
+                    }
+                    catch (Exception)
                     {
-                        throw new TimeoutException("Не удалось запустить SAP Logon в течение заданного времени.");
+                        app?.Close(); // Закрываем приложение при ошибке
+                        throw;
                     }
-
-                    // Дополнительное ожидание для стабилизации
-                    Thread.Sleep(2000);
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
-                    app.Close(); // Закрываем приложение при ошибке
-                    throw;
+                    Log.Error(ex, "Ошибка при запуске SAP Logon");
+                    throw new Exception($"Не удалось запустить SAP Logon: {ex.Message}", ex);
                 }
             }
         }
 
         public void KillSAP()
         {
-            foreach (var process in Process.GetProcessesByName("saplogon"))
+            try
             {
-                process.Kill();
-                process.WaitForExit(5000); // Ожидание завершения процесса до 5 секунд
+                foreach (var process in Process.GetProcessesByName("saplogon"))
+                {
+                    try
+                    {
+                        process.Kill();
+                        process.WaitForExit(5000); // Ожидание завершения процесса до 5 секунд
+                    }
+                    catch (Exception ex)
+                    {
+                        Log.Warn(ex, "Не удалось корректно завершить процесс saplogon");
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Log.Error(ex, "Ошибка при поиске процессов saplogon");
             }
         }
 
