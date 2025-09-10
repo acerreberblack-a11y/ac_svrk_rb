@@ -1,0 +1,878 @@
+﻿2025-07-23 12:17:14.6771 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ========================  Запускаю SpravkoBot_asSapfir. Робот начинает работу.  ======================== 
+2025-07-23 12:17:14.7087 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-07-23 12:17:14.7886 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена: 0 организаций. 
+2025-07-23 12:17:14.7886 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-07-23 12:17:14.7886 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2356036+.txt. Начинаю извлечение данных из заявки. 
+2025-07-23 12:17:14.7886 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-07-23 12:17:14.7886 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 12:17:14.7886 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2356036 
+2025-07-23 12:17:14.7886 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => По одному контрагенту по всем договорам 
+2025-07-23 12:17:14.7886 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга =>  
+2025-07-23 12:17:14.7886 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-07-23 12:17:14.7886 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-07-23 12:17:14.7886 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-07-23 12:17:14.7886 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН => 6345012488 
+2025-07-23 12:17:14.7886 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП => 343503001 
+2025-07-23 12:17:14.7886 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.06.2025 
+2025-07-23 12:17:14.7886 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-07-23 12:17:14.7886 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-07-23 12:17:14.7886 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Начинаю конвертирование excel файла в csv: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx 
+2025-07-23 12:40:07.8710 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Найдено строк: 1.  
+2025-07-23 12:40:07.9170 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результаты фильтрации: 
+2025-07-23 12:40:07.9170 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 12:40:07.9170 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер: 898 
+2025-07-23 12:40:07.9170 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Филиал ПАО РГ: Волжская ГЭС 
+2025-07-23 12:40:07.9170 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Наименование КА: Гидроремонт-ВКК АО Волжский филиалг. Волжский 
+2025-07-23 12:40:07.9170 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер ДП в САП: 1000014717 
+2025-07-23 12:40:07.9170 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Статус: ЭДО 
+2025-07-23 12:40:07.9170 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Табельный номер подписантов: 90002916 
+2025-07-23 12:40:07.9170 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 12:40:24.2466 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | SAP Logon успешно запущен. 
+2025-07-23 12:40:24.5934 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Сессия SAP успешно получена. 
+2025-07-23 12:40:25.9841 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход в SAP. 
+2025-07-23 12:40:28.0365 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Транзакция ZTSF_AKT_SVERKI успешно запущена. 
+2025-07-23 12:40:28.0365 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход и запущена транзакция ZTSF_AKT_SVERKI 
+2025-07-23 12:41:45.0721 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Селекционный экран заполнен. 
+2025-07-23 12:41:48.7650 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Ожидаю появления окна "Акт сверки расчетов с контрагентами: ALV отчет", текущее окно: Акт сверки расчетов с контрагентами: ALV отчет 
+2025-07-23 12:42:03.1114 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Черданцева Наталья Викторовна 
+2025-07-23 12:42:35.4575 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Нажали на кнопку "Сформировать документы" 
+2025-07-23 12:42:37.5305 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Клавиша Enter успешно отправлена в окно SAP. 
+2025-07-23 12:42:37.7581 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Попытка 1: Поле ввода 'Folder:' не найдено 
+2025-07-23 12:42:37.8091 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Установлен путь сохранения: C:\Users\RobinSapAC\Desktop 
+2025-07-23 12:42:37.9861 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Акт(-ы) сверки успешно сохранены. 
+2025-07-23 12:42:38.0171 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Файлов для обработки нет. Робот завершает свою работу. 
+2025-07-23 14:40:04.0762 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ========================  Запускаю SpravkoBot_asSapfir. Робот начинает работу.  ======================== 
+2025-07-23 14:40:04.1042 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-07-23 14:40:04.1492 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена: 0 организаций. 
+2025-07-23 14:40:04.1492 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-07-23 14:40:04.1492 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2356036+.txt. Начинаю извлечение данных из заявки. 
+2025-07-23 14:40:04.1492 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-07-23 14:40:04.1492 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 14:40:04.1492 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2356036 
+2025-07-23 14:40:04.1492 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => По одному контрагенту по всем договорам 
+2025-07-23 14:40:04.1492 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга =>  
+2025-07-23 14:40:04.1492 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-07-23 14:40:04.1492 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-07-23 14:40:04.1492 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-07-23 14:40:04.1492 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН => 6345012488 
+2025-07-23 14:40:04.1492 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП => 343503001 
+2025-07-23 14:40:04.1492 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.06.2025 
+2025-07-23 14:40:04.1492 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-07-23 14:40:04.1492 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-07-23 14:40:04.1492 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Начинаю конвертирование excel файла в csv: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx 
+2025-07-23 14:40:04.9633 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Найдено строк: 1.  
+2025-07-23 14:40:04.9973 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результаты фильтрации: 
+2025-07-23 14:40:04.9973 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 14:40:04.9973 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер: 898 
+2025-07-23 14:40:04.9973 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Филиал ПАО РГ: Волжская ГЭС 
+2025-07-23 14:40:04.9973 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Наименование КА: Гидроремонт-ВКК АО Волжский филиалг. Волжский 
+2025-07-23 14:40:04.9973 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер ДП в САП: 1000014717 
+2025-07-23 14:40:04.9973 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Статус: ЭДО 
+2025-07-23 14:40:04.9973 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Табельный номер подписантов: 90002916 
+2025-07-23 14:40:04.9973 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 14:40:15.3629 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | SAP Logon успешно запущен. 
+2025-07-23 14:40:15.8015 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Сессия SAP успешно получена. 
+2025-07-23 14:40:17.6273 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход в SAP. 
+2025-07-23 14:40:19.6879 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Транзакция ZTSF_AKT_SVERKI успешно запущена. 
+2025-07-23 14:40:19.6879 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход и запущена транзакция ZTSF_AKT_SVERKI 
+2025-07-23 14:40:36.1501 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Селекционный экран заполнен. 
+2025-07-23 14:40:41.0129 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Ожидаю появления окна "Акт сверки расчетов с контрагентами: ALV отчет", текущее окно: Акт сверки расчетов с контрагентами: ALV отчет 
+2025-07-23 14:40:55.4508 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Черданцева Наталья Викторовна 
+2025-07-23 14:41:28.1271 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Нажали на кнопку "Сформировать документы" 
+2025-07-23 14:41:30.1856 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Окно 'Акт сверки расчетов с контрагентами: ALV отчет' найдено 
+2025-07-23 14:41:30.1856 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Дочернее окно 'Акт сверки расчетов с контрагентами: ALV отчет' найдено 
+2025-07-23 14:41:30.1946 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Клавиша Enter успешно отправлена в окно SAP. 
+2025-07-23 14:41:30.3877 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Окно 'Browse for Files or Folders' найдено 
+2025-07-23 14:41:30.5201 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Попытка 1: Поле ввода 'Folder:' не найдено 
+2025-07-23 14:41:30.5331 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Окно 'Browse for Files or Folders' найдено 
+2025-07-23 14:41:30.5581 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Поле ввода 'Folder:' найдено 
+2025-07-23 14:41:30.5711 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Установлен путь сохранения: C:\Users\RobinSapAC\Desktop 
+2025-07-23 14:41:30.7241 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Акт(-ы) сверки успешно сохранены. 
+2025-07-23 14:41:30.7831 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Файлов для обработки нет. Робот завершает свою работу. 
+2025-07-23 14:44:10.2008 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ========================  Запускаю SpravkoBot_asSapfir. Робот начинает работу.  ======================== 
+2025-07-23 14:44:10.2298 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-07-23 14:44:10.2768 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена: 0 организаций. 
+2025-07-23 14:44:10.2768 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-07-23 14:44:10.2768 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2356036+.txt. Начинаю извлечение данных из заявки. 
+2025-07-23 14:44:10.2798 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-07-23 14:44:10.2798 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 14:44:10.2798 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2356036 
+2025-07-23 14:44:10.2798 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => По одному контрагенту по всем договорам 
+2025-07-23 14:44:10.2798 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга =>  
+2025-07-23 14:44:10.2798 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-07-23 14:44:10.2798 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-07-23 14:44:10.2798 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-07-23 14:44:10.2798 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН => 6345012488 
+2025-07-23 14:44:10.2798 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП => 343503001 
+2025-07-23 14:44:10.2798 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.06.2025 
+2025-07-23 14:44:10.2798 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-07-23 14:44:10.2798 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-07-23 14:44:10.2798 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Начинаю конвертирование excel файла в csv: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx 
+2025-07-23 14:44:11.0777 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Найдено строк: 1.  
+2025-07-23 14:44:11.1117 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результаты фильтрации: 
+2025-07-23 14:44:11.1117 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 14:44:11.1117 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер: 898 
+2025-07-23 14:44:11.1117 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Филиал ПАО РГ: Волжская ГЭС 
+2025-07-23 14:44:11.1117 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Наименование КА: Гидроремонт-ВКК АО Волжский филиалг. Волжский 
+2025-07-23 14:44:11.1117 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер ДП в САП: 1000014717 
+2025-07-23 14:44:11.1117 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Статус: ЭДО 
+2025-07-23 14:44:11.1117 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Табельный номер подписантов: 90002916 
+2025-07-23 14:44:11.1117 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 14:44:17.5495 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | SAP Logon успешно запущен. 
+2025-07-23 14:44:17.8714 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Сессия SAP успешно получена. 
+2025-07-23 14:44:19.4346 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход в SAP. 
+2025-07-23 14:44:21.4916 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Транзакция ZTSF_AKT_SVERKI успешно запущена. 
+2025-07-23 14:44:21.4916 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход и запущена транзакция ZTSF_AKT_SVERKI 
+2025-07-23 14:46:23.1281 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Селекционный экран заполнен. 
+2025-07-23 14:46:26.8191 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Ожидаю появления окна "Акт сверки расчетов с контрагентами: ALV отчет", текущее окно: Акт сверки расчетов с контрагентами: ALV отчет 
+2025-07-23 14:46:41.2750 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Черданцева Наталья Викторовна 
+2025-07-23 15:26:51.9964 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ========================  Запускаю SpravkoBot_asSapfir. Робот начинает работу.  ======================== 
+2025-07-23 15:26:52.0264 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-07-23 15:26:52.1044 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена: 0 организаций. 
+2025-07-23 15:26:52.1044 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-07-23 15:26:52.1044 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2356036+.txt. Начинаю извлечение данных из заявки. 
+2025-07-23 15:27:14.9909 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-07-23 15:27:14.9909 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 15:27:14.9909 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2356036 
+2025-07-23 15:27:14.9909 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => По одному контрагенту по всем договорам 
+2025-07-23 15:27:14.9909 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга =>  
+2025-07-23 15:27:14.9909 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-07-23 15:27:14.9909 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-07-23 15:27:14.9909 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-07-23 15:27:14.9909 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН => 6345012488 
+2025-07-23 15:27:14.9909 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП => 343503001 
+2025-07-23 15:27:14.9909 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.06.2025 
+2025-07-23 15:27:14.9909 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-07-23 15:27:14.9909 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-07-23 15:28:03.2152 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ========================  Запускаю SpravkoBot_asSapfir. Робот начинает работу.  ======================== 
+2025-07-23 15:28:03.2472 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-07-23 15:28:03.3142 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена: 0 организаций. 
+2025-07-23 15:28:03.3142 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-07-23 15:28:03.3142 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2356036+.txt. Начинаю извлечение данных из заявки. 
+2025-07-23 15:28:03.3172 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-07-23 15:28:03.3172 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 15:28:03.3172 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2356036 
+2025-07-23 15:28:03.3172 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => По одному контрагенту по всем договорам 
+2025-07-23 15:28:03.3172 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга => ОЦО Акт сверки РГ 
+2025-07-23 15:28:03.3172 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-07-23 15:28:03.3172 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-07-23 15:28:03.3172 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-07-23 15:28:03.3172 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН => 6345012488 
+2025-07-23 15:28:03.3172 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП => 343503001 
+2025-07-23 15:28:03.3172 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.06.2025 
+2025-07-23 15:28:03.3172 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-07-23 15:28:03.3172 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-07-23 16:01:27.6795 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ========================  Запускаю SpravkoBot_asSapfir. Робот начинает работу.  ======================== 
+2025-07-23 16:01:27.7065 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-07-23 16:01:27.7965 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена: 0 организаций. 
+2025-07-23 16:01:27.7965 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-07-23 16:01:27.7965 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2356036+.txt. Начинаю извлечение данных из заявки. 
+2025-07-23 16:01:27.7965 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-07-23 16:01:27.7965 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 16:01:27.7965 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2356036 
+2025-07-23 16:01:27.7965 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => По одному контрагенту по всем договорам 
+2025-07-23 16:01:27.7965 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга => ОЦО Акт сверки РГ 
+2025-07-23 16:01:27.7965 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-07-23 16:01:27.7965 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-07-23 16:01:27.7965 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-07-23 16:01:27.7965 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН => 6345012488 
+2025-07-23 16:01:27.7965 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП => 343503001 
+2025-07-23 16:01:27.7965 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.06.2025 
+2025-07-23 16:01:27.7965 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-07-23 16:01:27.7965 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-07-23 16:01:54.8539 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Начинаю конвертирование excel файла в csv: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx 
+2025-07-23 16:01:55.6028 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Найдено строк: 1.  
+2025-07-23 16:01:55.6348 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результаты фильтрации: 
+2025-07-23 16:01:55.6348 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 16:01:55.6348 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер: 898 
+2025-07-23 16:01:55.6348 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Филиал ПАО РГ: Волжская ГЭС 
+2025-07-23 16:01:55.6348 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Наименование КА: Гидроремонт-ВКК АО Волжский филиалг. Волжский 
+2025-07-23 16:01:55.6348 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер ДП в САП: 1000014717 
+2025-07-23 16:01:55.6348 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Статус: ЭДО 
+2025-07-23 16:01:55.6348 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Табельный номер подписантов: 90002916 
+2025-07-23 16:01:55.6348 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 16:01:57.8693 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | SAP Logon успешно запущен. 
+2025-07-23 16:01:58.2293 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Сессия SAP успешно получена. 
+2025-07-23 16:01:59.8204 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход в SAP. 
+2025-07-23 16:02:01.9684 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Транзакция ZTSF_AKT_SVERKI успешно запущена. 
+2025-07-23 16:02:01.9684 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход и запущена транзакция ZTSF_AKT_SVERKI 
+2025-07-23 16:02:01.9854 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Ошибка при обработке входного файла SD2356036+.txt. Переход к следующему файлу. 
+2025-07-23 16:02:01.9854 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Файлов для обработки нет. Робот завершает свою работу. 
+2025-07-23 16:02:30.7956 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ========================  Запускаю SpravkoBot_asSapfir. Робот начинает работу.  ======================== 
+2025-07-23 16:02:30.8236 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-07-23 16:02:30.8636 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена: 0 организаций. 
+2025-07-23 16:02:30.8636 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-07-23 16:02:30.8636 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2356036+.txt. Начинаю извлечение данных из заявки. 
+2025-07-23 16:02:30.8636 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-07-23 16:02:30.8636 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 16:02:30.8636 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2356036 
+2025-07-23 16:02:30.8636 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => По одному контрагенту по всем договорам 
+2025-07-23 16:02:30.8636 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга => ОЦО Акт сверки РГ 
+2025-07-23 16:02:30.8636 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-07-23 16:02:30.8636 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-07-23 16:02:30.8636 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-07-23 16:02:30.8636 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН => 6345012488 
+2025-07-23 16:02:30.8636 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП => 343503001 
+2025-07-23 16:02:30.8636 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.06.2025 
+2025-07-23 16:02:30.8636 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-07-23 16:02:30.8636 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-07-23 16:02:35.9827 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Начинаю конвертирование excel файла в csv: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx 
+2025-07-23 16:02:36.7354 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Найдено строк: 1.  
+2025-07-23 16:02:36.7664 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результаты фильтрации: 
+2025-07-23 16:02:36.7664 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 16:02:36.7664 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер: 898 
+2025-07-23 16:02:36.7664 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Филиал ПАО РГ: Волжская ГЭС 
+2025-07-23 16:02:36.7664 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Наименование КА: Гидроремонт-ВКК АО Волжский филиалг. Волжский 
+2025-07-23 16:02:36.7664 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер ДП в САП: 1000014717 
+2025-07-23 16:02:36.7664 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Статус: ЭДО 
+2025-07-23 16:02:36.7664 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Табельный номер подписантов: 90002916 
+2025-07-23 16:02:36.7664 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 16:02:39.0598 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | SAP Logon успешно запущен. 
+2025-07-23 16:02:39.2808 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Сессия SAP успешно получена. 
+2025-07-23 16:02:40.3945 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход в SAP. 
+2025-07-23 16:02:42.4647 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Транзакция ZTSF_AKT_SVERKI успешно запущена. 
+2025-07-23 16:02:42.4647 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход и запущена транзакция ZTSF_AKT_SVERKI 
+2025-07-23 16:02:42.4832 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Ошибка при обработке входного файла SD2356036+.txt. Переход к следующему файлу. 
+2025-07-23 16:02:42.4832 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Файлов для обработки нет. Робот завершает свою работу. 
+2025-07-23 16:03:08.1136 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ========================  Запускаю SpravkoBot_asSapfir. Робот начинает работу.  ======================== 
+2025-07-23 16:03:08.1446 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-07-23 16:03:08.1926 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена: 0 организаций. 
+2025-07-23 16:03:08.1926 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-07-23 16:03:08.1926 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2356036+.txt. Начинаю извлечение данных из заявки. 
+2025-07-23 16:03:08.1926 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-07-23 16:03:08.1926 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 16:03:08.1926 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2356036 
+2025-07-23 16:03:08.1926 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => По одному контрагенту по всем договорам 
+2025-07-23 16:03:08.1926 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга => ОЦО Акт сверки РГ 
+2025-07-23 16:03:08.1926 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-07-23 16:03:08.1926 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-07-23 16:03:08.1926 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-07-23 16:03:08.1926 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН => 6345012488 
+2025-07-23 16:03:08.1926 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП => 343503001 
+2025-07-23 16:03:08.1926 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.06.2025 
+2025-07-23 16:03:08.1926 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-07-23 16:03:08.1926 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-07-23 16:03:08.1926 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Начинаю конвертирование excel файла в csv: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx 
+2025-07-23 16:03:08.9944 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Найдено строк: 1.  
+2025-07-23 16:03:09.0264 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результаты фильтрации: 
+2025-07-23 16:03:09.0264 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 16:03:09.0264 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер: 898 
+2025-07-23 16:03:09.0264 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Филиал ПАО РГ: Волжская ГЭС 
+2025-07-23 16:03:09.0264 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Наименование КА: Гидроремонт-ВКК АО Волжский филиалг. Волжский 
+2025-07-23 16:03:09.0264 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер ДП в САП: 1000014717 
+2025-07-23 16:03:09.0264 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Статус: ЭДО 
+2025-07-23 16:03:09.0264 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Табельный номер подписантов: 90002916 
+2025-07-23 16:03:09.0264 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 16:03:15.5086 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | SAP Logon успешно запущен. 
+2025-07-23 16:03:15.8426 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Сессия SAP успешно получена. 
+2025-07-23 16:03:17.4259 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход в SAP. 
+2025-07-23 16:03:19.4811 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Транзакция ZTSF_AKT_SVERKI успешно запущена. 
+2025-07-23 16:03:19.4811 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход и запущена транзакция ZTSF_AKT_SVERKI 
+2025-07-23 16:03:19.5011 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Ошибка при обработке входного файла SD2356036+.txt. Переход к следующему файлу. 
+2025-07-23 16:03:19.5011 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Файлов для обработки нет. Робот завершает свою работу. 
+2025-07-23 16:04:22.1360 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ========================  Запускаю SpravkoBot_asSapfir. Робот начинает работу.  ======================== 
+2025-07-23 16:04:22.1650 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-07-23 16:04:22.2040 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена: 0 организаций. 
+2025-07-23 16:04:22.2040 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-07-23 16:04:22.2040 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2356036+.txt. Начинаю извлечение данных из заявки. 
+2025-07-23 16:04:22.2040 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-07-23 16:04:22.2040 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 16:04:22.2040 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2356036 
+2025-07-23 16:04:22.2040 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => По одному контрагенту по всем договорам 
+2025-07-23 16:04:22.2040 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга => ОЦО Акт сверки РГ 
+2025-07-23 16:04:22.2040 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-07-23 16:04:22.2040 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-07-23 16:04:22.2040 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-07-23 16:04:22.2040 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН => 6345012488 
+2025-07-23 16:04:22.2040 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП => 343503001 
+2025-07-23 16:04:22.2040 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.06.2025 
+2025-07-23 16:04:22.2040 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-07-23 16:04:22.2040 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-07-23 16:04:22.2040 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Начинаю конвертирование excel файла в csv: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx 
+2025-07-23 16:04:22.9632 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Найдено строк: 1.  
+2025-07-23 16:04:22.9942 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результаты фильтрации: 
+2025-07-23 16:04:22.9942 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 16:04:22.9942 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер: 898 
+2025-07-23 16:04:22.9942 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Филиал ПАО РГ: Волжская ГЭС 
+2025-07-23 16:04:22.9942 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Наименование КА: Гидроремонт-ВКК АО Волжский филиалг. Волжский 
+2025-07-23 16:04:22.9942 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер ДП в САП: 1000014717 
+2025-07-23 16:04:22.9942 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Статус: ЭДО 
+2025-07-23 16:04:22.9942 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Табельный номер подписантов: 90002916 
+2025-07-23 16:04:22.9942 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 16:04:25.1991 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | SAP Logon успешно запущен. 
+2025-07-23 16:04:25.3887 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Сессия SAP успешно получена. 
+2025-07-23 16:04:26.7682 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход в SAP. 
+2025-07-23 16:04:28.8292 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Транзакция ZTSF_AKT_SVERKI успешно запущена. 
+2025-07-23 16:04:28.8292 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход и запущена транзакция ZTSF_AKT_SVERKI 
+2025-07-23 16:24:17.7543 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ========================  Запускаю SpravkoBot_asSapfir. Робот начинает работу.  ======================== 
+2025-07-23 16:24:17.7814 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-07-23 16:24:17.8603 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена: 0 организаций. 
+2025-07-23 16:24:17.8603 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-07-23 16:24:17.8603 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2356036+.txt. Начинаю извлечение данных из заявки. 
+2025-07-23 16:24:17.8603 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-07-23 16:24:17.8603 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 16:24:17.8643 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2356036 
+2025-07-23 16:24:17.8643 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => По одному контрагенту по всем договорам 
+2025-07-23 16:24:17.8643 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга => ОЦО Акт сверки РГ 
+2025-07-23 16:24:17.8643 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-07-23 16:24:17.8643 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-07-23 16:24:17.8643 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-07-23 16:24:17.8643 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН => 6345012488 
+2025-07-23 16:24:17.8643 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП => 343503001 
+2025-07-23 16:24:17.8643 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.06.2025 
+2025-07-23 16:24:17.8643 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-07-23 16:24:17.8643 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер (-а) договора в системе => Все договоры 
+2025-07-23 16:24:17.8643 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-07-23 16:31:20.3809 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ========================  Запускаю SpravkoBot_asSapfir. Робот начинает работу.  ======================== 
+2025-07-23 16:31:20.4089 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-07-23 16:31:20.4805 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена: 0 организаций. 
+2025-07-23 16:31:20.4805 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-07-23 16:31:20.4805 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2356026+.txt. Начинаю извлечение данных из заявки. 
+2025-07-23 16:31:20.4805 | ERROR | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'status' не найден. 
+2025-07-23 16:31:20.4925 | ERROR | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ошибка при получении значения по ключу 'status': Ключ 'status' не найден. 
+2025-07-23 16:31:20.4925 | ERROR | SpravkoBot_AsSapfir.RequestManager | SpravkoBot_AsSapfir.RequestManager.FromJson | Ошибка при извлечении данных из файла заявки: Ошибка при получении значения по ключу 'status': Ключ 'status' не найден. 
+2025-07-23 16:31:20.5005 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Ошибка при обработке входного файла SD2356026+.txt. Переход к следующему файлу. 
+2025-07-23 16:31:20.5005 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Файлов для обработки нет. Робот завершает свою работу. 
+2025-07-23 16:32:38.4656 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ========================  Запускаю SpravkoBot_asSapfir. Робот начинает работу.  ======================== 
+2025-07-23 16:32:38.4946 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-07-23 16:32:38.5376 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена: 0 организаций. 
+2025-07-23 16:32:38.5376 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-07-23 16:32:38.5376 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2356026+.txt. Начинаю извлечение данных из заявки. 
+2025-07-23 16:32:38.5376 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-07-23 16:32:38.5376 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 16:32:38.5376 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2356026 
+2025-07-23 16:32:38.5376 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => По одному договору 
+2025-07-23 16:32:38.5376 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга => ОЦО Акт сверки РГ 
+2025-07-23 16:32:38.5376 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-07-23 16:32:38.5376 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-07-23 16:32:38.5376 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-07-23 16:32:38.5376 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН => 1902018248 
+2025-07-23 16:32:38.5376 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП => 190201001 
+2025-07-23 16:32:38.5376 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер (-а) договора в системе => 1010-1452-2022 
+2025-07-23 16:32:38.5376 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.06.2025 
+2025-07-23 16:32:38.5376 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-07-23 16:32:38.5376 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-07-23 16:32:42.1595 | ERROR | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager..ctor | Файл не найден: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\data\requests\output\SD2356026\SD2356026+.txt 
+2025-07-23 16:32:42.1595 | ERROR | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager..ctor | Ошибка при загрузке JSON: Файл не найден: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\data\requests\output\SD2356026\SD2356026+.txt 
+2025-07-23 16:32:42.1595 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Ошибка при обработке входного файла SD2356026+.txt. Переход к следующему файлу. 
+2025-07-23 16:32:42.1725 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Файлов для обработки нет. Робот завершает свою работу. 
+2025-07-23 16:33:33.6598 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ========================  Запускаю SpravkoBot_asSapfir. Робот начинает работу.  ======================== 
+2025-07-23 16:33:33.6878 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-07-23 16:33:33.7485 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена: 0 организаций. 
+2025-07-23 16:33:33.7495 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-07-23 16:33:33.7495 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2356026+.txt. Начинаю извлечение данных из заявки. 
+2025-07-23 16:33:33.7495 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-07-23 16:33:33.7495 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 16:33:33.7495 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2356026 
+2025-07-23 16:33:33.7495 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => По одному договору 
+2025-07-23 16:33:33.7495 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга => ОЦО Акт сверки РГ 
+2025-07-23 16:33:33.7495 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-07-23 16:33:33.7495 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-07-23 16:33:33.7495 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-07-23 16:33:33.7495 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН => 1902018248 
+2025-07-23 16:33:33.7495 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП => 190201001 
+2025-07-23 16:33:33.7495 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер (-а) договора в системе => 1010-1452-2022 
+2025-07-23 16:33:33.7495 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.06.2025 
+2025-07-23 16:33:33.7495 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-07-23 16:33:33.7495 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-07-23 16:34:00.9969 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Начинаю конвертирование excel файла в csv: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx 
+2025-07-23 16:34:01.7239 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Найдено строк: 1.  
+2025-07-23 16:34:01.7549 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результаты фильтрации: 
+2025-07-23 16:34:01.7549 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 16:34:01.7549 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер: 832 
+2025-07-23 16:34:01.7549 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Филиал ПАО РГ: Волжская ГЭС 
+2025-07-23 16:34:01.7549 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Наименование КА: ТК РусГидро АО 
+2025-07-23 16:34:01.7549 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер ДП в САП: 1000008313 
+2025-07-23 16:34:01.7549 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Статус: ЭДО 
+2025-07-23 16:34:01.7549 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Табельный номер подписантов: 90002916 
+2025-07-23 16:34:01.7549 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 16:34:05.0494 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | SAP Logon успешно запущен. 
+2025-07-23 16:34:05.2631 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Сессия SAP успешно получена. 
+2025-07-23 16:34:06.6565 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход в SAP. 
+2025-07-23 16:34:08.7088 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Транзакция ZTSF_AKT_SVERKI успешно запущена. 
+2025-07-23 16:34:08.7088 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход и запущена транзакция ZTSF_AKT_SVERKI 
+2025-07-23 16:39:21.2418 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ========================  Запускаю SpravkoBot_asSapfir. Робот начинает работу.  ======================== 
+2025-07-23 16:39:21.2688 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-07-23 16:39:21.3068 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена: 0 организаций. 
+2025-07-23 16:39:21.3068 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-07-23 16:39:21.3068 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2356026+.txt. Начинаю извлечение данных из заявки. 
+2025-07-23 16:39:21.3098 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-07-23 16:39:21.3098 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 16:39:21.3098 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2356026 
+2025-07-23 16:39:21.3098 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => По одному договору 
+2025-07-23 16:39:21.3098 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга => ОЦО Акт сверки РГ 
+2025-07-23 16:39:21.3098 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-07-23 16:39:21.3098 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-07-23 16:39:21.3098 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-07-23 16:39:21.3098 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН => 1902018248 
+2025-07-23 16:39:21.3098 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП => 190201001 
+2025-07-23 16:39:21.3098 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер (-а) договора в системе => 1010-1452-2022 
+2025-07-23 16:39:21.3098 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.06.2025 
+2025-07-23 16:39:21.3098 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-07-23 16:39:21.3098 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-07-23 16:39:50.1750 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ========================  Запускаю SpravkoBot_asSapfir. Робот начинает работу.  ======================== 
+2025-07-23 16:39:50.2020 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-07-23 16:39:50.2710 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена: 0 организаций. 
+2025-07-23 16:39:50.2710 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-07-23 16:39:50.2710 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2356026+.txt. Начинаю извлечение данных из заявки. 
+2025-07-23 16:39:50.2710 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-07-23 16:39:50.2710 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 16:39:50.2710 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2356026 
+2025-07-23 16:39:50.2710 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => По одному договору 
+2025-07-23 16:39:50.2710 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга => ОЦО Акт сверки РГ 
+2025-07-23 16:39:50.2710 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-07-23 16:39:50.2710 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-07-23 16:39:50.2710 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-07-23 16:39:50.2710 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН => 1902018248 
+2025-07-23 16:39:50.2710 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП => 190201001 
+2025-07-23 16:39:50.2710 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер (-а) договора в системе => 1010-1452-2022 
+2025-07-23 16:39:50.2710 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.06.2025 
+2025-07-23 16:39:50.2710 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-07-23 16:39:50.2710 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-07-23 16:40:00.8853 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Начинаю конвертирование excel файла в csv: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx 
+2025-07-23 16:40:01.6683 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Найдено строк: 1.  
+2025-07-23 16:40:01.7063 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результаты фильтрации: 
+2025-07-23 16:40:01.7063 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 16:40:01.7063 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер: 832 
+2025-07-23 16:40:01.7063 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Филиал ПАО РГ: Волжская ГЭС 
+2025-07-23 16:40:01.7063 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Наименование КА: ТК РусГидро АО 
+2025-07-23 16:40:01.7063 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер ДП в САП: 1000008313 
+2025-07-23 16:40:01.7063 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Статус: ЭДО 
+2025-07-23 16:40:01.7063 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Табельный номер подписантов: 90002916 
+2025-07-23 16:40:01.7063 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 16:40:05.0044 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | SAP Logon успешно запущен. 
+2025-07-23 16:40:05.2239 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Сессия SAP успешно получена. 
+2025-07-23 16:40:06.6345 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход в SAP. 
+2025-07-23 16:40:08.6918 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Транзакция ZTSF_AKT_SVERKI успешно запущена. 
+2025-07-23 16:40:08.6918 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход и запущена транзакция ZTSF_AKT_SVERKI 
+2025-07-23 17:05:05.9215 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ========================  Запускаю SpravkoBot_asSapfir. Робот начинает работу.  ======================== 
+2025-07-23 17:05:05.9495 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-07-23 17:05:06.0465 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена: 0 организаций. 
+2025-07-23 17:05:06.0465 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-07-23 17:05:06.0465 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2356026+.txt. Начинаю извлечение данных из заявки. 
+2025-07-23 17:05:06.0465 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-07-23 17:05:06.0465 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 17:05:06.0465 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2356026 
+2025-07-23 17:05:06.0465 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => По одному договору 
+2025-07-23 17:05:06.0465 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга => ОЦО Акт сверки РГ 
+2025-07-23 17:05:06.0465 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-07-23 17:05:06.0465 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-07-23 17:05:06.0465 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-07-23 17:05:06.0465 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН => 1902018248 
+2025-07-23 17:05:06.0465 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП => 190201001 
+2025-07-23 17:05:06.0465 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер (-а) договора в системе => 1010-1452-2022 
+2025-07-23 17:05:06.0465 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.06.2025 
+2025-07-23 17:05:06.0465 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-07-23 17:05:06.0465 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-07-23 17:05:22.6689 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Начинаю конвертирование excel файла в csv: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx 
+2025-07-23 17:05:23.4159 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Найдено строк: 1.  
+2025-07-23 17:05:23.4485 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результаты фильтрации: 
+2025-07-23 17:05:23.4485 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 17:05:23.4485 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер: 832 
+2025-07-23 17:05:23.4485 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Филиал ПАО РГ: Волжская ГЭС 
+2025-07-23 17:05:23.4485 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Наименование КА: ТК РусГидро АО 
+2025-07-23 17:05:23.4485 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер ДП в САП: 1000008313 
+2025-07-23 17:05:23.4485 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Статус: ЭДО 
+2025-07-23 17:05:23.4485 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Табельный номер подписантов: 90002916 
+2025-07-23 17:05:23.4485 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 17:05:25.6515 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | SAP Logon успешно запущен. 
+2025-07-23 17:05:25.8695 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Сессия SAP успешно получена. 
+2025-07-23 17:05:26.9685 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход в SAP. 
+2025-07-23 17:05:29.0240 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Транзакция ZTSF_AKT_SVERKI успешно запущена. 
+2025-07-23 17:05:29.0240 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход и запущена транзакция ZTSF_AKT_SVERKI 
+2025-07-23 17:05:29.0401 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Ошибка при обработке входного файла SD2356026+.txt. Переход к следующему файлу. 
+2025-07-23 17:05:29.0431 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Файлов для обработки нет. Робот завершает свою работу. 
+2025-07-23 17:05:51.7069 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ========================  Запускаю SpravkoBot_asSapfir. Робот начинает работу.  ======================== 
+2025-07-23 17:05:51.7349 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-07-23 17:05:51.7729 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена: 0 организаций. 
+2025-07-23 17:05:51.7729 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-07-23 17:05:51.7729 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2356026+.txt. Начинаю извлечение данных из заявки. 
+2025-07-23 17:05:51.7769 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-07-23 17:05:51.7769 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 17:05:51.7769 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2356026 
+2025-07-23 17:05:51.7769 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => По одному договору 
+2025-07-23 17:05:51.7769 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга => ОЦО Акт сверки РГ 
+2025-07-23 17:05:51.7769 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-07-23 17:05:51.7769 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-07-23 17:05:51.7769 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-07-23 17:05:51.7769 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН => 1902018248 
+2025-07-23 17:05:51.7769 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП => 190201001 
+2025-07-23 17:05:51.7769 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер (-а) договора в системе => 1010-1452-2022 
+2025-07-23 17:05:51.7769 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.06.2025 
+2025-07-23 17:05:51.7769 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-07-23 17:05:51.7769 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-07-23 17:05:51.7769 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Начинаю конвертирование excel файла в csv: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx 
+2025-07-23 17:05:52.5211 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Найдено строк: 1.  
+2025-07-23 17:05:52.5531 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результаты фильтрации: 
+2025-07-23 17:05:52.5531 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 17:05:52.5531 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер: 832 
+2025-07-23 17:05:52.5531 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Филиал ПАО РГ: Волжская ГЭС 
+2025-07-23 17:05:52.5531 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Наименование КА: ТК РусГидро АО 
+2025-07-23 17:05:52.5531 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер ДП в САП: 1000008313 
+2025-07-23 17:05:52.5531 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Статус: ЭДО 
+2025-07-23 17:05:52.5531 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Табельный номер подписантов: 90002916 
+2025-07-23 17:05:52.5531 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 17:05:54.7430 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | SAP Logon успешно запущен. 
+2025-07-23 17:05:54.9300 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Сессия SAP успешно получена. 
+2025-07-23 17:05:56.4019 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход в SAP. 
+2025-07-23 17:05:58.4849 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Транзакция ZTSF_AKT_SVERKI успешно запущена. 
+2025-07-23 17:05:58.4849 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход и запущена транзакция ZTSF_AKT_SVERKI 
+2025-07-23 17:19:15.7395 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ========================  Запускаю SpravkoBot_asSapfir. Робот начинает работу.  ======================== 
+2025-07-23 17:19:15.7695 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-07-23 17:19:15.8245 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена: 0 организаций. 
+2025-07-23 17:19:15.8245 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-07-23 17:19:15.8245 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2356026+.txt. Начинаю извлечение данных из заявки. 
+2025-07-23 17:19:15.8285 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-07-23 17:19:15.8285 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 17:19:15.8285 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2356026 
+2025-07-23 17:19:15.8285 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => По одному договору 
+2025-07-23 17:19:15.8285 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга => ОЦО Акт сверки РГ 
+2025-07-23 17:19:15.8285 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-07-23 17:19:15.8285 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-07-23 17:19:15.8285 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-07-23 17:19:15.8285 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН => 1902018248 
+2025-07-23 17:19:15.8285 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП => 190201001 
+2025-07-23 17:19:15.8285 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер (-а) договора в системе => 1010-1452-2022 
+2025-07-23 17:19:15.8285 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.06.2025 
+2025-07-23 17:19:15.8285 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-07-23 17:19:15.8285 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-07-23 17:19:15.8285 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Начинаю конвертирование excel файла в csv: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx 
+2025-07-23 17:19:16.6505 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Найдено строк: 1.  
+2025-07-23 17:19:16.6845 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результаты фильтрации: 
+2025-07-23 17:19:16.6845 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 17:19:16.6845 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер: 832 
+2025-07-23 17:19:16.6845 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Филиал ПАО РГ: Волжская ГЭС 
+2025-07-23 17:19:16.6845 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Наименование КА: ТК РусГидро АО 
+2025-07-23 17:19:16.6845 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер ДП в САП: 1000008313 
+2025-07-23 17:19:16.6845 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Статус: ЭДО 
+2025-07-23 17:19:16.6845 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Табельный номер подписантов: 90002916 
+2025-07-23 17:19:16.6845 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 17:19:20.0441 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | SAP Logon успешно запущен. 
+2025-07-23 17:19:20.3171 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Сессия SAP успешно получена. 
+2025-07-23 17:19:21.4262 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход в SAP. 
+2025-07-23 17:19:23.4911 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Транзакция ZTSF_AKT_SVERKI успешно запущена. 
+2025-07-23 17:19:23.4911 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход и запущена транзакция ZTSF_AKT_SVERKI 
+2025-07-23 17:19:23.5101 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Ошибка при обработке входного файла SD2356026+.txt. Переход к следующему файлу. 
+2025-07-23 17:19:23.5101 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Файлов для обработки нет. Робот завершает свою работу. 
+2025-07-23 17:27:20.7280 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ========================  Запускаю SpravkoBot_asSapfir. Робот начинает работу.  ======================== 
+2025-07-23 17:27:20.7550 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-07-23 17:27:20.8390 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена: 0 организаций. 
+2025-07-23 17:27:20.8390 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-07-23 17:27:20.8390 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2356026+.txt. Начинаю извлечение данных из заявки. 
+2025-07-23 17:27:20.8390 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-07-23 17:27:20.8390 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 17:27:20.8390 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2356026 
+2025-07-23 17:27:20.8390 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => По одному договору 
+2025-07-23 17:27:20.8390 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга => ОЦО Акт сверки РГ 
+2025-07-23 17:27:20.8390 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-07-23 17:27:20.8390 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-07-23 17:27:20.8390 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-07-23 17:27:20.8390 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН => 1902018248 
+2025-07-23 17:27:20.8390 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП => 190201001 
+2025-07-23 17:27:20.8390 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер (-а) договора в системе => 1010-1452-2022 
+2025-07-23 17:27:20.8390 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.06.2025 
+2025-07-23 17:27:20.8390 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-07-23 17:27:20.8390 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-07-23 17:27:20.8390 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Начинаю конвертирование excel файла в csv: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx 
+2025-07-23 17:27:21.6425 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Найдено строк: 1.  
+2025-07-23 17:27:21.6724 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результаты фильтрации: 
+2025-07-23 17:27:21.6724 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 17:27:21.6724 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер: 832 
+2025-07-23 17:27:21.6724 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Филиал ПАО РГ: Волжская ГЭС 
+2025-07-23 17:27:21.6724 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Наименование КА: ТК РусГидро АО 
+2025-07-23 17:27:21.6724 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер ДП в САП: 1000008313 
+2025-07-23 17:27:21.6724 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Статус: ЭДО 
+2025-07-23 17:27:21.6724 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Табельный номер подписантов: 90002916 
+2025-07-23 17:27:21.6724 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 17:27:23.8713 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | SAP Logon успешно запущен. 
+2025-07-23 17:27:24.1709 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Сессия SAP успешно получена. 
+2025-07-23 17:27:25.5631 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход в SAP. 
+2025-07-23 17:27:27.6161 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Транзакция ZTSF_AKT_SVERKI успешно запущена. 
+2025-07-23 17:27:27.6161 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход и запущена транзакция ZTSF_AKT_SVERKI 
+2025-07-23 17:29:47.8910 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ========================  Запускаю SpravkoBot_asSapfir. Робот начинает работу.  ======================== 
+2025-07-23 17:29:47.9190 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-07-23 17:29:47.9820 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена: 0 организаций. 
+2025-07-23 17:29:47.9820 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-07-23 17:29:47.9820 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2356026+.txt. Начинаю извлечение данных из заявки. 
+2025-07-23 17:29:47.9820 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-07-23 17:29:47.9820 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 17:29:47.9820 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2356026 
+2025-07-23 17:29:47.9820 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => По одному договору 
+2025-07-23 17:29:47.9820 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга => ОЦО Акт сверки РГ 
+2025-07-23 17:29:47.9820 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-07-23 17:29:47.9820 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-07-23 17:29:47.9820 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-07-23 17:29:47.9820 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН => 1902018248 
+2025-07-23 17:29:47.9820 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП => 190201001 
+2025-07-23 17:29:47.9820 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер (-а) договора в системе => 1010-1452-2022 
+2025-07-23 17:29:47.9820 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.06.2025 
+2025-07-23 17:29:47.9820 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-07-23 17:29:47.9820 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-07-23 17:29:47.9820 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Начинаю конвертирование excel файла в csv: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx 
+2025-07-23 17:29:48.7468 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Найдено строк: 1.  
+2025-07-23 17:29:48.7778 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результаты фильтрации: 
+2025-07-23 17:29:48.7778 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 17:29:48.7778 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер: 832 
+2025-07-23 17:29:48.7778 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Филиал ПАО РГ: Волжская ГЭС 
+2025-07-23 17:29:48.7778 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Наименование КА: ТК РусГидро АО 
+2025-07-23 17:29:48.7778 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер ДП в САП: 1000008313 
+2025-07-23 17:29:48.7778 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Статус: ЭДО 
+2025-07-23 17:29:48.7778 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Табельный номер подписантов: 90002916 
+2025-07-23 17:29:48.7778 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 17:29:50.9611 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | SAP Logon успешно запущен. 
+2025-07-23 17:29:51.1671 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Сессия SAP успешно получена. 
+2025-07-23 17:29:52.2672 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход в SAP. 
+2025-07-23 17:29:54.3230 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Транзакция ZTSF_AKT_SVERKI успешно запущена. 
+2025-07-23 17:29:54.3230 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход и запущена транзакция ZTSF_AKT_SVERKI 
+2025-07-23 17:29:54.3380 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Ошибка при обработке входного файла SD2356026+.txt. Переход к следующему файлу. 
+2025-07-23 17:29:54.3380 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Файлов для обработки нет. Робот завершает свою работу. 
+2025-07-23 17:30:11.3075 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ========================  Запускаю SpravkoBot_asSapfir. Робот начинает работу.  ======================== 
+2025-07-23 17:30:11.3405 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-07-23 17:30:11.3965 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена: 0 организаций. 
+2025-07-23 17:30:11.3965 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-07-23 17:30:11.3965 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2356026+.txt. Начинаю извлечение данных из заявки. 
+2025-07-23 17:30:11.4005 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-07-23 17:30:11.4005 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 17:30:11.4005 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2356026 
+2025-07-23 17:30:11.4005 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => По одному договору 
+2025-07-23 17:30:11.4005 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга => ОЦО Акт сверки РГ 
+2025-07-23 17:30:11.4005 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-07-23 17:30:11.4005 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-07-23 17:30:11.4005 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-07-23 17:30:11.4005 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН => 1902018248 
+2025-07-23 17:30:11.4005 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП => 190201001 
+2025-07-23 17:30:11.4005 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер (-а) договора в системе => 1010-1452-2022 
+2025-07-23 17:30:11.4005 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.06.2025 
+2025-07-23 17:30:11.4005 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-07-23 17:30:11.4005 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-07-23 17:30:11.4005 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Начинаю конвертирование excel файла в csv: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx 
+2025-07-23 17:30:12.2606 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Найдено строк: 1.  
+2025-07-23 17:30:12.3136 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результаты фильтрации: 
+2025-07-23 17:30:12.3136 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 17:30:12.3136 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер: 832 
+2025-07-23 17:30:12.3136 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Филиал ПАО РГ: Волжская ГЭС 
+2025-07-23 17:30:12.3136 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Наименование КА: ТК РусГидро АО 
+2025-07-23 17:30:12.3136 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер ДП в САП: 1000008313 
+2025-07-23 17:30:12.3136 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Статус: ЭДО 
+2025-07-23 17:30:12.3136 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Табельный номер подписантов: 90002916 
+2025-07-23 17:30:12.3136 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 17:30:14.5310 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | SAP Logon успешно запущен. 
+2025-07-23 17:30:14.7250 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Сессия SAP успешно получена. 
+2025-07-23 17:30:16.1716 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход в SAP. 
+2025-07-23 17:30:18.2294 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Транзакция ZTSF_AKT_SVERKI успешно запущена. 
+2025-07-23 17:30:18.2294 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход и запущена транзакция ZTSF_AKT_SVERKI 
+2025-07-23 17:31:53.2138 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ========================  Запускаю SpravkoBot_asSapfir. Робот начинает работу.  ======================== 
+2025-07-23 17:31:53.2408 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-07-23 17:31:53.3008 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена: 0 организаций. 
+2025-07-23 17:31:53.3008 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-07-23 17:31:53.3008 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2356026+.txt. Начинаю извлечение данных из заявки. 
+2025-07-23 17:31:53.3008 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-07-23 17:31:53.3008 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 17:31:53.3008 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2356026 
+2025-07-23 17:31:53.3008 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => По одному договору 
+2025-07-23 17:31:53.3008 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга => ОЦО Акт сверки РГ 
+2025-07-23 17:31:53.3008 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-07-23 17:31:53.3008 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-07-23 17:31:53.3048 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-07-23 17:31:53.3048 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН => 1902018248 
+2025-07-23 17:31:53.3048 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП => 190201001 
+2025-07-23 17:31:53.3048 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер (-а) договора в системе => 1010-1452-2022 
+2025-07-23 17:31:53.3048 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.06.2025 
+2025-07-23 17:31:53.3048 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-07-23 17:31:53.3048 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-07-23 17:31:53.3048 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Начинаю конвертирование excel файла в csv: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx 
+2025-07-23 17:31:54.0996 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Найдено строк: 1.  
+2025-07-23 17:31:54.1316 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результаты фильтрации: 
+2025-07-23 17:31:54.1316 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 17:31:54.1316 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер: 832 
+2025-07-23 17:31:54.1316 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Филиал ПАО РГ: Волжская ГЭС 
+2025-07-23 17:31:54.1316 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Наименование КА: ТК РусГидро АО 
+2025-07-23 17:31:54.1316 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер ДП в САП: 1000008313 
+2025-07-23 17:31:54.1316 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Статус: ЭДО 
+2025-07-23 17:31:54.1316 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Табельный номер подписантов: 90002916 
+2025-07-23 17:31:54.1316 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 17:31:56.3414 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | SAP Logon успешно запущен. 
+2025-07-23 17:31:56.5300 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Сессия SAP успешно получена. 
+2025-07-23 17:31:57.9657 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход в SAP. 
+2025-07-23 17:32:00.0213 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Транзакция ZTSF_AKT_SVERKI успешно запущена. 
+2025-07-23 17:32:00.0213 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход и запущена транзакция ZTSF_AKT_SVERKI 
+2025-07-23 17:33:30.3137 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ========================  Запускаю SpravkoBot_asSapfir. Робот начинает работу.  ======================== 
+2025-07-23 17:33:30.3403 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-07-23 17:33:30.3783 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена: 0 организаций. 
+2025-07-23 17:33:30.3783 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-07-23 17:33:30.3783 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2356026+.txt. Начинаю извлечение данных из заявки. 
+2025-07-23 17:33:30.3783 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-07-23 17:33:30.3783 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 17:33:30.3783 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2356026 
+2025-07-23 17:33:30.3783 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => По одному договору 
+2025-07-23 17:33:30.3823 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга => ОЦО Акт сверки РГ 
+2025-07-23 17:33:30.3823 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-07-23 17:33:30.3823 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-07-23 17:33:30.3823 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-07-23 17:33:30.3823 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН => 1902018248 
+2025-07-23 17:33:30.3823 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП => 190201001 
+2025-07-23 17:33:30.3823 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер (-а) договора в системе => 1010-1452-2022 
+2025-07-23 17:33:30.3823 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.06.2025 
+2025-07-23 17:33:30.3823 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-07-23 17:33:30.3823 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-07-23 17:33:30.3823 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Начинаю конвертирование excel файла в csv: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx 
+2025-07-23 17:33:31.1358 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Найдено строк: 1.  
+2025-07-23 17:33:31.1658 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результаты фильтрации: 
+2025-07-23 17:33:31.1658 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 17:33:31.1658 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер: 832 
+2025-07-23 17:33:31.1658 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Филиал ПАО РГ: Волжская ГЭС 
+2025-07-23 17:33:31.1658 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Наименование КА: ТК РусГидро АО 
+2025-07-23 17:33:31.1658 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер ДП в САП: 1000008313 
+2025-07-23 17:33:31.1658 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Статус: ЭДО 
+2025-07-23 17:33:31.1658 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Табельный номер подписантов: 90002916 
+2025-07-23 17:33:31.1658 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 17:33:33.3490 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | SAP Logon успешно запущен. 
+2025-07-23 17:33:33.5478 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Сессия SAP успешно получена. 
+2025-07-23 17:33:34.9629 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход в SAP. 
+2025-07-23 17:33:37.0175 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Транзакция ZTSF_AKT_SVERKI успешно запущена. 
+2025-07-23 17:33:37.0175 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход и запущена транзакция ZTSF_AKT_SVERKI 
+2025-07-23 17:35:14.0741 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ========================  Запускаю SpravkoBot_asSapfir. Робот начинает работу.  ======================== 
+2025-07-23 17:35:14.1031 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-07-23 17:35:14.1447 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена: 0 организаций. 
+2025-07-23 17:35:14.1447 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-07-23 17:35:14.1447 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2356026+.txt. Начинаю извлечение данных из заявки. 
+2025-07-23 17:35:14.1487 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-07-23 17:35:14.1487 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 17:35:14.1487 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2356026 
+2025-07-23 17:35:14.1487 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => По одному договору 
+2025-07-23 17:35:14.1487 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга => ОЦО Акт сверки РГ 
+2025-07-23 17:35:14.1487 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-07-23 17:35:14.1487 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-07-23 17:35:14.1487 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-07-23 17:35:14.1487 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН => 1902018248 
+2025-07-23 17:35:14.1487 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП => 190201001 
+2025-07-23 17:35:14.1487 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер (-а) договора в системе => 1010-1452-2022 
+2025-07-23 17:35:14.1487 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.06.2025 
+2025-07-23 17:35:14.1487 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-07-23 17:35:14.1487 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-07-23 17:35:14.1487 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Начинаю конвертирование excel файла в csv: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx 
+2025-07-23 17:35:14.9246 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Найдено строк: 1.  
+2025-07-23 17:35:14.9547 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результаты фильтрации: 
+2025-07-23 17:35:14.9547 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 17:35:14.9547 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер: 832 
+2025-07-23 17:35:14.9547 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Филиал ПАО РГ: Волжская ГЭС 
+2025-07-23 17:35:14.9547 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Наименование КА: ТК РусГидро АО 
+2025-07-23 17:35:14.9547 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер ДП в САП: 1000008313 
+2025-07-23 17:35:14.9547 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Статус: ЭДО 
+2025-07-23 17:35:14.9547 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Табельный номер подписантов: 90002916 
+2025-07-23 17:35:14.9547 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 17:35:17.1424 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | SAP Logon успешно запущен. 
+2025-07-23 17:35:17.3398 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Сессия SAP успешно получена. 
+2025-07-23 17:35:18.7836 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход в SAP. 
+2025-07-23 17:35:20.8380 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Транзакция ZTSF_AKT_SVERKI успешно запущена. 
+2025-07-23 17:35:20.8380 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход и запущена транзакция ZTSF_AKT_SVERKI 
+2025-07-23 17:35:37.1412 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Ошибка при обработке входного файла SD2356026+.txt. Переход к следующему файлу. 
+2025-07-23 17:35:37.1412 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Файлов для обработки нет. Робот завершает свою работу. 
+2025-07-23 17:36:43.4954 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ========================  Запускаю SpravkoBot_asSapfir. Робот начинает работу.  ======================== 
+2025-07-23 17:36:43.5234 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-07-23 17:36:43.6090 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена: 0 организаций. 
+2025-07-23 17:36:43.6090 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-07-23 17:36:43.6090 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2356026+.txt. Начинаю извлечение данных из заявки. 
+2025-07-23 17:36:43.6090 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-07-23 17:36:43.6090 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 17:36:43.6090 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2356026 
+2025-07-23 17:36:43.6090 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => По одному договору 
+2025-07-23 17:36:43.6090 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга => ОЦО Акт сверки РГ 
+2025-07-23 17:36:43.6090 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-07-23 17:36:43.6090 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-07-23 17:36:43.6090 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-07-23 17:36:43.6090 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН => 1902018248 
+2025-07-23 17:36:43.6090 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП => 190201001 
+2025-07-23 17:36:43.6090 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер (-а) договора в системе => 1010-1452-2022 
+2025-07-23 17:36:43.6090 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.06.2025 
+2025-07-23 17:36:43.6090 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-07-23 17:36:43.6090 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-07-23 17:36:43.6150 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Начинаю конвертирование excel файла в csv: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx 
+2025-07-23 17:36:44.4052 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Найдено строк: 1.  
+2025-07-23 17:36:44.4377 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результаты фильтрации: 
+2025-07-23 17:36:44.4377 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 17:36:44.4377 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер: 832 
+2025-07-23 17:36:44.4377 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Филиал ПАО РГ: Волжская ГЭС 
+2025-07-23 17:36:44.4377 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Наименование КА: ТК РусГидро АО 
+2025-07-23 17:36:44.4377 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер ДП в САП: 1000008313 
+2025-07-23 17:36:44.4377 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Статус: ЭДО 
+2025-07-23 17:36:44.4377 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Табельный номер подписантов: 90002916 
+2025-07-23 17:36:44.4377 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 17:36:47.7380 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | SAP Logon успешно запущен. 
+2025-07-23 17:36:47.9580 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Сессия SAP успешно получена. 
+2025-07-23 17:36:49.3889 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход в SAP. 
+2025-07-23 17:36:51.4547 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Транзакция ZTSF_AKT_SVERKI успешно запущена. 
+2025-07-23 17:36:51.4547 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход и запущена транзакция ZTSF_AKT_SVERKI 
+2025-07-23 17:37:07.6973 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Ошибка при обработке входного файла SD2356026+.txt. Переход к следующему файлу. 
+2025-07-23 17:37:07.6973 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Файлов для обработки нет. Робот завершает свою работу. 
+2025-07-23 17:38:22.7069 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ========================  Запускаю SpravkoBot_asSapfir. Робот начинает работу.  ======================== 
+2025-07-23 17:38:22.7360 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-07-23 17:38:22.7799 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена: 0 организаций. 
+2025-07-23 17:38:22.7799 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-07-23 17:38:22.7799 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2356026+.txt. Начинаю извлечение данных из заявки. 
+2025-07-23 17:38:22.7799 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-07-23 17:38:22.7799 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 17:38:22.7799 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2356026 
+2025-07-23 17:38:22.7799 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => По одному договору 
+2025-07-23 17:38:22.7799 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга => ОЦО Акт сверки РГ 
+2025-07-23 17:38:22.7799 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-07-23 17:38:22.7799 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-07-23 17:38:22.7799 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-07-23 17:38:22.7799 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН => 1902018248 
+2025-07-23 17:38:22.7799 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП => 190201001 
+2025-07-23 17:38:22.7799 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер (-а) договора в системе => 1010-1452-2022 
+2025-07-23 17:38:22.7799 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.06.2025 
+2025-07-23 17:38:22.7799 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-07-23 17:38:22.7799 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-07-23 17:38:22.7860 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Начинаю конвертирование excel файла в csv: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx 
+2025-07-23 17:38:23.5607 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Найдено строк: 1.  
+2025-07-23 17:38:23.5947 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результаты фильтрации: 
+2025-07-23 17:38:23.5947 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 17:38:23.5947 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер: 832 
+2025-07-23 17:38:23.5947 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Филиал ПАО РГ: Волжская ГЭС 
+2025-07-23 17:38:23.5947 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Наименование КА: ТК РусГидро АО 
+2025-07-23 17:38:23.5947 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер ДП в САП: 1000008313 
+2025-07-23 17:38:23.5947 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Статус: ЭДО 
+2025-07-23 17:38:23.5947 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Табельный номер подписантов: 90002916 
+2025-07-23 17:38:23.5947 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 17:38:26.8765 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | SAP Logon успешно запущен. 
+2025-07-23 17:38:27.0685 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Сессия SAP успешно получена. 
+2025-07-23 17:38:28.4712 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход в SAP. 
+2025-07-23 17:38:30.5292 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Транзакция ZTSF_AKT_SVERKI успешно запущена. 
+2025-07-23 17:38:30.5292 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход и запущена транзакция ZTSF_AKT_SVERKI 
+2025-07-23 17:54:28.8975 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Селекционный экран заполнен. 
+2025-07-23 18:24:20.4667 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ========================  Запускаю SpravkoBot_asSapfir. Робот начинает работу.  ======================== 
+2025-07-23 18:24:20.4936 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-07-23 18:24:20.5606 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена: 0 организаций. 
+2025-07-23 18:24:20.5606 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-07-23 18:24:20.5606 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2356026+.txt. Начинаю извлечение данных из заявки. 
+2025-07-23 18:24:20.5606 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-07-23 18:24:20.5606 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 18:24:20.5606 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2356026 
+2025-07-23 18:24:20.5606 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => По одному договору 
+2025-07-23 18:24:20.5606 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга => ОЦО Акт сверки РГ 
+2025-07-23 18:24:20.5606 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-07-23 18:24:20.5606 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-07-23 18:24:20.5606 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-07-23 18:24:20.5606 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН => 1902018248 
+2025-07-23 18:24:20.5606 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП => 190201001 
+2025-07-23 18:24:20.5606 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер (-а) договора в системе => 1010-1452-2022 
+2025-07-23 18:24:20.5606 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.06.2025 
+2025-07-23 18:24:20.5606 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-07-23 18:24:20.5606 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-07-23 18:24:20.5666 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Начинаю конвертирование excel файла в csv: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx 
+2025-07-23 18:24:21.3296 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Найдено строк: 1.  
+2025-07-23 18:24:21.3626 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результаты фильтрации: 
+2025-07-23 18:24:21.3626 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 18:24:21.3626 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер: 832 
+2025-07-23 18:24:21.3626 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Филиал ПАО РГ: Волжская ГЭС 
+2025-07-23 18:24:21.3626 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Наименование КА: ТК РусГидро АО 
+2025-07-23 18:24:21.3626 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Номер ДП в САП: 1000008313 
+2025-07-23 18:24:21.3626 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Статус: ЭДО 
+2025-07-23 18:24:21.3626 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Табельный номер подписантов: 90002916 
+2025-07-23 18:24:21.3626 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-07-23 18:24:23.5376 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | SAP Logon успешно запущен. 
+2025-07-23 18:24:23.7366 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Сессия SAP успешно получена. 
+2025-07-23 18:24:25.1184 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход в SAP. 
+2025-07-23 18:24:27.1674 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Транзакция ZTSF_AKT_SVERKI успешно запущена. 
+2025-07-23 18:24:27.1674 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход и запущена транзакция ZTSF_AKT_SVERKI 

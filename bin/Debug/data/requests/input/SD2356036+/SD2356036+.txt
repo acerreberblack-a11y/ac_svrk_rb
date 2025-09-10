@@ -1,0 +1,414 @@
+{
+  "closedByEmployee": null,
+  "resolutionCode": null,
+  "iDeadLineTime": "2025.07.23 12:19:50",
+  "thFL": false,
+  "solvedByTeam": null,
+  "bpmRoute": null,
+  "timeAllowanceTimer": {
+    "status": "ACTIVE",
+    "deadLineTime": "2025.07.25 12:19:50",
+    "allowance": 64042035,
+    "elapsedFromOverdue": 0,
+    "allowanceStart": "2025.07.23 10:32:28"
+  },
+  "prevMeasFuture": null,
+  "startPeriod": "2025.06.01 00:00:00",
+  "softType": null,
+  "closedByTeam": null,
+  "state": "assigned",
+  "ImplPeriod": null,
+  "zabbixComments": [],
+  "formType": {
+    "UUID": "formType$255641602",
+    "title": "По одному контрагенту по всем договорам",
+    "metaClass": "formType",
+    "code": "oneClient"
+  },
+  "agreement": {
+    "UUID": "agreement$249410301",
+    "title": "SLA АО \"РусГидро ОЦО\"_РГ",
+    "metaClass": "agreement$agreement"
+  },
+  "advisoryEmpl": [],
+  "impact": {
+    "UUID": "impact$137002",
+    "title": "Низкая",
+    "metaClass": "impact",
+    "code": "I0"
+  },
+  "logzapisi": [],
+  "clientEmployee": {
+    "UUID": "employee$80399124",
+    "title": "Божескова Оксана Михайловна",
+    "metaClass": "employee$employee"
+  },
+  "timeZone": {
+    "UUID": "timezone$4501",
+    "title": "Москва (UTC+3  MSK)",
+    "metaClass": "timezone",
+    "code": "Europe/Moscow"
+  },
+  "resumeReason": null,
+  "serviceTime": {
+    "UUID": "servicetime$1056633712",
+    "title": "8x5 (9:00-18:00)",
+    "metaClass": "servicetime",
+    "code": "class_8x5_21/06/19"
+  },
+  "defferedReason": null,
+  "markReason": "не указана",
+  "routeSubject": null,
+  "overdueN": {
+    "UUID": "overDue$933901",
+    "title": "не просрочен",
+    "metaClass": "overDue",
+    "code": "notOverdue"
+  },
+  "testRezultFZ": [],
+  "deadlinePl": [],
+  "regNumberContr": "Все договоры",
+  "icon": null,
+  "emailContr": null,
+  "resultDescrT": null,
+  "techDescr": null,
+  "dateDecision": null,
+  "classCounter": 0,
+  "numberEx": 1,
+  "overdue": {
+    "status": "ACTIVE",
+    "deadLineTime": "2025.07.25 12:19:50",
+    "allowance": 64042023,
+    "elapsedFromOverdue": 0,
+    "allowanceStart": "2025.07.23 10:32:28"
+  },
+  "postoponeTill": null,
+  "requestDate": "2025.07.22 12:19:50",
+  "bz": [],
+  "KEs": [],
+  "emailScan": null,
+  "commentAdded": false,
+  "descriptionRTF": "",
+  "negotDesc": null,
+  "resumptionSum": 0,
+  "elimMeasures": null,
+  "priostSogl": false,
+  "firstInprDT": null,
+  "folders": [],
+  "dontSendNot": false,
+  "orderNumber": null,
+  "docNumber": "-",
+  "lic": [],
+  "respBPM": null,
+  "TypeAct": {
+    "UUID": "TypeOfAct$318923102",
+    "title": "Tекущая сверка",
+    "metaClass": "TypeOfAct",
+    "code": "nowSverka"
+  },
+  "clientCat": {
+    "UUID": "catUser$7425401",
+    "title": "Обычный",
+    "metaClass": "catUser",
+    "code": "usual"
+  },
+  "testResultSupp": [],
+  "workRecords": [],
+  "KBtoAddArticle": {
+    "UUID": "KB$7962901",
+    "title": "Статьи на основе решений запросов",
+    "metaClass": "KB$KBSectionOpen"
+  },
+  "vidForm": null,
+  "defferedEmp": null,
+  "bpmTemplate": null,
+  "innString": "6345012488",
+  "teamSupport": [],
+  "testWordsDone": true,
+  "clientEmail": "BozheskovaOM@rushydro.ru",
+  "negotTeam": [],
+  "reworkDone": false,
+  "departQuality2": null,
+  "clientPhone": "+78003338000, 0022166, +79375371001, 0022166",
+  "resultCateg": null,
+  "contragent": null,
+  "firstLine1": {
+    "status": "NOTSTARTED",
+    "elapsed": 0
+  },
+  "firstLineEmp": null,
+  "docRFC": [],
+  "firstTeamNazn": {
+    "UUID": "team$319391401",
+    "title": "Диспетчеры ОВК_З",
+    "metaClass": "team$team"
+  },
+  "testRespSupp": [],
+  "resumed": false,
+  "allComments": null,
+  "metaClass": "serviceCall$actOutPAO",
+  "returnAsNewDT": null,
+  "endPeriodNew": null,
+  "description": null,
+  "customer_em": null,
+  "doneProc": [],
+  "title": "SD2356036",
+  "stateRFC": [],
+  "clientOU": {
+    "UUID": "ou$70382208",
+    "title": "РусГидро ОЦО",
+    "metaClass": "ou$ou"
+  },
+  "urgency": {
+    "UUID": "urgency$37503",
+    "title": "Низкая",
+    "metaClass": "urgency",
+    "code": "U2"
+  },
+  "responsible": {
+    "UUID": "team$319391401",
+    "title": "Диспетчеры ОВК_З",
+    "metaClass": "team$team"
+  },
+  "client": {
+    "UUID": "employee$80399124",
+    "title": "Божескова Оксана Михайловна",
+    "metaClass": "employee$employee"
+  },
+  "departQuality": null,
+  "supportSubject": null,
+  "tabelNumberNew": null,
+  "formatAct": {
+    "UUID": "formatAct$318924602",
+    "title": "Электронный",
+    "metaClass": "formatAct",
+    "code": "ElectrForm"
+  },
+  "timeForAccept": null,
+  "processingTimeTimer": {
+    "status": "ACTIVE",
+    "elapsed": 22358004
+  },
+  "ownEmail": null,
+  "negotiations": [],
+  "system_icon": null,
+  "authSubject": null,
+  "masterMassProblem": null,
+  "service": {
+    "UUID": "slmService$250208902",
+    "title": "ОЦО Акт сверки РГ",
+    "metaClass": "slmService$slmService"
+  },
+  "waitProc": [],
+  "rfcResults": [],
+  "massProblemSlaves": [],
+  "operatorSTP": null,
+  "emplGroups": [],
+  "responsibleStartTime": "2025.07.22 12:19:50",
+  "firstTeamInpr": null,
+  "mark": null,
+  "takeFromKB": null,
+  "wasDefNoNeg": false,
+  "respBPM_te": null,
+  "znoParent": null,
+  "release": [],
+  "companyName": {
+    "UUID": "ou$2110243",
+    "title": "Волжская ГЭС",
+    "metaClass": "ou$ou"
+  },
+  "wasClass": false,
+  "addArtikle": false,
+  "spentTime": null,
+  "urlUnidata": null,
+  "number": 2356036,
+  "orgfilial": {
+    "UUID": "catalogs$188404930",
+    "title": "Волжская ГЭС",
+    "metaClass": "catalogs$filial"
+  },
+  "firstNaznDT": "2025.07.22 12:19:50",
+  "searchQueries": [],
+  "rg20min": false,
+  "tasks": [],
+  "accLaborCost": {
+    "UUID": "work$941735501",
+    "title": "Автоматический",
+    "metaClass": "work",
+    "code": "autom"
+  },
+  "reactionTime": {
+    "status": "STOPED",
+    "elapsed": 73
+  },
+  "reclassLog": [],
+  "subscribers": [],
+  "contract": null,
+  "Landocs": false,
+  "clientLinkName": "Божескова Оксана Михайловна / SLA АО \"РусГидро ОЦО\"_РГ / ОЦО Акт сверки РГ",
+  "priority": {
+    "UUID": "priority$5901",
+    "title": "Низкий",
+    "metaClass": "priority",
+    "code": "normal"
+  },
+  "firstLineTime": {
+    "status": "PAUSED",
+    "elapsed": 75
+  },
+  "slaved": false,
+  "origEx": false,
+  "shortDescr": "ТЕСТ_Акт сверки (По одному контрагенту по всем договорам)",
+  "organiz": {
+    "UUID": "catalogs$188404901",
+    "title": "ПАО \"РусГидро\"",
+    "metaClass": "catalogs$org"
+  },
+  "rfcReason": [],
+  "respBPM_em": null,
+  "mailExternal": null,
+  "prevClassif": null,
+  "clientName": "Божескова Оксана Михайловна",
+  "coloOverdue": {
+    "UUID": "overDue$933901",
+    "title": "не просрочен",
+    "metaClass": "overDue"
+  },
+  "planDateZNI": [],
+  "innC": null,
+  "respImplMeas": [],
+  "lastReturnDT": null,
+  "optipro": false,
+  "startTime": "2025.07.22 12:19:50",
+  "solvedByEmployee": null,
+  "zniConnection": false,
+  "categories": [],
+  "responsibleRFC": [],
+  "resolutionTime": {
+    "length": 1,
+    "interval": "DAY"
+  },
+  "firstHour": false,
+  "firstHourTimer": {
+    "status": "ACTIVE",
+    "elapsed": 22357957
+  },
+  "descriptionInRTF": null,
+  "orgFil": null,
+  "endDT": [],
+  "baseCategory": null,
+  "removed": false,
+  "startPeriodNew": null,
+  "continentAP": null,
+  "clientTeam": null,
+  "clientLocation": "Филиал ПАО \"РусГидро\" - \"Волжская ГЭС\"",
+  "orgEmpl": null,
+  "resT": {
+    "UUID": "resTimeProc$15620601",
+    "title": "Более 70%",
+    "metaClass": "resTimeProc",
+    "code": "moreSev"
+  },
+  "vidFormInv": null,
+  "endPeriod": "2025.06.30 00:00:00",
+  "clientCompany": "АО \"РусГидро ОЦО\"",
+  "responsTime": {
+    "status": "STOPED",
+    "elapsed": 70
+  },
+  "deadLineTime": "2025.07.25 12:19:50",
+  "customer_ou": null,
+  "negotPolicy": {
+    "UUID": "politicNegot$12260801",
+    "title": "Все",
+    "metaClass": "politicNegot",
+    "code": "All"
+  },
+  "zabbixId": null,
+  "kppString": "343503001",
+  "regNumbDoc": "Все договоры",
+  "wfProfile": null,
+  "registrationDate": "2025.07.22 12:19:50",
+  "UUID": "serviceCall$1295665255",
+  "resultDescr": null,
+  "defferedDate": null,
+  "testRespFZ": [],
+  "author": {
+    "UUID": "employee$80399124",
+    "title": "Божескова Оксана Михайловна",
+    "metaClass": "employee$employee"
+  },
+  "znoChild": [],
+  "catServiceCall": null,
+  "supKEs": [],
+  "priostSoglDate": null,
+  "kpp": null,
+  "creationDate": "2025.07.22 12:19:44",
+  "wayAddressing": {
+    "UUID": "wayAdressing$647202",
+    "title": "Личный кабинет",
+    "metaClass": "wayAdressing",
+    "code": "SD"
+  },
+  "standbyReason": null,
+  "parentInc": [],
+  "responsibleTeam": {
+    "UUID": "team$319391401",
+    "title": "Диспетчеры ОВК_З",
+    "metaClass": "team$team"
+  },
+  "currTimeResolv": null,
+  "titleKB": null,
+  "problems": [],
+  "closedBy": null,
+  "remWork": false,
+  "p5": null,
+  "p6": null,
+  "codeOfClosing": null,
+  "solvedBy": null,
+  "flowTemplate": null,
+  "defferedCount": 0,
+  "toWork20": {
+    "status": "ACTIVE",
+    "elapsed": 22357974
+  },
+  "kppC": null,
+  "stateStartTime": "2025.07.22 12:19:50",
+  "firstLineMsg": null,
+  "techDiscr": null,
+  "emailNote": null,
+  "massProblem": false,
+  "signPaperOrigi": false,
+  "catUser": {
+    "UUID": "catUser$7425401",
+    "title": "Обычный",
+    "metaClass": "catUser"
+  },
+  "debug": "Скрипт смены ответственного:",
+  "responsTimer": {
+    "status": "ACTIVE",
+    "elapsed": 22357977
+  },
+  "timeClosing24": null,
+  "lastModifiedDate": "2025.07.22 12:19:51",
+  "connectedCI": [],
+  "totalTimeTimer": {
+    "status": "ACTIVE",
+    "elapsed": 22358050
+  },
+  "inn": null,
+  "amountInstance": 1,
+  "relZNIDesc": [],
+  "removalDate": null,
+  "workType": null,
+  "SCCategory": null,
+  "periodNegot": {
+    "length": 45,
+    "interval": "HOUR"
+  },
+  "roomReq": "Волжская ГЭС, СПК-1, к.106",
+  "responsibleEmployee": null,
+  "customer": null,
+  "status": "ERROR",
+  "message": "The control could not be found by id."
+}

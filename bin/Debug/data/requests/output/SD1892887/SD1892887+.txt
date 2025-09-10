@@ -1,0 +1,410 @@
+{
+  "closedByEmployee": null,
+  "resolutionCode": null,
+  "iDeadLineTime": "2024.12.26 10:47:06",
+  "thFL": false,
+  "solvedByTeam": null,
+  "bpmRoute": null,
+  "timeAllowanceTimer": {
+    "status": "ACTIVE",
+    "deadLineTime": "2024.12.27 10:47:06",
+    "allowance": 57389084,
+    "elapsedFromOverdue": 0,
+    "allowanceStart": "2024.12.25 10:50:37"
+  },
+  "prevMeasFuture": null,
+  "startPeriod": "2024.09.13 00:00:00",
+  "softType": null,
+  "closedByTeam": null,
+  "state": "assigned",
+  "ImplPeriod": null,
+  "zabbixComments": [],
+  "formType": {
+    "UUID": "formType$255641602",
+    "title": "По одному контрагенту по всем договорам",
+    "metaClass": "formType",
+    "code": "oneClient"
+  },
+  "agreement": {
+    "UUID": "agreement$249410301",
+    "title": "SLA АО \"РусГидро ОЦО\"_РГ",
+    "metaClass": "agreement$agreement"
+  },
+  "advisoryEmpl": [],
+  "impact": {
+    "UUID": "impact$137002",
+    "title": "Низкая",
+    "metaClass": "impact",
+    "code": "I0"
+  },
+  "logzapisi": [],
+  "clientEmployee": {
+    "UUID": "employee$2143950",
+    "title": "Ивашечкина Ирина Владимировна",
+    "metaClass": "employee$employee"
+  },
+  "timeZone": {
+    "UUID": "timezone$4501",
+    "title": "Москва (UTC+3  MSK)",
+    "metaClass": "timezone",
+    "code": "Europe/Moscow"
+  },
+  "resumeReason": null,
+  "serviceTime": {
+    "UUID": "servicetime$1056633712",
+    "title": "8x5 (9:00-18:00)",
+    "metaClass": "servicetime",
+    "code": "class_8x5_21/06/19"
+  },
+  "defferedReason": null,
+  "markReason": "не указана",
+  "routeSubject": null,
+  "overdueN": {
+    "UUID": "overDue$933901",
+    "title": "не просрочен",
+    "metaClass": "overDue",
+    "code": "notOverdue"
+  },
+  "testRezultFZ": [],
+  "deadlinePl": [],
+  "regNumberContr": "Все договоры",
+  "icon": null,
+  "emailContr": null,
+  "resultDescrT": null,
+  "techDescr": null,
+  "dateDecision": null,
+  "classCounter": 0,
+  "numberEx": 1,
+  "overdue": {
+    "status": "ACTIVE",
+    "deadLineTime": "2024.12.27 10:47:06",
+    "allowance": 57389061,
+    "elapsedFromOverdue": 0,
+    "allowanceStart": "2024.12.25 10:50:37"
+  },
+  "postoponeTill": null,
+  "requestDate": "2024.12.25 10:47:06",
+  "bz": [],
+  "KEs": [],
+  "emailScan": null,
+  "commentAdded": false,
+  "descriptionRTF": "<p style=\"text-align: left;\">Добрый день! </p><p style=\"text-align: left;\">Прошу подготовить Акт сверки взаимных расчетов для&nbsp; закрытия договоров</p><p style=\"text-align: left;\">Контрагент - 1000122744<br></p>",
+  "negotDesc": null,
+  "resumptionSum": 0,
+  "elimMeasures": null,
+  "priostSogl": false,
+  "firstInprDT": null,
+  "folders": [],
+  "dontSendNot": false,
+  "orderNumber": null,
+  "docNumber": "ОТ-180-10-24, ОТ-211-11-24, ПП-24-11-24",
+  "lic": [],
+  "respBPM": null,
+  "TypeAct": {
+    "UUID": "TypeOfAct$318923101",
+    "title": "Закрытие договора",
+    "metaClass": "TypeOfAct",
+    "code": "zakrytieDog"
+  },
+  "clientCat": {
+    "UUID": "catUser$7425401",
+    "title": "Обычный",
+    "metaClass": "catUser",
+    "code": "usual"
+  },
+  "testResultSupp": [],
+  "workRecords": [],
+  "KBtoAddArticle": {
+    "UUID": "KB$7962901",
+    "title": "Статьи на основе решений запросов",
+    "metaClass": "KB$KBSectionOpen"
+  },
+  "vidForm": null,
+  "defferedEmp": null,
+  "bpmTemplate": null,
+  "innString": "5262031220",
+  "testWordsDone": true,
+  "clientEmail": "IvashechkinaIV@rushydro.ru",
+  "negotTeam": [],
+  "reworkDone": false,
+  "departQuality2": null,
+  "clientPhone": "+78316158282, 0082282, +79159548329, 0082282",
+  "resultCateg": null,
+  "contragent": null,
+  "firstLine1": {
+    "status": "NOTSTARTED",
+    "elapsed": 0
+  },
+  "firstLineEmp": null,
+  "docRFC": [],
+  "firstTeamNazn": {
+    "UUID": "team$319391401",
+    "title": "Диспетчеры ОВК_З",
+    "metaClass": "team$team"
+  },
+  "testRespSupp": [],
+  "resumed": false,
+  "allComments": null,
+  "metaClass": "serviceCall$actOutPAO",
+  "returnAsNewDT": null,
+  "endPeriodNew": null,
+  "description": null,
+  "customer_em": null,
+  "doneProc": [],
+  "title": "SD1892887",
+  "stateRFC": [],
+  "clientOU": {
+    "UUID": "ou$2142819",
+    "title": "Отдел управления персоналом",
+    "metaClass": "ou$ou"
+  },
+  "urgency": {
+    "UUID": "urgency$37503",
+    "title": "Низкая",
+    "metaClass": "urgency",
+    "code": "U2"
+  },
+  "responsible": {
+    "UUID": "team$319391401",
+    "title": "Диспетчеры ОВК_З",
+    "metaClass": "team$team"
+  },
+  "client": {
+    "UUID": "employee$2143950",
+    "title": "Ивашечкина Ирина Владимировна",
+    "metaClass": "employee$employee"
+  },
+  "departQuality": null,
+  "supportSubject": null,
+  "tabelNumberNew": null,
+  "formatAct": {
+    "UUID": "formatAct$318924602",
+    "title": "Электронный",
+    "metaClass": "formatAct",
+    "code": "ElectrForm"
+  },
+  "timeForAccept": null,
+  "processingTimeTimer": {
+    "status": "ACTIVE",
+    "elapsed": 210978
+  },
+  "ownEmail": null,
+  "negotiations": [],
+  "system_icon": null,
+  "authSubject": null,
+  "masterMassProblem": null,
+  "service": {
+    "UUID": "slmService$250208902",
+    "title": "ОЦО Акт сверки РГ",
+    "metaClass": "slmService$slmService"
+  },
+  "waitProc": [],
+  "rfcResults": [],
+  "massProblemSlaves": [],
+  "operatorSTP": null,
+  "responsibleStartTime": "2024.12.25 10:47:06",
+  "firstTeamInpr": null,
+  "mark": null,
+  "takeFromKB": null,
+  "wasDefNoNeg": false,
+  "respBPM_te": null,
+  "znoParent": null,
+  "release": [],
+  "companyName": {
+    "UUID": "ou$2140299",
+    "title": "Нижегородская ГЭС",
+    "metaClass": "ou$ou"
+  },
+  "wasClass": false,
+  "addArtikle": false,
+  "spentTime": null,
+  "urlUnidata": null,
+  "number": 1892887,
+  "orgfilial": null,
+  "firstNaznDT": "2024.12.25 10:47:06",
+  "searchQueries": [],
+  "rg20min": false,
+  "tasks": [],
+  "accLaborCost": {
+    "UUID": "work$941735501",
+    "title": "Автоматический",
+    "metaClass": "work",
+    "code": "autom"
+  },
+  "reactionTime": {
+    "status": "STOPED",
+    "elapsed": 118
+  },
+  "reclassLog": [],
+  "subscribers": [],
+  "contract": null,
+  "Landocs": false,
+  "clientLinkName": "Ивашечкина Ирина Владимировна / SLA АО \"РусГидро ОЦО\"_РГ / ОЦО Акт сверки РГ",
+  "priority": {
+    "UUID": "priority$5901",
+    "title": "Низкий",
+    "metaClass": "priority",
+    "code": "normal"
+  },
+  "firstLineTime": {
+    "status": "PAUSED",
+    "elapsed": 120
+  },
+  "slaved": false,
+  "origEx": false,
+  "shortDescr": "Акт сверки на закрытие договоров",
+  "organiz": null,
+  "rfcReason": [],
+  "respBPM_em": null,
+  "prevClassif": null,
+  "clientName": "Ивашечкина Ирина Владимировна",
+  "coloOverdue": {
+    "UUID": "overDue$933901",
+    "title": "не просрочен",
+    "metaClass": "overDue"
+  },
+  "planDateZNI": [],
+  "innC": null,
+  "respImplMeas": [],
+  "lastReturnDT": null,
+  "optipro": false,
+  "startTime": "2024.12.25 10:47:06",
+  "solvedByEmployee": null,
+  "zniConnection": false,
+  "categories": [],
+  "responsibleRFC": [],
+  "resolutionTime": {
+    "length": 16,
+    "interval": "HOUR"
+  },
+  "firstHour": false,
+  "firstHourTimer": {
+    "status": "ACTIVE",
+    "elapsed": 210932
+  },
+  "descriptionInRTF": null,
+  "orgFil": {
+    "UUID": "catalogs$188404943",
+    "title": "Нижегородская ГЭС",
+    "metaClass": "catalogs$filial"
+  },
+  "endDT": [],
+  "baseCategory": null,
+  "removed": false,
+  "startPeriodNew": null,
+  "clientTeam": null,
+  "clientLocation": "Филиал ПАО \"РусГидро\" - \"Нижегородская ГЭС\"",
+  "orgEmpl": {
+    "UUID": "catalogs$188404901",
+    "title": "ПАО \"РусГидро\"",
+    "metaClass": "catalogs$org"
+  },
+  "resT": {
+    "UUID": "resTimeProc$15620601",
+    "title": "Более 70%",
+    "metaClass": "resTimeProc",
+    "code": "moreSev"
+  },
+  "vidFormInv": null,
+  "endPeriod": "2024.11.29 00:00:00",
+  "clientCompany": "Филиал ПАО \"РусГидро\" - \"Нижегородская ГЭС\"",
+  "responsTime": {
+    "status": "STOPED",
+    "elapsed": 115
+  },
+  "deadLineTime": "2024.12.27 10:47:06",
+  "customer_ou": null,
+  "negotPolicy": {
+    "UUID": "politicNegot$12260801",
+    "title": "Все",
+    "metaClass": "politicNegot",
+    "code": "All"
+  },
+  "zabbixId": null,
+  "kppString": "526201001",
+  "regNumbDoc": "3000053896, 3000054857, 3000054898",
+  "wfProfile": null,
+  "registrationDate": "2024.12.25 10:47:06",
+  "UUID": "serviceCall$1064828474",
+  "resultDescr": null,
+  "defferedDate": null,
+  "testRespFZ": [],
+  "author": {
+    "UUID": "employee$2143950",
+    "title": "Ивашечкина Ирина Владимировна",
+    "metaClass": "employee$employee"
+  },
+  "znoChild": [],
+  "catServiceCall": null,
+  "supKEs": [],
+  "priostSoglDate": null,
+  "kpp": null,
+  "creationDate": "2024.12.25 10:47:04",
+  "wayAddressing": {
+    "UUID": "wayAdressing$647202",
+    "title": "Личный кабинет",
+    "metaClass": "wayAdressing",
+    "code": "SD"
+  },
+  "standbyReason": null,
+  "parentInc": [],
+  "responsibleTeam": {
+    "UUID": "team$319391401",
+    "title": "Диспетчеры ОВК_З",
+    "metaClass": "team$team"
+  },
+  "currTimeResolv": null,
+  "titleKB": null,
+  "problems": [],
+  "closedBy": null,
+  "remWork": false,
+  "p5": null,
+  "p6": null,
+  "codeOfClosing": null,
+  "solvedBy": null,
+  "flowTemplate": null,
+  "defferedCount": 0,
+  "toWork20": {
+    "status": "ACTIVE",
+    "elapsed": 210966
+  },
+  "kppC": null,
+  "stateStartTime": "2024.12.25 10:47:06",
+  "firstLineMsg": null,
+  "techDiscr": null,
+  "emailNote": null,
+  "massProblem": false,
+  "signPaperOrigi": false,
+  "catUser": {
+    "UUID": "catUser$7425401",
+    "title": "Обычный",
+    "metaClass": "catUser"
+  },
+  "debug": "Скрипт смены ответственного:",
+  "responsTimer": {
+    "status": "ACTIVE",
+    "elapsed": 210970
+  },
+  "timeClosing24": null,
+  "lastModifiedDate": "2024.12.25 10:47:07",
+  "connectedCI": [],
+  "totalTimeTimer": {
+    "status": "ACTIVE",
+    "elapsed": 211094
+  },
+  "inn": null,
+  "amountInstance": 1,
+  "relZNIDesc": [],
+  "removalDate": null,
+  "workType": null,
+  "SCCategory": null,
+  "periodNegot": {
+    "length": 45,
+    "interval": "HOUR"
+  },
+  "roomReq": null,
+  "responsibleEmployee": null,
+  "customer": null,
+  "status": "ERROR",
+  "message": "Ошибка при загрузке JSON: Файл не найден: C:\\Users\\RobinSapAC\\Desktop\\02-04-2025\\SpravkoBot_AsSapfir\\bin\\Debug\\data\\requests\\output\\SD1892887"
+}

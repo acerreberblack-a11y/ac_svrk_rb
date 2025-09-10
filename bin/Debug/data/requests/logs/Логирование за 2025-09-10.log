@@ -1,0 +1,917 @@
+2025-09-10 09:41:43.4956 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *////* 
+2025-09-10 09:41:43.5241 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-09-10 09:41:43.6581 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена. 
+2025-09-10 09:41:43.6581 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-09-10 09:41:43.6581 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2347773+.txt. Начинаю извлечение данных из заявки. 
+2025-09-10 09:41:43.6581 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'organiz.title' не найден. 
+2025-09-10 09:41:43.6581 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'orgfilial.title' не найден. 
+2025-09-10 09:41:43.6581 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'formType.title' не найден. 
+2025-09-10 09:41:43.6581 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'docNumber' не найден. 
+2025-09-10 09:41:43.6581 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'regNumbDoc' не найден. 
+2025-09-10 09:41:43.6581 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'innString' не найден. 
+2025-09-10 09:41:43.6581 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'kppString' не найден. 
+2025-09-10 09:41:43.6681 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Для заявки SD2347773 создана сущность Request. 
+2025-09-10 09:41:43.6681 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-09-10 09:41:43.6681 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-09-10 09:41:43.6681 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2347773 
+2025-09-10 09:41:43.6681 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => Годовая инвентаризация (по всем контрагентам и договорам) 
+2025-09-10 09:41:43.6681 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга => ОЦО Акт сверки РГ 
+2025-09-10 09:41:43.6681 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-09-10 09:41:43.6681 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-09-10 09:41:43.6681 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-09-10 09:41:43.6681 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН =>  
+2025-09-10 09:41:43.6681 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП =>  
+2025-09-10 09:41:43.6681 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер (-а) договора в системе =>  
+2025-09-10 09:41:43.6681 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.01.2025 
+2025-09-10 09:41:43.6681 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-09-10 09:41:43.6681 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-09-10 09:41:43.6681 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Начинаю конвертирование excel файла в csv: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx 
+2025-09-10 09:41:43.6961 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.ConvertToCsv | Начало конвертации файла Excel 'C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx' в CSV. 
+2025-09-10 09:41:44.4439 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.SaveAsCsv | Сохранено как CSV: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.csv. Строк: 5485, столбцов: 11 
+2025-09-10 09:41:44.4559 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.ConvertToCsv | Файл успешно конвертирован в CSV: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.csv 
+2025-09-10 09:41:44.4559 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Выполняю фильтрацию по параметрам из заявки. Type: Годовая инвентаризация (по всем контрагентам и договорам); БЕ:Волжская ГЭС, ИНН:, КПП: 
+2025-09-10 09:41:44.4889 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | [Inventory] Начальный выбор по Branch='Волжская ГЭС': строк=279 
+2025-09-10 09:41:44.4889 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Формирую задачу для подписанта: 90002992 
+2025-09-10 09:41:44.4889 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: ЭДО 
+2025-09-10 09:41:44.4889 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результатов нет — задачу не добавляем. 
+2025-09-10 09:41:44.4889 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: Не ЭДО 
+2025-09-10 09:41:44.4889 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ----Задача для SAP---- 
+2025-09-10 09:41:44.4889 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | BeCode: 1050 
+2025-09-10 09:41:44.4889 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | INN: null, KPP: null 
+2025-09-10 09:41:44.4889 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ContractNumber: [] 
+2025-09-10 09:41:44.4889 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | CounterpartyNumbers: [1000000212, 1000049282, 1000008291, 1000127108, 4000001113, 1000031779, 5000008375, 1000124930, 1000000392, 1000008296, 1000008307, 1000008315, 1000008349, 1000008420, 1000008766, 1000008781, 1000008813, 1000008876, 1000008902, 1000008938, 1000008943, 1000008950, 1000009008, 1000009057, 1000009076, 1000009105, 1000009139, 1000009226, 1000009260, 1000009340, 1000009467, 1000009519, 1000009528, 1000009529, 1000009554, 1000009569, 1000009617, 1000009652, 1000009924, 1000010026, 1000010272, 1000010374, 1000010416, 1000010428, 1000010460, 1000010754, 1000011074, 1000011084, 1000011103, 1000011129, 1000011131, 1000011166, 1000011747, 1000011929, 1000012013, 1000012079, 1000012154, 1000014535, 1000014649, 1000014716, 1000014719, 1000014753, 1000014757, 1000014797, 1000014820, 1000014826, 1000014887, 1000014928, 1000014947, 1000015025, 1000015113, 1000015195, 1000015198, 1000015205, 1000015283, 1000015287, 1000015362, 1000016634, 1000016716, 1000016748, 1000016808, 1000031760, 1000031766, 1000031797, 1000032721, 1000033549, 1000033595, 1000033854, 1000034302, 1000034454, 1000034719, 1000035180, 1000038330, 1000038388, 1000038407, 1000039882, 1000040274, 1000040593, 1000040618, 1000041895, 1000042170, 1000042218, 1000043684, 1000045041, 1000045444, 1000045758, 1000045787, 1000047959, 1000049279, 1000050718, 1000050809, 1000051323, 1000051637, 1000053354, 1000055066, 1000055084, 1000055116, 1000055604, 1000055671, 1000055940, 1000056482, 1000056939, 1000057108, 1000059568, 1000059758, 1000059764, 1000060028, 1000060345, 1000061024, 1000061141, 1000061619, 1000062045, 1000062592, 1000062594, 1000066902, 1000067285, 1000067441, 1000079265, 1000079575, 1000087069, 1000088950, 1000089002, 1000089324, 1000091079, 1000091556, 1000093787, 1000093835, 1000094727, 1000095047, 1000095123, 1000097590, 1000097835, 1000097855, 1000097897, 1000097907, 1000097983, 1000098208, 1000098211, 1000098222, 1000098256, 1000098833, 1000099135, 1000100590, 1000101175, 1000101775, 1000102029, 1000102921, 1000103643, 1000103794, 1000103839, 1000103978, 1000104383, 1000104942, 1000105037, 1000105047, 1000105642, 1000105940, 1000105998, 1000107058, 1000107080, 1000107226, 1000108800, 1000109029, 1000109603, 1000110138, 1000122011, 1000122027, 1000122304, 1000122842, 1000122920, 1000123244, 1000123397, 1000125878, 1000126122, 1000126131, 1000126800, 1000128488, 1000128514, 1000129323, 1000133802, 1000134569, 1000135065, 1000135137, 1000136133, 1000136182, 4000000894, 4000000937, 4000000950, 4000001012, 4000001013, 4000001030, 4000001048, 4000001074, 4000001094, 4000001107, 4000001163, 4000001188, 4000001289, 4000001417, 4000001759, 4000001762, 4000001861, 4000001903, 4000002029, 4000002197, 4000002557, 4000003007, 4000003147, 4000003292, 4000003301, 4000003361, 4000003622, 4000003736, 4000003742, 4000004845, 4000006083, 4000006665, 4000006873, 4000006901, 4000007034, 4000007036, 4000007214, 4000007315, 4000010143, 4000010154, 4000010220, 4000010370, 4000010949] 
+2025-09-10 09:41:44.4889 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | SignatoryNumbers: [90002992] 
+2025-09-10 09:41:44.4889 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | Status: Не ЭДО 
+2025-09-10 09:41:44.4889 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | DateStart: 01.01.2025, DateEnd: 30.06.2025 
+2025-09-10 09:41:44.4889 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | vgo: False 
+2025-09-10 09:41:44.4889 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Формирую задачу для подписанта: 90002916 
+2025-09-10 09:41:44.4889 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: ЭДО 
+2025-09-10 09:41:44.4889 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ----Задача для SAP---- 
+2025-09-10 09:41:44.4889 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | BeCode: 1050 
+2025-09-10 09:41:44.4889 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | INN: null, KPP: null 
+2025-09-10 09:41:44.4889 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ContractNumber: [] 
+2025-09-10 09:41:44.4889 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | CounterpartyNumbers: [1000127089, 1000008293, 1000008300, 1000008313, 1000008314, 1000008590, 1000008665, 1000008824, 1000008941, 1000009148, 1000009829, 1000010583, 1000010595, 1000011017, 1000011228, 1000011575, 1000011754, 1000012084, 1000014569, 1000014634, 1000014717, 1000015004, 1000040511, 1000045292, 1000045301, 1000045328, 1000052730, 1000057163, 1000090692, 1000104844, 1000109647] 
+2025-09-10 09:41:44.4889 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | SignatoryNumbers: [90002916] 
+2025-09-10 09:41:44.4889 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | Status: ЭДО 
+2025-09-10 09:41:44.4889 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | DateStart: 01.01.2025, DateEnd: 30.06.2025 
+2025-09-10 09:41:44.4889 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | vgo: False 
+2025-09-10 09:41:44.4889 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: Не ЭДО 
+2025-09-10 09:41:44.4889 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результатов нет — задачу не добавляем. 
+2025-09-10 09:41:44.4889 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инвентаризация: сформировано задач: 2 
+2025-09-10 09:41:55.5545 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | SAP Logon успешно запущен. 
+2025-09-10 09:41:58.6001 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Сессия SAP успешно получена. 
+2025-09-10 09:41:58.6791 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход в SAP. 
+2025-09-10 09:42:00.7735 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Транзакция ZTSF_AKT_SVERKI успешно запущена. 
+2025-09-10 09:42:00.7735 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход и запущена транзакция ZTSF_AKT_SVERKI 
+2025-09-10 09:42:14.9585 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Переходим в ветку по счету - 60 
+2025-09-10 09:42:50.0174 | WARN | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | По данному контрагенту уже есть сформированные документы. Выполнено повторное формирование. 
+2025-09-10 09:43:00.4886 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Божескова Оксана Михайловна 
+2025-09-10 10:00:21.4086 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Статус SAP: Журнал обновлен 
+2025-09-10 10:14:45.3419 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *////* 
+2025-09-10 10:14:45.3689 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-09-10 10:14:45.4225 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена. 
+2025-09-10 10:14:45.4225 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-09-10 10:14:45.4225 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2347773+.txt. Начинаю извлечение данных из заявки. 
+2025-09-10 10:14:45.4225 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'organiz.title' не найден. 
+2025-09-10 10:14:45.4225 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'orgfilial.title' не найден. 
+2025-09-10 10:14:45.4225 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'formType.title' не найден. 
+2025-09-10 10:14:45.4225 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'docNumber' не найден. 
+2025-09-10 10:14:45.4225 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'regNumbDoc' не найден. 
+2025-09-10 10:14:45.4225 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'innString' не найден. 
+2025-09-10 10:14:45.4225 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'kppString' не найден. 
+2025-09-10 10:14:45.4317 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Для заявки SD2347773 создана сущность Request. 
+2025-09-10 10:14:45.4317 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-09-10 10:14:45.4317 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-09-10 10:14:45.4317 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2347773 
+2025-09-10 10:14:45.4317 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => Годовая инвентаризация (по всем контрагентам и договорам) 
+2025-09-10 10:14:45.4317 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга => ОЦО Акт сверки РГ 
+2025-09-10 10:14:45.4317 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-09-10 10:14:45.4317 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-09-10 10:14:45.4317 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-09-10 10:14:45.4317 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН =>  
+2025-09-10 10:14:45.4317 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП =>  
+2025-09-10 10:14:45.4317 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер (-а) договора в системе =>  
+2025-09-10 10:14:45.4317 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.01.2025 
+2025-09-10 10:14:45.4317 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-09-10 10:14:45.4317 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-09-10 10:14:45.4317 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Начинаю конвертирование excel файла в csv: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx 
+2025-09-10 10:14:45.4577 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.ConvertToCsv | Начало конвертации файла Excel 'C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx' в CSV. 
+2025-09-10 10:14:46.1495 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.SaveAsCsv | Сохранено как CSV: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.csv. Строк: 5485, столбцов: 11 
+2025-09-10 10:14:46.1605 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.ConvertToCsv | Файл успешно конвертирован в CSV: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.csv 
+2025-09-10 10:14:46.1605 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Выполняю фильтрацию по параметрам из заявки. Type: Годовая инвентаризация (по всем контрагентам и договорам); БЕ:Волжская ГЭС, ИНН:, КПП: 
+2025-09-10 10:14:46.1905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | [Inventory] Начальный выбор по Branch='Волжская ГЭС': строк=279 
+2025-09-10 10:14:46.1905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Формирую задачу для подписанта: 90002992 
+2025-09-10 10:14:46.1905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: ЭДО 
+2025-09-10 10:14:46.1905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результатов нет — задачу не добавляем. 
+2025-09-10 10:14:46.1905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: Не ЭДО 
+2025-09-10 10:14:46.1905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ----Задача для SAP---- 
+2025-09-10 10:14:46.1905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | BeCode: 1050 
+2025-09-10 10:14:46.1905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | INN: null, KPP: null 
+2025-09-10 10:14:46.1905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ContractNumber: [] 
+2025-09-10 10:14:46.1905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | CounterpartyNumbers: [1000000212, 1000049282, 1000008291, 1000127108, 4000001113, 1000031779, 5000008375, 1000124930, 1000000392, 1000008296, 1000008307, 1000008315, 1000008349, 1000008420, 1000008766, 1000008781, 1000008813, 1000008876, 1000008902, 1000008938, 1000008943, 1000008950, 1000009008, 1000009057, 1000009076, 1000009105, 1000009139, 1000009226, 1000009260, 1000009340, 1000009467, 1000009519, 1000009528, 1000009529, 1000009554, 1000009569, 1000009617, 1000009652, 1000009924, 1000010026, 1000010272, 1000010374, 1000010416, 1000010428, 1000010460, 1000010754, 1000011074, 1000011084, 1000011103, 1000011129, 1000011131, 1000011166, 1000011747, 1000011929, 1000012013, 1000012079, 1000012154, 1000014535, 1000014649, 1000014716, 1000014719, 1000014753, 1000014757, 1000014797, 1000014820, 1000014826, 1000014887, 1000014928, 1000014947, 1000015025, 1000015113, 1000015195, 1000015198, 1000015205, 1000015283, 1000015287, 1000015362, 1000016634, 1000016716, 1000016748, 1000016808, 1000031760, 1000031766, 1000031797, 1000032721, 1000033549, 1000033595, 1000033854, 1000034302, 1000034454, 1000034719, 1000035180, 1000038330, 1000038388, 1000038407, 1000039882, 1000040274, 1000040593, 1000040618, 1000041895, 1000042170, 1000042218, 1000043684, 1000045041, 1000045444, 1000045758, 1000045787, 1000047959, 1000049279, 1000050718, 1000050809, 1000051323, 1000051637, 1000053354, 1000055066, 1000055084, 1000055116, 1000055604, 1000055671, 1000055940, 1000056482, 1000056939, 1000057108, 1000059568, 1000059758, 1000059764, 1000060028, 1000060345, 1000061024, 1000061141, 1000061619, 1000062045, 1000062592, 1000062594, 1000066902, 1000067285, 1000067441, 1000079265, 1000079575, 1000087069, 1000088950, 1000089002, 1000089324, 1000091079, 1000091556, 1000093787, 1000093835, 1000094727, 1000095047, 1000095123, 1000097590, 1000097835, 1000097855, 1000097897, 1000097907, 1000097983, 1000098208, 1000098211, 1000098222, 1000098256, 1000098833, 1000099135, 1000100590, 1000101175, 1000101775, 1000102029, 1000102921, 1000103643, 1000103794, 1000103839, 1000103978, 1000104383, 1000104942, 1000105037, 1000105047, 1000105642, 1000105940, 1000105998, 1000107058, 1000107080, 1000107226, 1000108800, 1000109029, 1000109603, 1000110138, 1000122011, 1000122027, 1000122304, 1000122842, 1000122920, 1000123244, 1000123397, 1000125878, 1000126122, 1000126131, 1000126800, 1000128488, 1000128514, 1000129323, 1000133802, 1000134569, 1000135065, 1000135137, 1000136133, 1000136182, 4000000894, 4000000937, 4000000950, 4000001012, 4000001013, 4000001030, 4000001048, 4000001074, 4000001094, 4000001107, 4000001163, 4000001188, 4000001289, 4000001417, 4000001759, 4000001762, 4000001861, 4000001903, 4000002029, 4000002197, 4000002557, 4000003007, 4000003147, 4000003292, 4000003301, 4000003361, 4000003622, 4000003736, 4000003742, 4000004845, 4000006083, 4000006665, 4000006873, 4000006901, 4000007034, 4000007036, 4000007214, 4000007315, 4000010143, 4000010154, 4000010220, 4000010370, 4000010949] 
+2025-09-10 10:14:46.1905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | SignatoryNumbers: [90002992] 
+2025-09-10 10:14:46.1905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | Status: Не ЭДО 
+2025-09-10 10:14:46.1905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | DateStart: 01.01.2025, DateEnd: 30.06.2025 
+2025-09-10 10:14:46.1905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | vgo: False 
+2025-09-10 10:14:46.1905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Формирую задачу для подписанта: 90002916 
+2025-09-10 10:14:46.1905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: ЭДО 
+2025-09-10 10:14:46.1905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ----Задача для SAP---- 
+2025-09-10 10:14:46.1905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | BeCode: 1050 
+2025-09-10 10:14:46.1905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | INN: null, KPP: null 
+2025-09-10 10:14:46.1905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ContractNumber: [] 
+2025-09-10 10:14:46.1905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | CounterpartyNumbers: [1000127089, 1000008293, 1000008300, 1000008313, 1000008314, 1000008590, 1000008665, 1000008824, 1000008941, 1000009148, 1000009829, 1000010583, 1000010595, 1000011017, 1000011228, 1000011575, 1000011754, 1000012084, 1000014569, 1000014634, 1000014717, 1000015004, 1000040511, 1000045292, 1000045301, 1000045328, 1000052730, 1000057163, 1000090692, 1000104844, 1000109647] 
+2025-09-10 10:14:46.1905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | SignatoryNumbers: [90002916] 
+2025-09-10 10:14:46.1905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | Status: ЭДО 
+2025-09-10 10:14:46.1905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | DateStart: 01.01.2025, DateEnd: 30.06.2025 
+2025-09-10 10:14:46.1905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | vgo: False 
+2025-09-10 10:14:46.1905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: Не ЭДО 
+2025-09-10 10:14:46.1905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результатов нет — задачу не добавляем. 
+2025-09-10 10:14:46.1905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инвентаризация: сформировано задач: 2 
+2025-09-10 10:14:54.8000 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | SAP Logon успешно запущен. 
+2025-09-10 10:14:56.4284 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Сессия SAP успешно получена. 
+2025-09-10 10:14:57.2007 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход в SAP. 
+2025-09-10 10:14:59.3264 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Транзакция ZTSF_AKT_SVERKI успешно запущена. 
+2025-09-10 10:14:59.3264 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход и запущена транзакция ZTSF_AKT_SVERKI 
+2025-09-10 10:15:11.0788 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Переходим в ветку по счету - 60 
+2025-09-10 10:15:41.1474 | WARN | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | По данному контрагенту уже есть сформированные документы. Выполнено повторное формирование. 
+2025-09-10 10:15:51.8199 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Божескова Оксана Михайловна 
+2025-09-10 10:33:21.1463 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Статус SAP: Журнал обновлен 
+2025-09-10 10:43:08.2587 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Нажали на кнопку "Сформировать документы" 
+2025-09-10 10:44:31.4098 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Окно 'Акт сверки расчетов с контрагентами: ALV отчет' найдено 
+2025-09-10 10:45:01.6167 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Попытка 1: Дочернее окно 'Акт сверки расчетов с контрагентами: ALV отчет' не найдено 
+2025-09-10 10:45:01.6317 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Окно 'Акт сверки расчетов с контрагентами: ALV отчет' найдено 
+2025-09-10 10:45:10.1756 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Дочернее окно 'Акт сверки расчетов с контрагентами: ALV отчет' найдено 
+2025-09-10 10:45:10.1876 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Клавиша Enter успешно отправлена в окно SAP. 
+2025-09-10 10:45:10.2442 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Окно 'Browse for Files or Folders' найдено 
+2025-09-10 10:45:11.0539 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Попытка 1: Поле ввода 'Folder:' не найдено 
+2025-09-10 10:45:11.0689 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Окно 'Browse for Files or Folders' найдено 
+2025-09-10 10:45:11.8602 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Попытка 2: Поле ввода 'Folder:' не найдено 
+2025-09-10 10:45:11.8752 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Окно 'Browse for Files or Folders' найдено 
+2025-09-10 10:45:12.8209 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Попытка 3: Поле ввода 'Folder:' не найдено 
+2025-09-10 10:45:12.8259 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Попытка 3: Ошибка при сохранении файла - Поле ввода пути сохранения не найдено после всех попыток. 
+2025-09-10 10:45:12.8259 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Ошибка при обработке счета '60'. Пропускаю этот счёт и перехожу к следующему. System.Exception: Не удалось сохранить файл после всех попыток. ---> System.Exception: Поле ввода пути сохранения не найдено после всех попыток.
+   at SpravkoBot_AsSapfir.Program.Main(String[] args) in C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\Program.cs:line 1115
+   --- End of inner exception stack trace ---
+   at SpravkoBot_AsSapfir.Program.Main(String[] args) in C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\Program.cs:line 1151
+2025-09-10 10:45:12.8714 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Переходим в ветку по счету - 62 
+2025-09-10 10:45:12.9094 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Ошибка при обработке счета '62'. Пропускаю этот счёт и перехожу к следующему. System.Runtime.InteropServices.COMException (0x0000026B): The control could not be found by id.
+   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at SAPFEWSELib.ISapSessionTarget.FindById(String Id, Object Raise)
+   at SpravkoBot_AsSapfir.SapfirManager.GuiCheckBox(String id, Boolean status) in C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\Managers\SapfirManager.cs:line 250
+   at SpravkoBot_AsSapfir.Program.Main(String[] args) in C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\Program.cs:line 622
+2025-09-10 10:45:12.9284 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Переходим в ветку по счету - 76 
+2025-09-10 10:45:12.9514 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Ошибка при обработке счета '76'. Пропускаю этот счёт и перехожу к следующему. System.Runtime.InteropServices.COMException (0x0000026B): The control could not be found by id.
+   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at SAPFEWSELib.ISapSessionTarget.FindById(String Id, Object Raise)
+   at SpravkoBot_AsSapfir.SapfirManager.GuiCheckBox(String id, Boolean status) in C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\Managers\SapfirManager.cs:line 250
+   at SpravkoBot_AsSapfir.Program.Main(String[] args) in C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\Program.cs:line 736
+2025-09-10 10:47:00.8363 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *////* 
+2025-09-10 10:47:00.8633 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-09-10 10:47:00.9103 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена. 
+2025-09-10 10:47:00.9103 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-09-10 10:47:00.9103 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2347773+.txt. Начинаю извлечение данных из заявки. 
+2025-09-10 10:47:00.9103 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'organiz.title' не найден. 
+2025-09-10 10:47:00.9193 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'orgfilial.title' не найден. 
+2025-09-10 10:47:00.9193 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'formType.title' не найден. 
+2025-09-10 10:47:00.9193 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'docNumber' не найден. 
+2025-09-10 10:47:00.9193 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'regNumbDoc' не найден. 
+2025-09-10 10:47:00.9193 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'innString' не найден. 
+2025-09-10 10:47:00.9193 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'kppString' не найден. 
+2025-09-10 10:47:00.9193 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Для заявки SD2347773 создана сущность Request. 
+2025-09-10 10:47:00.9193 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-09-10 10:47:00.9193 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-09-10 10:47:00.9193 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2347773 
+2025-09-10 10:47:00.9193 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => Годовая инвентаризация (по всем контрагентам и договорам) 
+2025-09-10 10:47:00.9193 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга => ОЦО Акт сверки РГ 
+2025-09-10 10:47:00.9193 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-09-10 10:47:00.9193 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-09-10 10:47:00.9193 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-09-10 10:47:00.9193 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН =>  
+2025-09-10 10:47:00.9193 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП =>  
+2025-09-10 10:47:00.9193 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер (-а) договора в системе =>  
+2025-09-10 10:47:00.9193 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.01.2025 
+2025-09-10 10:47:00.9193 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-09-10 10:47:00.9193 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-09-10 10:47:00.9193 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Начинаю конвертирование excel файла в csv: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx 
+2025-09-10 10:47:00.9393 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.ConvertToCsv | Начало конвертации файла Excel 'C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx' в CSV. 
+2025-09-10 10:47:01.6479 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.SaveAsCsv | Сохранено как CSV: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.csv. Строк: 5485, столбцов: 11 
+2025-09-10 10:47:01.6589 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.ConvertToCsv | Файл успешно конвертирован в CSV: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.csv 
+2025-09-10 10:47:01.6589 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Выполняю фильтрацию по параметрам из заявки. Type: Годовая инвентаризация (по всем контрагентам и договорам); БЕ:Волжская ГЭС, ИНН:, КПП: 
+2025-09-10 10:47:01.6879 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | [Inventory] Начальный выбор по Branch='Волжская ГЭС': строк=279 
+2025-09-10 10:47:01.6879 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Формирую задачу для подписанта: 90002992 
+2025-09-10 10:47:01.6879 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: ЭДО 
+2025-09-10 10:47:01.6879 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результатов нет — задачу не добавляем. 
+2025-09-10 10:47:01.6879 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: Не ЭДО 
+2025-09-10 10:47:01.6879 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ----Задача для SAP---- 
+2025-09-10 10:47:01.6879 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | BeCode: 1050 
+2025-09-10 10:47:01.6879 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | INN: null, KPP: null 
+2025-09-10 10:47:01.6879 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ContractNumber: [] 
+2025-09-10 10:47:01.6879 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | CounterpartyNumbers: [1000000212, 1000049282, 1000008291, 1000127108, 4000001113, 1000031779, 5000008375, 1000124930, 1000000392, 1000008296, 1000008307, 1000008315, 1000008349, 1000008420, 1000008766, 1000008781, 1000008813, 1000008876, 1000008902, 1000008938, 1000008943, 1000008950, 1000009008, 1000009057, 1000009076, 1000009105, 1000009139, 1000009226, 1000009260, 1000009340, 1000009467, 1000009519, 1000009528, 1000009529, 1000009554, 1000009569, 1000009617, 1000009652, 1000009924, 1000010026, 1000010272, 1000010374, 1000010416, 1000010428, 1000010460, 1000010754, 1000011074, 1000011084, 1000011103, 1000011129, 1000011131, 1000011166, 1000011747, 1000011929, 1000012013, 1000012079, 1000012154, 1000014535, 1000014649, 1000014716, 1000014719, 1000014753, 1000014757, 1000014797, 1000014820, 1000014826, 1000014887, 1000014928, 1000014947, 1000015025, 1000015113, 1000015195, 1000015198, 1000015205, 1000015283, 1000015287, 1000015362, 1000016634, 1000016716, 1000016748, 1000016808, 1000031760, 1000031766, 1000031797, 1000032721, 1000033549, 1000033595, 1000033854, 1000034302, 1000034454, 1000034719, 1000035180, 1000038330, 1000038388, 1000038407, 1000039882, 1000040274, 1000040593, 1000040618, 1000041895, 1000042170, 1000042218, 1000043684, 1000045041, 1000045444, 1000045758, 1000045787, 1000047959, 1000049279, 1000050718, 1000050809, 1000051323, 1000051637, 1000053354, 1000055066, 1000055084, 1000055116, 1000055604, 1000055671, 1000055940, 1000056482, 1000056939, 1000057108, 1000059568, 1000059758, 1000059764, 1000060028, 1000060345, 1000061024, 1000061141, 1000061619, 1000062045, 1000062592, 1000062594, 1000066902, 1000067285, 1000067441, 1000079265, 1000079575, 1000087069, 1000088950, 1000089002, 1000089324, 1000091079, 1000091556, 1000093787, 1000093835, 1000094727, 1000095047, 1000095123, 1000097590, 1000097835, 1000097855, 1000097897, 1000097907, 1000097983, 1000098208, 1000098211, 1000098222, 1000098256, 1000098833, 1000099135, 1000100590, 1000101175, 1000101775, 1000102029, 1000102921, 1000103643, 1000103794, 1000103839, 1000103978, 1000104383, 1000104942, 1000105037, 1000105047, 1000105642, 1000105940, 1000105998, 1000107058, 1000107080, 1000107226, 1000108800, 1000109029, 1000109603, 1000110138, 1000122011, 1000122027, 1000122304, 1000122842, 1000122920, 1000123244, 1000123397, 1000125878, 1000126122, 1000126131, 1000126800, 1000128488, 1000128514, 1000129323, 1000133802, 1000134569, 1000135065, 1000135137, 1000136133, 1000136182, 4000000894, 4000000937, 4000000950, 4000001012, 4000001013, 4000001030, 4000001048, 4000001074, 4000001094, 4000001107, 4000001163, 4000001188, 4000001289, 4000001417, 4000001759, 4000001762, 4000001861, 4000001903, 4000002029, 4000002197, 4000002557, 4000003007, 4000003147, 4000003292, 4000003301, 4000003361, 4000003622, 4000003736, 4000003742, 4000004845, 4000006083, 4000006665, 4000006873, 4000006901, 4000007034, 4000007036, 4000007214, 4000007315, 4000010143, 4000010154, 4000010220, 4000010370, 4000010949] 
+2025-09-10 10:47:01.6879 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | SignatoryNumbers: [90002992] 
+2025-09-10 10:47:01.6879 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | Status: Не ЭДО 
+2025-09-10 10:47:01.6879 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | DateStart: 01.01.2025, DateEnd: 30.06.2025 
+2025-09-10 10:47:01.6879 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | vgo: False 
+2025-09-10 10:47:01.6879 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Формирую задачу для подписанта: 90002916 
+2025-09-10 10:47:01.6879 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: ЭДО 
+2025-09-10 10:47:01.6879 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ----Задача для SAP---- 
+2025-09-10 10:47:01.6879 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | BeCode: 1050 
+2025-09-10 10:47:01.6879 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | INN: null, KPP: null 
+2025-09-10 10:47:01.6879 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ContractNumber: [] 
+2025-09-10 10:47:01.6879 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | CounterpartyNumbers: [1000127089, 1000008293, 1000008300, 1000008313, 1000008314, 1000008590, 1000008665, 1000008824, 1000008941, 1000009148, 1000009829, 1000010583, 1000010595, 1000011017, 1000011228, 1000011575, 1000011754, 1000012084, 1000014569, 1000014634, 1000014717, 1000015004, 1000040511, 1000045292, 1000045301, 1000045328, 1000052730, 1000057163, 1000090692, 1000104844, 1000109647] 
+2025-09-10 10:47:01.6879 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | SignatoryNumbers: [90002916] 
+2025-09-10 10:47:01.6879 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | Status: ЭДО 
+2025-09-10 10:47:01.6879 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | DateStart: 01.01.2025, DateEnd: 30.06.2025 
+2025-09-10 10:47:01.6879 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | vgo: False 
+2025-09-10 10:47:01.6879 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: Не ЭДО 
+2025-09-10 10:47:01.6879 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результатов нет — задачу не добавляем. 
+2025-09-10 10:47:01.6879 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инвентаризация: сформировано задач: 2 
+2025-09-10 10:47:33.1680 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | SAP Logon успешно запущен. 
+2025-09-10 10:47:35.5289 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Сессия SAP успешно получена. 
+2025-09-10 10:47:35.6005 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход в SAP. 
+2025-09-10 10:47:37.6912 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Транзакция ZTSF_AKT_SVERKI успешно запущена. 
+2025-09-10 10:47:37.6912 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход и запущена транзакция ZTSF_AKT_SVERKI 
+2025-09-10 10:47:49.2358 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Переходим в ветку по счету - 60 
+2025-09-10 10:48:20.5505 | WARN | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | По данному контрагенту уже есть сформированные документы. Выполнено повторное формирование. 
+2025-09-10 10:48:31.1544 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Божескова Оксана Михайловна 
+2025-09-10 11:06:09.0169 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Статус SAP: Журнал обновлен 
+2025-09-10 11:10:46.6885 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Нажали на кнопку "Сформировать документы" 
+2025-09-10 13:06:39.1786 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *////* 
+2025-09-10 13:06:39.2116 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-09-10 13:06:39.3952 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена. 
+2025-09-10 13:06:39.3952 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-09-10 13:06:39.3952 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2347773+.txt. Начинаю извлечение данных из заявки. 
+2025-09-10 13:06:39.4002 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'organiz.title' не найден. 
+2025-09-10 13:06:39.4002 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'orgfilial.title' не найден. 
+2025-09-10 13:06:39.4002 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'formType.title' не найден. 
+2025-09-10 13:06:39.4002 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'docNumber' не найден. 
+2025-09-10 13:06:39.4002 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'regNumbDoc' не найден. 
+2025-09-10 13:06:39.4002 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'innString' не найден. 
+2025-09-10 13:06:39.4002 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'kppString' не найден. 
+2025-09-10 13:06:39.4002 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Для заявки SD2347773 создана сущность Request. 
+2025-09-10 13:06:39.4002 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-09-10 13:06:39.4002 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-09-10 13:06:39.4002 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2347773 
+2025-09-10 13:06:39.4002 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => Годовая инвентаризация (по всем контрагентам и договорам) 
+2025-09-10 13:06:39.4002 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга => ОЦО Акт сверки РГ 
+2025-09-10 13:06:39.4002 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-09-10 13:06:39.4002 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-09-10 13:06:39.4002 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-09-10 13:06:39.4002 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН =>  
+2025-09-10 13:06:39.4002 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП =>  
+2025-09-10 13:06:39.4002 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер (-а) договора в системе =>  
+2025-09-10 13:06:39.4002 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.01.2025 
+2025-09-10 13:06:39.4002 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-09-10 13:06:39.4002 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-09-10 13:06:39.4002 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Начинаю конвертирование excel файла в csv: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx 
+2025-09-10 13:06:39.4712 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.ConvertToCsv | Начало конвертации файла Excel 'C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx' в CSV. 
+2025-09-10 13:06:40.3951 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.SaveAsCsv | Сохранено как CSV: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.csv. Строк: 5485, столбцов: 11 
+2025-09-10 13:06:40.4071 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.ConvertToCsv | Файл успешно конвертирован в CSV: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.csv 
+2025-09-10 13:06:40.4071 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Выполняю фильтрацию по параметрам из заявки. Type: Годовая инвентаризация (по всем контрагентам и договорам); БЕ:Волжская ГЭС, ИНН:, КПП: 
+2025-09-10 13:06:40.4371 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | [Inventory] Начальный выбор по Branch='Волжская ГЭС': строк=279 
+2025-09-10 13:06:40.4371 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Формирую задачу для подписанта: 90002992 
+2025-09-10 13:06:40.4371 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: ЭДО 
+2025-09-10 13:06:40.4371 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результатов нет — задачу не добавляем. 
+2025-09-10 13:06:40.4371 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: Не ЭДО 
+2025-09-10 13:06:40.4371 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ----Задача для SAP---- 
+2025-09-10 13:06:40.4371 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | BeCode: 1050 
+2025-09-10 13:06:40.4371 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | INN: null, KPP: null 
+2025-09-10 13:06:40.4371 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ContractNumber: [] 
+2025-09-10 13:06:40.4371 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | CounterpartyNumbers: [1000000212, 1000049282, 1000008291, 1000127108, 4000001113, 1000031779, 5000008375, 1000124930, 1000000392, 1000008296, 1000008307, 1000008315, 1000008349, 1000008420, 1000008766, 1000008781, 1000008813, 1000008876, 1000008902, 1000008938, 1000008943, 1000008950, 1000009008, 1000009057, 1000009076, 1000009105, 1000009139, 1000009226, 1000009260, 1000009340, 1000009467, 1000009519, 1000009528, 1000009529, 1000009554, 1000009569, 1000009617, 1000009652, 1000009924, 1000010026, 1000010272, 1000010374, 1000010416, 1000010428, 1000010460, 1000010754, 1000011074, 1000011084, 1000011103, 1000011129, 1000011131, 1000011166, 1000011747, 1000011929, 1000012013, 1000012079, 1000012154, 1000014535, 1000014649, 1000014716, 1000014719, 1000014753, 1000014757, 1000014797, 1000014820, 1000014826, 1000014887, 1000014928, 1000014947, 1000015025, 1000015113, 1000015195, 1000015198, 1000015205, 1000015283, 1000015287, 1000015362, 1000016634, 1000016716, 1000016748, 1000016808, 1000031760, 1000031766, 1000031797, 1000032721, 1000033549, 1000033595, 1000033854, 1000034302, 1000034454, 1000034719, 1000035180, 1000038330, 1000038388, 1000038407, 1000039882, 1000040274, 1000040593, 1000040618, 1000041895, 1000042170, 1000042218, 1000043684, 1000045041, 1000045444, 1000045758, 1000045787, 1000047959, 1000049279, 1000050718, 1000050809, 1000051323, 1000051637, 1000053354, 1000055066, 1000055084, 1000055116, 1000055604, 1000055671, 1000055940, 1000056482, 1000056939, 1000057108, 1000059568, 1000059758, 1000059764, 1000060028, 1000060345, 1000061024, 1000061141, 1000061619, 1000062045, 1000062592, 1000062594, 1000066902, 1000067285, 1000067441, 1000079265, 1000079575, 1000087069, 1000088950, 1000089002, 1000089324, 1000091079, 1000091556, 1000093787, 1000093835, 1000094727, 1000095047, 1000095123, 1000097590, 1000097835, 1000097855, 1000097897, 1000097907, 1000097983, 1000098208, 1000098211, 1000098222, 1000098256, 1000098833, 1000099135, 1000100590, 1000101175, 1000101775, 1000102029, 1000102921, 1000103643, 1000103794, 1000103839, 1000103978, 1000104383, 1000104942, 1000105037, 1000105047, 1000105642, 1000105940, 1000105998, 1000107058, 1000107080, 1000107226, 1000108800, 1000109029, 1000109603, 1000110138, 1000122011, 1000122027, 1000122304, 1000122842, 1000122920, 1000123244, 1000123397, 1000125878, 1000126122, 1000126131, 1000126800, 1000128488, 1000128514, 1000129323, 1000133802, 1000134569, 1000135065, 1000135137, 1000136133, 1000136182, 4000000894, 4000000937, 4000000950, 4000001012, 4000001013, 4000001030, 4000001048, 4000001074, 4000001094, 4000001107, 4000001163, 4000001188, 4000001289, 4000001417, 4000001759, 4000001762, 4000001861, 4000001903, 4000002029, 4000002197, 4000002557, 4000003007, 4000003147, 4000003292, 4000003301, 4000003361, 4000003622, 4000003736, 4000003742, 4000004845, 4000006083, 4000006665, 4000006873, 4000006901, 4000007034, 4000007036, 4000007214, 4000007315, 4000010143, 4000010154, 4000010220, 4000010370, 4000010949] 
+2025-09-10 13:06:40.4371 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | SignatoryNumbers: [90002992] 
+2025-09-10 13:06:40.4371 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | Status: Не ЭДО 
+2025-09-10 13:06:40.4371 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | DateStart: 01.01.2025, DateEnd: 30.06.2025 
+2025-09-10 13:06:40.4371 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | vgo: False 
+2025-09-10 13:06:40.4371 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Формирую задачу для подписанта: 90002916 
+2025-09-10 13:06:40.4371 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: ЭДО 
+2025-09-10 13:06:40.4371 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ----Задача для SAP---- 
+2025-09-10 13:06:40.4371 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | BeCode: 1050 
+2025-09-10 13:06:40.4371 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | INN: null, KPP: null 
+2025-09-10 13:06:40.4371 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ContractNumber: [] 
+2025-09-10 13:06:40.4371 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | CounterpartyNumbers: [1000127089, 1000008293, 1000008300, 1000008313, 1000008314, 1000008590, 1000008665, 1000008824, 1000008941, 1000009148, 1000009829, 1000010583, 1000010595, 1000011017, 1000011228, 1000011575, 1000011754, 1000012084, 1000014569, 1000014634, 1000014717, 1000015004, 1000040511, 1000045292, 1000045301, 1000045328, 1000052730, 1000057163, 1000090692, 1000104844, 1000109647] 
+2025-09-10 13:06:40.4371 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | SignatoryNumbers: [90002916] 
+2025-09-10 13:06:40.4371 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | Status: ЭДО 
+2025-09-10 13:06:40.4371 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | DateStart: 01.01.2025, DateEnd: 30.06.2025 
+2025-09-10 13:06:40.4371 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | vgo: False 
+2025-09-10 13:06:40.4371 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: Не ЭДО 
+2025-09-10 13:06:40.4371 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результатов нет — задачу не добавляем. 
+2025-09-10 13:06:40.4371 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инвентаризация: сформировано задач: 2 
+2025-09-10 13:06:46.9511 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | SAP Logon успешно запущен. 
+2025-09-10 13:06:49.9602 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Сессия SAP успешно получена. 
+2025-09-10 13:06:50.0242 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход в SAP. 
+2025-09-10 13:06:52.1914 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Транзакция ZTSF_AKT_SVERKI успешно запущена. 
+2025-09-10 13:06:52.1914 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход и запущена транзакция ZTSF_AKT_SVERKI 
+2025-09-10 13:07:03.8846 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Переходим в ветку по счету - 60 
+2025-09-10 13:07:33.2772 | WARN | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | По данному контрагенту уже есть сформированные документы. Выполнено повторное формирование. 
+2025-09-10 13:07:43.9771 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Божескова Оксана Михайловна 
+2025-09-10 13:24:22.5019 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Статус SAP: Журнал обновлен 
+2025-09-10 13:24:31.8845 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Файл ошибок сохранён: C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\bin\Debug\data\requests\temp\errorsAC_1050_60_Не ЭДО.xls. Фраза 'Список не содержит данных' не найдена. 
+2025-09-10 13:24:34.4277 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Нажали на кнопку "Сформировать документы" 
+2025-09-10 13:24:35.6301 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Элемент найден. Нажата клавиша Enter. 
+2025-09-10 13:31:11.2591 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *////* 
+2025-09-10 13:31:11.2871 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-09-10 13:31:11.3271 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена. 
+2025-09-10 13:31:11.3271 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-09-10 13:31:11.3271 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2347773+.txt. Начинаю извлечение данных из заявки. 
+2025-09-10 13:31:11.3271 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'organiz.title' не найден. 
+2025-09-10 13:31:11.3271 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'orgfilial.title' не найден. 
+2025-09-10 13:31:11.3271 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'formType.title' не найден. 
+2025-09-10 13:31:11.3271 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'docNumber' не найден. 
+2025-09-10 13:31:11.3271 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'regNumbDoc' не найден. 
+2025-09-10 13:31:11.3271 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'innString' не найден. 
+2025-09-10 13:31:11.3271 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'kppString' не найден. 
+2025-09-10 13:31:11.3271 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Для заявки SD2347773 создана сущность Request. 
+2025-09-10 13:31:11.3271 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-09-10 13:31:11.3271 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-09-10 13:31:11.3271 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2347773 
+2025-09-10 13:31:11.3271 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => Годовая инвентаризация (по всем контрагентам и договорам) 
+2025-09-10 13:31:11.3271 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга => ОЦО Акт сверки РГ 
+2025-09-10 13:31:11.3271 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-09-10 13:31:11.3271 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-09-10 13:31:11.3271 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-09-10 13:31:11.3271 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН =>  
+2025-09-10 13:31:11.3271 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП =>  
+2025-09-10 13:31:11.3271 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер (-а) договора в системе =>  
+2025-09-10 13:31:11.3271 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.01.2025 
+2025-09-10 13:31:11.3271 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-09-10 13:31:11.3271 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-09-10 13:31:11.3271 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Начинаю конвертирование excel файла в csv: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx 
+2025-09-10 13:31:11.3541 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.ConvertToCsv | Начало конвертации файла Excel 'C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx' в CSV. 
+2025-09-10 13:31:12.0704 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.SaveAsCsv | Сохранено как CSV: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.csv. Строк: 5485, столбцов: 11 
+2025-09-10 13:31:12.0824 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.ConvertToCsv | Файл успешно конвертирован в CSV: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.csv 
+2025-09-10 13:31:12.0824 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Выполняю фильтрацию по параметрам из заявки. Type: Годовая инвентаризация (по всем контрагентам и договорам); БЕ:Волжская ГЭС, ИНН:, КПП: 
+2025-09-10 13:31:12.1184 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | [Inventory] Начальный выбор по Branch='Волжская ГЭС': строк=279 
+2025-09-10 13:31:12.1184 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Формирую задачу для подписанта: 90002992 
+2025-09-10 13:31:12.1184 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: ЭДО 
+2025-09-10 13:31:12.1184 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результатов нет — задачу не добавляем. 
+2025-09-10 13:31:12.1184 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: Не ЭДО 
+2025-09-10 13:31:12.1224 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ----Задача для SAP---- 
+2025-09-10 13:31:12.1224 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | BeCode: 1050 
+2025-09-10 13:31:12.1224 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | INN: null, KPP: null 
+2025-09-10 13:31:12.1224 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ContractNumber: [] 
+2025-09-10 13:31:12.1224 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | CounterpartyNumbers: [1000000212, 1000049282, 1000008291, 1000127108, 4000001113, 1000031779, 5000008375, 1000124930, 1000000392, 1000008296, 1000008307, 1000008315, 1000008349, 1000008420, 1000008766, 1000008781, 1000008813, 1000008876, 1000008902, 1000008938, 1000008943, 1000008950, 1000009008, 1000009057, 1000009076, 1000009105, 1000009139, 1000009226, 1000009260, 1000009340, 1000009467, 1000009519, 1000009528, 1000009529, 1000009554, 1000009569, 1000009617, 1000009652, 1000009924, 1000010026, 1000010272, 1000010374, 1000010416, 1000010428, 1000010460, 1000010754, 1000011074, 1000011084, 1000011103, 1000011129, 1000011131, 1000011166, 1000011747, 1000011929, 1000012013, 1000012079, 1000012154, 1000014535, 1000014649, 1000014716, 1000014719, 1000014753, 1000014757, 1000014797, 1000014820, 1000014826, 1000014887, 1000014928, 1000014947, 1000015025, 1000015113, 1000015195, 1000015198, 1000015205, 1000015283, 1000015287, 1000015362, 1000016634, 1000016716, 1000016748, 1000016808, 1000031760, 1000031766, 1000031797, 1000032721, 1000033549, 1000033595, 1000033854, 1000034302, 1000034454, 1000034719, 1000035180, 1000038330, 1000038388, 1000038407, 1000039882, 1000040274, 1000040593, 1000040618, 1000041895, 1000042170, 1000042218, 1000043684, 1000045041, 1000045444, 1000045758, 1000045787, 1000047959, 1000049279, 1000050718, 1000050809, 1000051323, 1000051637, 1000053354, 1000055066, 1000055084, 1000055116, 1000055604, 1000055671, 1000055940, 1000056482, 1000056939, 1000057108, 1000059568, 1000059758, 1000059764, 1000060028, 1000060345, 1000061024, 1000061141, 1000061619, 1000062045, 1000062592, 1000062594, 1000066902, 1000067285, 1000067441, 1000079265, 1000079575, 1000087069, 1000088950, 1000089002, 1000089324, 1000091079, 1000091556, 1000093787, 1000093835, 1000094727, 1000095047, 1000095123, 1000097590, 1000097835, 1000097855, 1000097897, 1000097907, 1000097983, 1000098208, 1000098211, 1000098222, 1000098256, 1000098833, 1000099135, 1000100590, 1000101175, 1000101775, 1000102029, 1000102921, 1000103643, 1000103794, 1000103839, 1000103978, 1000104383, 1000104942, 1000105037, 1000105047, 1000105642, 1000105940, 1000105998, 1000107058, 1000107080, 1000107226, 1000108800, 1000109029, 1000109603, 1000110138, 1000122011, 1000122027, 1000122304, 1000122842, 1000122920, 1000123244, 1000123397, 1000125878, 1000126122, 1000126131, 1000126800, 1000128488, 1000128514, 1000129323, 1000133802, 1000134569, 1000135065, 1000135137, 1000136133, 1000136182, 4000000894, 4000000937, 4000000950, 4000001012, 4000001013, 4000001030, 4000001048, 4000001074, 4000001094, 4000001107, 4000001163, 4000001188, 4000001289, 4000001417, 4000001759, 4000001762, 4000001861, 4000001903, 4000002029, 4000002197, 4000002557, 4000003007, 4000003147, 4000003292, 4000003301, 4000003361, 4000003622, 4000003736, 4000003742, 4000004845, 4000006083, 4000006665, 4000006873, 4000006901, 4000007034, 4000007036, 4000007214, 4000007315, 4000010143, 4000010154, 4000010220, 4000010370, 4000010949] 
+2025-09-10 13:31:12.1224 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | SignatoryNumbers: [90002992] 
+2025-09-10 13:31:12.1224 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | Status: Не ЭДО 
+2025-09-10 13:31:12.1224 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | DateStart: 01.01.2025, DateEnd: 30.06.2025 
+2025-09-10 13:31:12.1224 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | vgo: False 
+2025-09-10 13:31:12.1224 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Формирую задачу для подписанта: 90002916 
+2025-09-10 13:31:12.1224 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: ЭДО 
+2025-09-10 13:31:12.1224 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ----Задача для SAP---- 
+2025-09-10 13:31:12.1224 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | BeCode: 1050 
+2025-09-10 13:31:12.1224 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | INN: null, KPP: null 
+2025-09-10 13:31:12.1224 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ContractNumber: [] 
+2025-09-10 13:31:12.1224 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | CounterpartyNumbers: [1000127089, 1000008293, 1000008300, 1000008313, 1000008314, 1000008590, 1000008665, 1000008824, 1000008941, 1000009148, 1000009829, 1000010583, 1000010595, 1000011017, 1000011228, 1000011575, 1000011754, 1000012084, 1000014569, 1000014634, 1000014717, 1000015004, 1000040511, 1000045292, 1000045301, 1000045328, 1000052730, 1000057163, 1000090692, 1000104844, 1000109647] 
+2025-09-10 13:31:12.1224 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | SignatoryNumbers: [90002916] 
+2025-09-10 13:31:12.1224 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | Status: ЭДО 
+2025-09-10 13:31:12.1224 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | DateStart: 01.01.2025, DateEnd: 30.06.2025 
+2025-09-10 13:31:12.1224 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | vgo: False 
+2025-09-10 13:31:12.1224 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: Не ЭДО 
+2025-09-10 13:31:12.1224 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результатов нет — задачу не добавляем. 
+2025-09-10 13:31:12.1224 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инвентаризация: сформировано задач: 2 
+2025-09-10 13:31:18.5514 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | SAP Logon успешно запущен. 
+2025-09-10 13:31:20.5124 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Сессия SAP успешно получена. 
+2025-09-10 13:31:20.5980 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход в SAP. 
+2025-09-10 13:31:22.6818 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Транзакция ZTSF_AKT_SVERKI успешно запущена. 
+2025-09-10 13:31:22.6818 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход и запущена транзакция ZTSF_AKT_SVERKI 
+2025-09-10 13:31:34.2276 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Переходим в ветку по счету - 60 
+2025-09-10 13:32:04.9490 | WARN | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | По данному контрагенту уже есть сформированные документы. Выполнено повторное формирование. 
+2025-09-10 13:32:15.4127 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Божескова Оксана Михайловна 
+2025-09-10 13:48:39.2489 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Статус SAP: Журнал обновлен 
+2025-09-10 13:48:48.7028 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Файл ошибок сохранён: C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\bin\Debug\data\requests\temp\errorsAC_1050_60_Не ЭДО.xls. Фраза 'Список не содержит данных' не найдена. 
+2025-09-10 13:48:51.1538 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Нажали на кнопку "Сформировать документы" 
+2025-09-10 13:48:52.1908 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Элемент найден. Нажата клавиша Enter. 
+2025-09-10 13:51:16.4583 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *////* 
+2025-09-10 13:51:16.4863 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-09-10 13:51:16.5263 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена. 
+2025-09-10 13:51:16.5263 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-09-10 13:51:16.5263 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2347773+.txt. Начинаю извлечение данных из заявки. 
+2025-09-10 13:51:16.5263 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'organiz.title' не найден. 
+2025-09-10 13:51:16.5353 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'orgfilial.title' не найден. 
+2025-09-10 13:51:16.5353 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'formType.title' не найден. 
+2025-09-10 13:51:16.5353 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'docNumber' не найден. 
+2025-09-10 13:51:16.5353 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'regNumbDoc' не найден. 
+2025-09-10 13:51:16.5353 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'innString' не найден. 
+2025-09-10 13:51:16.5353 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'kppString' не найден. 
+2025-09-10 13:51:16.5353 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Для заявки SD2347773 создана сущность Request. 
+2025-09-10 13:51:16.5353 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-09-10 13:51:16.5353 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-09-10 13:51:16.5353 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2347773 
+2025-09-10 13:51:16.5353 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => Годовая инвентаризация (по всем контрагентам и договорам) 
+2025-09-10 13:51:16.5353 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга => ОЦО Акт сверки РГ 
+2025-09-10 13:51:16.5353 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-09-10 13:51:16.5353 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-09-10 13:51:16.5353 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-09-10 13:51:16.5353 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН =>  
+2025-09-10 13:51:16.5353 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП =>  
+2025-09-10 13:51:16.5353 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер (-а) договора в системе =>  
+2025-09-10 13:51:16.5353 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.01.2025 
+2025-09-10 13:51:16.5353 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-09-10 13:51:16.5353 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-09-10 13:51:16.5353 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Начинаю конвертирование excel файла в csv: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx 
+2025-09-10 13:51:16.5799 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.ConvertToCsv | Начало конвертации файла Excel 'C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx' в CSV. 
+2025-09-10 13:51:17.2950 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.SaveAsCsv | Сохранено как CSV: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.csv. Строк: 5485, столбцов: 11 
+2025-09-10 13:51:17.3060 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.ConvertToCsv | Файл успешно конвертирован в CSV: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.csv 
+2025-09-10 13:51:17.3060 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Выполняю фильтрацию по параметрам из заявки. Type: Годовая инвентаризация (по всем контрагентам и договорам); БЕ:Волжская ГЭС, ИНН:, КПП: 
+2025-09-10 13:51:17.3350 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | [Inventory] Начальный выбор по Branch='Волжская ГЭС': строк=279 
+2025-09-10 13:51:17.3350 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Формирую задачу для подписанта: 90002992 
+2025-09-10 13:51:17.3350 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: ЭДО 
+2025-09-10 13:51:17.3350 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результатов нет — задачу не добавляем. 
+2025-09-10 13:51:17.3350 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: Не ЭДО 
+2025-09-10 13:51:17.3350 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ----Задача для SAP---- 
+2025-09-10 13:51:17.3350 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | BeCode: 1050 
+2025-09-10 13:51:17.3350 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | INN: null, KPP: null 
+2025-09-10 13:51:17.3350 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ContractNumber: [] 
+2025-09-10 13:51:17.3350 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | CounterpartyNumbers: [1000000212, 1000049282, 1000008291, 1000127108, 4000001113, 1000031779, 5000008375, 1000124930, 1000000392, 1000008296, 1000008307, 1000008315, 1000008349, 1000008420, 1000008766, 1000008781, 1000008813, 1000008876, 1000008902, 1000008938, 1000008943, 1000008950, 1000009008, 1000009057, 1000009076, 1000009105, 1000009139, 1000009226, 1000009260, 1000009340, 1000009467, 1000009519, 1000009528, 1000009529, 1000009554, 1000009569, 1000009617, 1000009652, 1000009924, 1000010026, 1000010272, 1000010374, 1000010416, 1000010428, 1000010460, 1000010754, 1000011074, 1000011084, 1000011103, 1000011129, 1000011131, 1000011166, 1000011747, 1000011929, 1000012013, 1000012079, 1000012154, 1000014535, 1000014649, 1000014716, 1000014719, 1000014753, 1000014757, 1000014797, 1000014820, 1000014826, 1000014887, 1000014928, 1000014947, 1000015025, 1000015113, 1000015195, 1000015198, 1000015205, 1000015283, 1000015287, 1000015362, 1000016634, 1000016716, 1000016748, 1000016808, 1000031760, 1000031766, 1000031797, 1000032721, 1000033549, 1000033595, 1000033854, 1000034302, 1000034454, 1000034719, 1000035180, 1000038330, 1000038388, 1000038407, 1000039882, 1000040274, 1000040593, 1000040618, 1000041895, 1000042170, 1000042218, 1000043684, 1000045041, 1000045444, 1000045758, 1000045787, 1000047959, 1000049279, 1000050718, 1000050809, 1000051323, 1000051637, 1000053354, 1000055066, 1000055084, 1000055116, 1000055604, 1000055671, 1000055940, 1000056482, 1000056939, 1000057108, 1000059568, 1000059758, 1000059764, 1000060028, 1000060345, 1000061024, 1000061141, 1000061619, 1000062045, 1000062592, 1000062594, 1000066902, 1000067285, 1000067441, 1000079265, 1000079575, 1000087069, 1000088950, 1000089002, 1000089324, 1000091079, 1000091556, 1000093787, 1000093835, 1000094727, 1000095047, 1000095123, 1000097590, 1000097835, 1000097855, 1000097897, 1000097907, 1000097983, 1000098208, 1000098211, 1000098222, 1000098256, 1000098833, 1000099135, 1000100590, 1000101175, 1000101775, 1000102029, 1000102921, 1000103643, 1000103794, 1000103839, 1000103978, 1000104383, 1000104942, 1000105037, 1000105047, 1000105642, 1000105940, 1000105998, 1000107058, 1000107080, 1000107226, 1000108800, 1000109029, 1000109603, 1000110138, 1000122011, 1000122027, 1000122304, 1000122842, 1000122920, 1000123244, 1000123397, 1000125878, 1000126122, 1000126131, 1000126800, 1000128488, 1000128514, 1000129323, 1000133802, 1000134569, 1000135065, 1000135137, 1000136133, 1000136182, 4000000894, 4000000937, 4000000950, 4000001012, 4000001013, 4000001030, 4000001048, 4000001074, 4000001094, 4000001107, 4000001163, 4000001188, 4000001289, 4000001417, 4000001759, 4000001762, 4000001861, 4000001903, 4000002029, 4000002197, 4000002557, 4000003007, 4000003147, 4000003292, 4000003301, 4000003361, 4000003622, 4000003736, 4000003742, 4000004845, 4000006083, 4000006665, 4000006873, 4000006901, 4000007034, 4000007036, 4000007214, 4000007315, 4000010143, 4000010154, 4000010220, 4000010370, 4000010949] 
+2025-09-10 13:51:17.3350 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | SignatoryNumbers: [90002992] 
+2025-09-10 13:51:17.3350 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | Status: Не ЭДО 
+2025-09-10 13:51:17.3350 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | DateStart: 01.01.2025, DateEnd: 30.06.2025 
+2025-09-10 13:51:17.3350 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | vgo: False 
+2025-09-10 13:51:17.3350 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Формирую задачу для подписанта: 90002916 
+2025-09-10 13:51:17.3350 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: ЭДО 
+2025-09-10 13:51:17.3350 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ----Задача для SAP---- 
+2025-09-10 13:51:17.3350 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | BeCode: 1050 
+2025-09-10 13:51:17.3350 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | INN: null, KPP: null 
+2025-09-10 13:51:17.3350 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ContractNumber: [] 
+2025-09-10 13:51:17.3350 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | CounterpartyNumbers: [1000127089, 1000008293, 1000008300, 1000008313, 1000008314, 1000008590, 1000008665, 1000008824, 1000008941, 1000009148, 1000009829, 1000010583, 1000010595, 1000011017, 1000011228, 1000011575, 1000011754, 1000012084, 1000014569, 1000014634, 1000014717, 1000015004, 1000040511, 1000045292, 1000045301, 1000045328, 1000052730, 1000057163, 1000090692, 1000104844, 1000109647] 
+2025-09-10 13:51:17.3350 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | SignatoryNumbers: [90002916] 
+2025-09-10 13:51:17.3350 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | Status: ЭДО 
+2025-09-10 13:51:17.3350 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | DateStart: 01.01.2025, DateEnd: 30.06.2025 
+2025-09-10 13:51:17.3350 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | vgo: False 
+2025-09-10 13:51:17.3350 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: Не ЭДО 
+2025-09-10 13:51:17.3350 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результатов нет — задачу не добавляем. 
+2025-09-10 13:51:17.3350 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инвентаризация: сформировано задач: 2 
+2025-09-10 13:51:23.7546 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | SAP Logon успешно запущен. 
+2025-09-10 13:51:25.5532 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Сессия SAP успешно получена. 
+2025-09-10 13:51:25.6242 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход в SAP. 
+2025-09-10 13:51:27.7244 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Транзакция ZTSF_AKT_SVERKI успешно запущена. 
+2025-09-10 13:51:27.7244 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход и запущена транзакция ZTSF_AKT_SVERKI 
+2025-09-10 13:51:39.2948 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Переходим в ветку по счету - 60 
+2025-09-10 13:52:08.5893 | WARN | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | По данному контрагенту уже есть сформированные документы. Выполнено повторное формирование. 
+2025-09-10 13:52:18.4275 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Божескова Оксана Михайловна 
+2025-09-10 14:09:53.1050 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Статус SAP: Журнал обновлен 
+2025-09-10 14:10:03.3336 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Файл ошибок сохранён: C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\bin\Debug\data\requests\temp\errorsAC_1050_60_Не ЭДО.xls. Фраза 'Список не содержит данных' не найдена. 
+2025-09-10 14:10:06.2714 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Нажали на кнопку "Сформировать документы" 
+2025-09-10 14:10:07.2824 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Элемент найден. Нажата клавиша Enter. 
+2025-09-10 14:11:16.7371 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *////* 
+2025-09-10 14:11:16.7641 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-09-10 14:11:16.8101 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена. 
+2025-09-10 14:11:16.8101 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-09-10 14:11:16.8101 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2347773+.txt. Начинаю извлечение данных из заявки. 
+2025-09-10 14:11:16.8101 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'organiz.title' не найден. 
+2025-09-10 14:11:16.8101 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'orgfilial.title' не найден. 
+2025-09-10 14:11:16.8101 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'formType.title' не найден. 
+2025-09-10 14:11:16.8101 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'docNumber' не найден. 
+2025-09-10 14:11:16.8101 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'regNumbDoc' не найден. 
+2025-09-10 14:11:16.8101 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'innString' не найден. 
+2025-09-10 14:11:16.8101 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'kppString' не найден. 
+2025-09-10 14:11:16.8101 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Для заявки SD2347773 создана сущность Request. 
+2025-09-10 14:11:16.8101 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-09-10 14:11:16.8101 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-09-10 14:11:16.8101 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2347773 
+2025-09-10 14:11:16.8101 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => Годовая инвентаризация (по всем контрагентам и договорам) 
+2025-09-10 14:11:16.8101 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга => ОЦО Акт сверки РГ 
+2025-09-10 14:11:16.8101 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-09-10 14:11:16.8101 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-09-10 14:11:16.8101 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-09-10 14:11:16.8101 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН =>  
+2025-09-10 14:11:16.8101 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП =>  
+2025-09-10 14:11:16.8101 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер (-а) договора в системе =>  
+2025-09-10 14:11:16.8211 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.01.2025 
+2025-09-10 14:11:16.8211 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-09-10 14:11:16.8211 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-09-10 14:11:16.8211 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Начинаю конвертирование excel файла в csv: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx 
+2025-09-10 14:11:16.8211 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.ConvertToCsv | Начало конвертации файла Excel 'C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx' в CSV. 
+2025-09-10 14:11:17.4912 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.SaveAsCsv | Сохранено как CSV: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.csv. Строк: 5485, столбцов: 11 
+2025-09-10 14:11:17.5022 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.ConvertToCsv | Файл успешно конвертирован в CSV: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.csv 
+2025-09-10 14:11:17.5022 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Выполняю фильтрацию по параметрам из заявки. Type: Годовая инвентаризация (по всем контрагентам и договорам); БЕ:Волжская ГЭС, ИНН:, КПП: 
+2025-09-10 14:11:17.5302 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | [Inventory] Начальный выбор по Branch='Волжская ГЭС': строк=279 
+2025-09-10 14:11:17.5302 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Формирую задачу для подписанта: 90002992 
+2025-09-10 14:11:17.5302 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: ЭДО 
+2025-09-10 14:11:17.5302 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результатов нет — задачу не добавляем. 
+2025-09-10 14:11:17.5302 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: Не ЭДО 
+2025-09-10 14:11:17.5302 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ----Задача для SAP---- 
+2025-09-10 14:11:17.5302 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | BeCode: 1050 
+2025-09-10 14:11:17.5302 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | INN: null, KPP: null 
+2025-09-10 14:11:17.5302 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ContractNumber: [] 
+2025-09-10 14:11:17.5302 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | CounterpartyNumbers: [1000000212, 1000049282, 1000008291, 1000127108, 4000001113, 1000031779, 5000008375, 1000124930, 1000000392, 1000008296, 1000008307, 1000008315, 1000008349, 1000008420, 1000008766, 1000008781, 1000008813, 1000008876, 1000008902, 1000008938, 1000008943, 1000008950, 1000009008, 1000009057, 1000009076, 1000009105, 1000009139, 1000009226, 1000009260, 1000009340, 1000009467, 1000009519, 1000009528, 1000009529, 1000009554, 1000009569, 1000009617, 1000009652, 1000009924, 1000010026, 1000010272, 1000010374, 1000010416, 1000010428, 1000010460, 1000010754, 1000011074, 1000011084, 1000011103, 1000011129, 1000011131, 1000011166, 1000011747, 1000011929, 1000012013, 1000012079, 1000012154, 1000014535, 1000014649, 1000014716, 1000014719, 1000014753, 1000014757, 1000014797, 1000014820, 1000014826, 1000014887, 1000014928, 1000014947, 1000015025, 1000015113, 1000015195, 1000015198, 1000015205, 1000015283, 1000015287, 1000015362, 1000016634, 1000016716, 1000016748, 1000016808, 1000031760, 1000031766, 1000031797, 1000032721, 1000033549, 1000033595, 1000033854, 1000034302, 1000034454, 1000034719, 1000035180, 1000038330, 1000038388, 1000038407, 1000039882, 1000040274, 1000040593, 1000040618, 1000041895, 1000042170, 1000042218, 1000043684, 1000045041, 1000045444, 1000045758, 1000045787, 1000047959, 1000049279, 1000050718, 1000050809, 1000051323, 1000051637, 1000053354, 1000055066, 1000055084, 1000055116, 1000055604, 1000055671, 1000055940, 1000056482, 1000056939, 1000057108, 1000059568, 1000059758, 1000059764, 1000060028, 1000060345, 1000061024, 1000061141, 1000061619, 1000062045, 1000062592, 1000062594, 1000066902, 1000067285, 1000067441, 1000079265, 1000079575, 1000087069, 1000088950, 1000089002, 1000089324, 1000091079, 1000091556, 1000093787, 1000093835, 1000094727, 1000095047, 1000095123, 1000097590, 1000097835, 1000097855, 1000097897, 1000097907, 1000097983, 1000098208, 1000098211, 1000098222, 1000098256, 1000098833, 1000099135, 1000100590, 1000101175, 1000101775, 1000102029, 1000102921, 1000103643, 1000103794, 1000103839, 1000103978, 1000104383, 1000104942, 1000105037, 1000105047, 1000105642, 1000105940, 1000105998, 1000107058, 1000107080, 1000107226, 1000108800, 1000109029, 1000109603, 1000110138, 1000122011, 1000122027, 1000122304, 1000122842, 1000122920, 1000123244, 1000123397, 1000125878, 1000126122, 1000126131, 1000126800, 1000128488, 1000128514, 1000129323, 1000133802, 1000134569, 1000135065, 1000135137, 1000136133, 1000136182, 4000000894, 4000000937, 4000000950, 4000001012, 4000001013, 4000001030, 4000001048, 4000001074, 4000001094, 4000001107, 4000001163, 4000001188, 4000001289, 4000001417, 4000001759, 4000001762, 4000001861, 4000001903, 4000002029, 4000002197, 4000002557, 4000003007, 4000003147, 4000003292, 4000003301, 4000003361, 4000003622, 4000003736, 4000003742, 4000004845, 4000006083, 4000006665, 4000006873, 4000006901, 4000007034, 4000007036, 4000007214, 4000007315, 4000010143, 4000010154, 4000010220, 4000010370, 4000010949] 
+2025-09-10 14:11:17.5302 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | SignatoryNumbers: [90002992] 
+2025-09-10 14:11:17.5302 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | Status: Не ЭДО 
+2025-09-10 14:11:17.5302 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | DateStart: 01.01.2025, DateEnd: 30.06.2025 
+2025-09-10 14:11:17.5302 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | vgo: False 
+2025-09-10 14:11:17.5302 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Формирую задачу для подписанта: 90002916 
+2025-09-10 14:11:17.5302 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: ЭДО 
+2025-09-10 14:11:17.5302 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ----Задача для SAP---- 
+2025-09-10 14:11:17.5302 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | BeCode: 1050 
+2025-09-10 14:11:17.5302 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | INN: null, KPP: null 
+2025-09-10 14:11:17.5302 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ContractNumber: [] 
+2025-09-10 14:11:17.5302 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | CounterpartyNumbers: [1000127089, 1000008293, 1000008300, 1000008313, 1000008314, 1000008590, 1000008665, 1000008824, 1000008941, 1000009148, 1000009829, 1000010583, 1000010595, 1000011017, 1000011228, 1000011575, 1000011754, 1000012084, 1000014569, 1000014634, 1000014717, 1000015004, 1000040511, 1000045292, 1000045301, 1000045328, 1000052730, 1000057163, 1000090692, 1000104844, 1000109647] 
+2025-09-10 14:11:17.5302 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | SignatoryNumbers: [90002916] 
+2025-09-10 14:11:17.5302 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | Status: ЭДО 
+2025-09-10 14:11:17.5302 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | DateStart: 01.01.2025, DateEnd: 30.06.2025 
+2025-09-10 14:11:17.5302 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | vgo: False 
+2025-09-10 14:11:17.5302 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: Не ЭДО 
+2025-09-10 14:11:17.5302 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результатов нет — задачу не добавляем. 
+2025-09-10 14:11:17.5302 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инвентаризация: сформировано задач: 2 
+2025-09-10 14:11:19.6905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | SAP Logon успешно запущен. 
+2025-09-10 14:11:20.8769 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Сессия SAP успешно получена. 
+2025-09-10 14:11:21.5249 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход в SAP. 
+2025-09-10 14:11:23.6222 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Транзакция ZTSF_AKT_SVERKI успешно запущена. 
+2025-09-10 14:11:23.6222 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход и запущена транзакция ZTSF_AKT_SVERKI 
+2025-09-10 14:11:35.2152 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Переходим в ветку по счету - 60 
+2025-09-10 14:12:05.4232 | WARN | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | По данному контрагенту уже есть сформированные документы. Выполнено повторное формирование. 
+2025-09-10 14:12:15.4694 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Божескова Оксана Михайловна 
+2025-09-10 14:30:52.8876 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Статус SAP: Журнал обновлен 
+2025-09-10 14:31:02.4967 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Файл ошибок сохранён: C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\bin\Debug\data\requests\temp\errorsAC_1050_60_Не ЭДО.xls. Фраза 'Список не содержит данных' не найдена. 
+2025-09-10 14:31:04.9895 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Нажали на кнопку "Сформировать документы" 
+2025-09-10 14:31:06.0000 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Элемент найден. Нажата клавиша Enter. 
+2025-09-10 14:31:08.0546 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Окно 'Акт сверки расчетов с контрагентами: ALV отчет' найдено 
+2025-09-10 14:31:38.5298 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Попытка 1: Дочернее окно 'Акт сверки расчетов с контрагентами: ALV отчет' не найдено 
+2025-09-10 14:31:38.5788 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Окно 'Акт сверки расчетов с контрагентами: ALV отчет' найдено 
+2025-09-10 14:32:09.0722 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Попытка 2: Дочернее окно 'Акт сверки расчетов с контрагентами: ALV отчет' не найдено 
+2025-09-10 14:32:09.1222 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Окно 'Акт сверки расчетов с контрагентами: ALV отчет' найдено 
+2025-09-10 14:32:39.6115 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Попытка 3: Дочернее окно 'Акт сверки расчетов с контрагентами: ALV отчет' не найдено 
+2025-09-10 14:32:39.6115 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Попытка 3: Ошибка при поиске окна SAP или отправке Enter - Дочернее окно SAP не найдено после всех попыток. 
+2025-09-10 14:32:39.6115 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Ошибка при обработке счета '60'. Пропускаю этот счёт и перехожу к следующему. System.Exception: Не удалось обработать главное окно SAP после всех попыток. ---> System.Exception: Дочернее окно SAP не найдено после всех попыток.
+   at SpravkoBot_AsSapfir.Program.Main(String[] args) in C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\Program.cs:line 980
+   --- End of inner exception stack trace ---
+   at SpravkoBot_AsSapfir.Program.Main(String[] args) in C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\Program.cs:line 996
+2025-09-10 14:32:39.6485 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Переходим в ветку по счету - 62 
+2025-09-10 14:40:31.3310 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *////* 
+2025-09-10 14:40:31.3570 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-09-10 14:40:31.3850 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена. 
+2025-09-10 14:40:31.3850 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-09-10 14:40:31.3850 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2347773+.txt. Начинаю извлечение данных из заявки. 
+2025-09-10 14:40:31.3850 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'organiz.title' не найден. 
+2025-09-10 14:40:31.3850 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'orgfilial.title' не найден. 
+2025-09-10 14:40:31.3850 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'formType.title' не найден. 
+2025-09-10 14:40:31.3850 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'docNumber' не найден. 
+2025-09-10 14:40:31.3850 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'regNumbDoc' не найден. 
+2025-09-10 14:40:31.3850 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'innString' не найден. 
+2025-09-10 14:40:31.3850 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'kppString' не найден. 
+2025-09-10 14:40:31.3850 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Для заявки SD2347773 создана сущность Request. 
+2025-09-10 14:40:31.3850 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-09-10 14:40:31.3850 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-09-10 14:40:31.3850 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2347773 
+2025-09-10 14:40:31.3850 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => Годовая инвентаризация (по всем контрагентам и договорам) 
+2025-09-10 14:40:31.3850 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга => ОЦО Акт сверки РГ 
+2025-09-10 14:40:31.3850 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-09-10 14:40:31.3850 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-09-10 14:40:31.3850 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-09-10 14:40:31.3850 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН =>  
+2025-09-10 14:40:31.3850 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП =>  
+2025-09-10 14:40:31.3850 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер (-а) договора в системе =>  
+2025-09-10 14:40:31.3850 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.01.2025 
+2025-09-10 14:40:31.3850 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-09-10 14:40:31.3850 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-09-10 14:40:31.3850 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Начинаю конвертирование excel файла в csv: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx 
+2025-09-10 14:40:31.4050 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.ConvertToCsv | Начало конвертации файла Excel 'C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx' в CSV. 
+2025-09-10 14:40:32.0515 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.SaveAsCsv | Сохранено как CSV: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.csv. Строк: 5485, столбцов: 11 
+2025-09-10 14:40:32.0625 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.ConvertToCsv | Файл успешно конвертирован в CSV: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.csv 
+2025-09-10 14:40:32.0625 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Выполняю фильтрацию по параметрам из заявки. Type: Годовая инвентаризация (по всем контрагентам и договорам); БЕ:Волжская ГЭС, ИНН:, КПП: 
+2025-09-10 14:40:32.0905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | [Inventory] Начальный выбор по Branch='Волжская ГЭС': строк=279 
+2025-09-10 14:40:32.0905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Формирую задачу для подписанта: 90002992 
+2025-09-10 14:40:32.0905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: ЭДО 
+2025-09-10 14:40:32.0905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результатов нет — задачу не добавляем. 
+2025-09-10 14:40:32.0905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: Не ЭДО 
+2025-09-10 14:40:32.0905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ----Задача для SAP---- 
+2025-09-10 14:40:32.0905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | BeCode: 1050 
+2025-09-10 14:40:32.0905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | INN: null, KPP: null 
+2025-09-10 14:40:32.0905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ContractNumber: [] 
+2025-09-10 14:40:32.0905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | CounterpartyNumbers: [1000000212, 1000049282, 1000008291, 1000127108, 4000001113, 1000031779, 5000008375, 1000124930, 1000000392, 1000008296, 1000008307, 1000008315, 1000008349, 1000008420, 1000008766, 1000008781, 1000008813, 1000008876, 1000008902, 1000008938, 1000008943, 1000008950, 1000009008, 1000009057, 1000009076, 1000009105, 1000009139, 1000009226, 1000009260, 1000009340, 1000009467, 1000009519, 1000009528, 1000009529, 1000009554, 1000009569, 1000009617, 1000009652, 1000009924, 1000010026, 1000010272, 1000010374, 1000010416, 1000010428, 1000010460, 1000010754, 1000011074, 1000011084, 1000011103, 1000011129, 1000011131, 1000011166, 1000011747, 1000011929, 1000012013, 1000012079, 1000012154, 1000014535, 1000014649, 1000014716, 1000014719, 1000014753, 1000014757, 1000014797, 1000014820, 1000014826, 1000014887, 1000014928, 1000014947, 1000015025, 1000015113, 1000015195, 1000015198, 1000015205, 1000015283, 1000015287, 1000015362, 1000016634, 1000016716, 1000016748, 1000016808, 1000031760, 1000031766, 1000031797, 1000032721, 1000033549, 1000033595, 1000033854, 1000034302, 1000034454, 1000034719, 1000035180, 1000038330, 1000038388, 1000038407, 1000039882, 1000040274, 1000040593, 1000040618, 1000041895, 1000042170, 1000042218, 1000043684, 1000045041, 1000045444, 1000045758, 1000045787, 1000047959, 1000049279, 1000050718, 1000050809, 1000051323, 1000051637, 1000053354, 1000055066, 1000055084, 1000055116, 1000055604, 1000055671, 1000055940, 1000056482, 1000056939, 1000057108, 1000059568, 1000059758, 1000059764, 1000060028, 1000060345, 1000061024, 1000061141, 1000061619, 1000062045, 1000062592, 1000062594, 1000066902, 1000067285, 1000067441, 1000079265, 1000079575, 1000087069, 1000088950, 1000089002, 1000089324, 1000091079, 1000091556, 1000093787, 1000093835, 1000094727, 1000095047, 1000095123, 1000097590, 1000097835, 1000097855, 1000097897, 1000097907, 1000097983, 1000098208, 1000098211, 1000098222, 1000098256, 1000098833, 1000099135, 1000100590, 1000101175, 1000101775, 1000102029, 1000102921, 1000103643, 1000103794, 1000103839, 1000103978, 1000104383, 1000104942, 1000105037, 1000105047, 1000105642, 1000105940, 1000105998, 1000107058, 1000107080, 1000107226, 1000108800, 1000109029, 1000109603, 1000110138, 1000122011, 1000122027, 1000122304, 1000122842, 1000122920, 1000123244, 1000123397, 1000125878, 1000126122, 1000126131, 1000126800, 1000128488, 1000128514, 1000129323, 1000133802, 1000134569, 1000135065, 1000135137, 1000136133, 1000136182, 4000000894, 4000000937, 4000000950, 4000001012, 4000001013, 4000001030, 4000001048, 4000001074, 4000001094, 4000001107, 4000001163, 4000001188, 4000001289, 4000001417, 4000001759, 4000001762, 4000001861, 4000001903, 4000002029, 4000002197, 4000002557, 4000003007, 4000003147, 4000003292, 4000003301, 4000003361, 4000003622, 4000003736, 4000003742, 4000004845, 4000006083, 4000006665, 4000006873, 4000006901, 4000007034, 4000007036, 4000007214, 4000007315, 4000010143, 4000010154, 4000010220, 4000010370, 4000010949] 
+2025-09-10 14:40:32.0905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | SignatoryNumbers: [90002992] 
+2025-09-10 14:40:32.0905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | Status: Не ЭДО 
+2025-09-10 14:40:32.0905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | DateStart: 01.01.2025, DateEnd: 30.06.2025 
+2025-09-10 14:40:32.0905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | vgo: False 
+2025-09-10 14:40:32.0905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Формирую задачу для подписанта: 90002916 
+2025-09-10 14:40:32.0905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: ЭДО 
+2025-09-10 14:40:32.0905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ----Задача для SAP---- 
+2025-09-10 14:40:32.0905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | BeCode: 1050 
+2025-09-10 14:40:32.0905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | INN: null, KPP: null 
+2025-09-10 14:40:32.0905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ContractNumber: [] 
+2025-09-10 14:40:32.0905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | CounterpartyNumbers: [1000127089, 1000008293, 1000008300, 1000008313, 1000008314, 1000008590, 1000008665, 1000008824, 1000008941, 1000009148, 1000009829, 1000010583, 1000010595, 1000011017, 1000011228, 1000011575, 1000011754, 1000012084, 1000014569, 1000014634, 1000014717, 1000015004, 1000040511, 1000045292, 1000045301, 1000045328, 1000052730, 1000057163, 1000090692, 1000104844, 1000109647] 
+2025-09-10 14:40:32.0905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | SignatoryNumbers: [90002916] 
+2025-09-10 14:40:32.0905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | Status: ЭДО 
+2025-09-10 14:40:32.0905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | DateStart: 01.01.2025, DateEnd: 30.06.2025 
+2025-09-10 14:40:32.0905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | vgo: False 
+2025-09-10 14:40:32.0905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: Не ЭДО 
+2025-09-10 14:40:32.0905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результатов нет — задачу не добавляем. 
+2025-09-10 14:40:32.0905 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инвентаризация: сформировано задач: 2 
+2025-09-10 14:40:34.4370 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | SAP Logon успешно запущен. 
+2025-09-10 14:40:34.7486 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Сессия SAP успешно получена. 
+2025-09-10 14:40:34.7596 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход в SAP. 
+2025-09-10 14:40:36.8241 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Транзакция ZTSF_AKT_SVERKI успешно запущена. 
+2025-09-10 14:40:36.8241 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход и запущена транзакция ZTSF_AKT_SVERKI 
+2025-09-10 14:40:36.8571 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Ошибка SAP (выполнение задачи) System.Runtime.InteropServices.COMException (0x0000026B): The control could not be found by id.
+   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at SAPFEWSELib.ISapSessionTarget.FindById(String Id, Object Raise)
+   at SpravkoBot_AsSapfir.SapfirManager.SetText(String id, String text) in C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\Managers\SapfirManager.cs:line 205
+   at SpravkoBot_AsSapfir.Program.Main(String[] args) in C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\Program.cs:line 368
+2025-09-10 14:40:36.8891 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Ошибка при обработке входного файла SD2347773+.txt. Переход к следующему файлу. 
+2025-09-10 14:40:36.9591 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Ошибка при записи статуса в JSON. System.ArgumentNullException: Сессия не может быть null.
+Parameter name: session
+   at SpravkoBot_AsSapfir.SapfirManager.CloseSAPWindowByNex(GuiSession session) in C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\Managers\SapfirManager.cs:line 170
+   at SpravkoBot_AsSapfir.Program.Main(String[] args) in C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\Program.cs:line 1046
+2025-09-10 14:40:36.9640 | WARN | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.MoveToOwnFolderInInput | Файл 'SD2347773+.txt' перемещён в 'C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\bin\Debug\data\requests\input\SD2347773+' из-за ошибки обработки. 
+2025-09-10 14:40:36.9640 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Файлов для обработки нет. Робот завершает свою работу. 
+2025-09-10 14:40:41.7551 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *////* 
+2025-09-10 14:40:41.7941 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-09-10 14:40:41.8601 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена. 
+2025-09-10 14:40:41.8601 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Нет заявок для обработки. Робот завершает работу. 
+2025-09-10 14:41:24.1844 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *////* 
+2025-09-10 14:41:24.2114 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-09-10 14:41:24.2534 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена. 
+2025-09-10 14:41:24.2534 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-09-10 14:41:24.2534 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2347773+.txt. Начинаю извлечение данных из заявки. 
+2025-09-10 14:41:24.2534 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'organiz.title' не найден. 
+2025-09-10 14:41:24.2594 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'orgfilial.title' не найден. 
+2025-09-10 14:41:24.2594 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'formType.title' не найден. 
+2025-09-10 14:41:24.2594 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'docNumber' не найден. 
+2025-09-10 14:41:24.2594 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'regNumbDoc' не найден. 
+2025-09-10 14:41:24.2594 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'innString' не найден. 
+2025-09-10 14:41:24.2594 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'kppString' не найден. 
+2025-09-10 14:41:24.2594 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Для заявки SD2347773 создана сущность Request. 
+2025-09-10 14:41:24.2594 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-09-10 14:41:24.2594 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-09-10 14:41:24.2594 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2347773 
+2025-09-10 14:41:24.2594 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => Годовая инвентаризация (по всем контрагентам и договорам) 
+2025-09-10 14:41:24.2594 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга => ОЦО Акт сверки РГ 
+2025-09-10 14:41:24.2594 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-09-10 14:41:24.2594 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-09-10 14:41:24.2594 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-09-10 14:41:24.2594 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН =>  
+2025-09-10 14:41:24.2594 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП =>  
+2025-09-10 14:41:24.2594 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер (-а) договора в системе =>  
+2025-09-10 14:41:24.2594 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.01.2025 
+2025-09-10 14:41:24.2594 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-09-10 14:41:24.2594 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-09-10 14:41:24.2594 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Начинаю конвертирование excel файла в csv: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx 
+2025-09-10 14:41:24.2784 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.ConvertToCsv | Начало конвертации файла Excel 'C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx' в CSV. 
+2025-09-10 14:41:24.9619 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.SaveAsCsv | Сохранено как CSV: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.csv. Строк: 5485, столбцов: 11 
+2025-09-10 14:41:24.9619 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.ConvertToCsv | Файл успешно конвертирован в CSV: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.csv 
+2025-09-10 14:41:24.9619 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Выполняю фильтрацию по параметрам из заявки. Type: Годовая инвентаризация (по всем контрагентам и договорам); БЕ:Волжская ГЭС, ИНН:, КПП: 
+2025-09-10 14:41:25.0019 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | [Inventory] Начальный выбор по Branch='Волжская ГЭС': строк=279 
+2025-09-10 14:41:25.0019 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Формирую задачу для подписанта: 90002992 
+2025-09-10 14:41:25.0019 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: ЭДО 
+2025-09-10 14:41:25.0019 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результатов нет — задачу не добавляем. 
+2025-09-10 14:41:25.0019 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: Не ЭДО 
+2025-09-10 14:41:25.0019 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ----Задача для SAP---- 
+2025-09-10 14:41:25.0019 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | BeCode: 1050 
+2025-09-10 14:41:25.0019 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | INN: null, KPP: null 
+2025-09-10 14:41:25.0019 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ContractNumber: [] 
+2025-09-10 14:41:25.0019 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | CounterpartyNumbers: [1000000212, 1000049282, 1000008291, 1000127108, 4000001113, 1000031779, 5000008375, 1000124930, 1000000392, 1000008296, 1000008307, 1000008315, 1000008349, 1000008420, 1000008766, 1000008781, 1000008813, 1000008876, 1000008902, 1000008938, 1000008943, 1000008950, 1000009008, 1000009057, 1000009076, 1000009105, 1000009139, 1000009226, 1000009260, 1000009340, 1000009467, 1000009519, 1000009528, 1000009529, 1000009554, 1000009569, 1000009617, 1000009652, 1000009924, 1000010026, 1000010272, 1000010374, 1000010416, 1000010428, 1000010460, 1000010754, 1000011074, 1000011084, 1000011103, 1000011129, 1000011131, 1000011166, 1000011747, 1000011929, 1000012013, 1000012079, 1000012154, 1000014535, 1000014649, 1000014716, 1000014719, 1000014753, 1000014757, 1000014797, 1000014820, 1000014826, 1000014887, 1000014928, 1000014947, 1000015025, 1000015113, 1000015195, 1000015198, 1000015205, 1000015283, 1000015287, 1000015362, 1000016634, 1000016716, 1000016748, 1000016808, 1000031760, 1000031766, 1000031797, 1000032721, 1000033549, 1000033595, 1000033854, 1000034302, 1000034454, 1000034719, 1000035180, 1000038330, 1000038388, 1000038407, 1000039882, 1000040274, 1000040593, 1000040618, 1000041895, 1000042170, 1000042218, 1000043684, 1000045041, 1000045444, 1000045758, 1000045787, 1000047959, 1000049279, 1000050718, 1000050809, 1000051323, 1000051637, 1000053354, 1000055066, 1000055084, 1000055116, 1000055604, 1000055671, 1000055940, 1000056482, 1000056939, 1000057108, 1000059568, 1000059758, 1000059764, 1000060028, 1000060345, 1000061024, 1000061141, 1000061619, 1000062045, 1000062592, 1000062594, 1000066902, 1000067285, 1000067441, 1000079265, 1000079575, 1000087069, 1000088950, 1000089002, 1000089324, 1000091079, 1000091556, 1000093787, 1000093835, 1000094727, 1000095047, 1000095123, 1000097590, 1000097835, 1000097855, 1000097897, 1000097907, 1000097983, 1000098208, 1000098211, 1000098222, 1000098256, 1000098833, 1000099135, 1000100590, 1000101175, 1000101775, 1000102029, 1000102921, 1000103643, 1000103794, 1000103839, 1000103978, 1000104383, 1000104942, 1000105037, 1000105047, 1000105642, 1000105940, 1000105998, 1000107058, 1000107080, 1000107226, 1000108800, 1000109029, 1000109603, 1000110138, 1000122011, 1000122027, 1000122304, 1000122842, 1000122920, 1000123244, 1000123397, 1000125878, 1000126122, 1000126131, 1000126800, 1000128488, 1000128514, 1000129323, 1000133802, 1000134569, 1000135065, 1000135137, 1000136133, 1000136182, 4000000894, 4000000937, 4000000950, 4000001012, 4000001013, 4000001030, 4000001048, 4000001074, 4000001094, 4000001107, 4000001163, 4000001188, 4000001289, 4000001417, 4000001759, 4000001762, 4000001861, 4000001903, 4000002029, 4000002197, 4000002557, 4000003007, 4000003147, 4000003292, 4000003301, 4000003361, 4000003622, 4000003736, 4000003742, 4000004845, 4000006083, 4000006665, 4000006873, 4000006901, 4000007034, 4000007036, 4000007214, 4000007315, 4000010143, 4000010154, 4000010220, 4000010370, 4000010949] 
+2025-09-10 14:41:25.0019 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | SignatoryNumbers: [90002992] 
+2025-09-10 14:41:25.0019 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | Status: Не ЭДО 
+2025-09-10 14:41:25.0019 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | DateStart: 01.01.2025, DateEnd: 30.06.2025 
+2025-09-10 14:41:25.0019 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | vgo: False 
+2025-09-10 14:41:25.0019 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Формирую задачу для подписанта: 90002916 
+2025-09-10 14:41:25.0019 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: ЭДО 
+2025-09-10 14:41:25.0019 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ----Задача для SAP---- 
+2025-09-10 14:41:25.0019 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | BeCode: 1050 
+2025-09-10 14:41:25.0019 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | INN: null, KPP: null 
+2025-09-10 14:41:25.0019 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ContractNumber: [] 
+2025-09-10 14:41:25.0019 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | CounterpartyNumbers: [1000127089, 1000008293, 1000008300, 1000008313, 1000008314, 1000008590, 1000008665, 1000008824, 1000008941, 1000009148, 1000009829, 1000010583, 1000010595, 1000011017, 1000011228, 1000011575, 1000011754, 1000012084, 1000014569, 1000014634, 1000014717, 1000015004, 1000040511, 1000045292, 1000045301, 1000045328, 1000052730, 1000057163, 1000090692, 1000104844, 1000109647] 
+2025-09-10 14:41:25.0019 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | SignatoryNumbers: [90002916] 
+2025-09-10 14:41:25.0019 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | Status: ЭДО 
+2025-09-10 14:41:25.0019 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | DateStart: 01.01.2025, DateEnd: 30.06.2025 
+2025-09-10 14:41:25.0019 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | vgo: False 
+2025-09-10 14:41:25.0019 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: Не ЭДО 
+2025-09-10 14:41:25.0019 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результатов нет — задачу не добавляем. 
+2025-09-10 14:41:25.0019 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инвентаризация: сформировано задач: 2 
+2025-09-10 14:41:31.4626 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | SAP Logon успешно запущен. 
+2025-09-10 14:41:32.7009 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Сессия SAP успешно получена. 
+2025-09-10 14:41:33.4465 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход в SAP. 
+2025-09-10 14:41:35.5371 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Транзакция ZTSF_AKT_SVERKI успешно запущена. 
+2025-09-10 14:41:35.5371 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход и запущена транзакция ZTSF_AKT_SVERKI 
+2025-09-10 14:41:47.1076 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Переходим в ветку по счету - 60 
+2025-09-10 14:42:16.2353 | WARN | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | По данному контрагенту уже есть сформированные документы. Выполнено повторное формирование. 
+2025-09-10 14:42:26.8532 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Божескова Оксана Михайловна 
+2025-09-10 14:59:05.7599 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Статус SAP: Журнал обновлен 
+2025-09-10 14:59:15.5643 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Файл ошибок сохранён: C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\bin\Debug\data\requests\temp\errorsAC_1050_60_Не ЭДО.xls. Фраза 'Список не содержит данных' не найдена. 
+2025-09-10 14:59:18.0148 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Нажали на кнопку "Сформировать документы" 
+2025-09-10 14:59:19.0268 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Элемент найден. Нажата клавиша Enter. 
+2025-09-10 15:01:52.3919 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Окно 'Browse for Files or Folders' найдено 
+2025-09-10 15:01:52.5099 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Попытка 1: Поле ввода 'Folder:' не найдено 
+2025-09-10 15:01:52.5235 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Окно 'Browse for Files or Folders' найдено 
+2025-09-10 15:01:52.6254 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Попытка 2: Поле ввода 'Folder:' не найдено 
+2025-09-10 15:01:52.6254 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Окно 'Browse for Files or Folders' найдено 
+2025-09-10 15:01:52.7414 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Попытка 3: Поле ввода 'Folder:' не найдено 
+2025-09-10 15:01:52.7554 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Попытка 3: Ошибка при сохранении файла - Поле ввода пути сохранения не найдено после всех попыток. 
+2025-09-10 15:01:52.7554 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Ошибка при обработке счета '60'. Пропускаю этот счёт и перехожу к следующему. System.Exception: Не удалось сохранить файл после всех попыток. ---> System.Exception: Поле ввода пути сохранения не найдено после всех попыток.
+   at SpravkoBot_AsSapfir.Program.Main(String[] args) in C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\Program.cs:line 965
+   --- End of inner exception stack trace ---
+   at SpravkoBot_AsSapfir.Program.Main(String[] args) in C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\Program.cs:line 1001
+2025-09-10 15:23:40.1219 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Ошибка SAP (выполнение задачи) System.Runtime.InteropServices.COMException (0x80010108): The object invoked has disconnected from its clients. (Exception from HRESULT: 0x80010108 (RPC_E_DISCONNECTED))
+   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at SAPFEWSELib.ISapButtonTarget.SetFocus()
+   at SpravkoBot_AsSapfir.SapfirManager.PressButton(String id) in C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\Managers\SapfirManager.cs:line 236
+   at SpravkoBot_AsSapfir.Program.Main(String[] args) in C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\Program.cs:line 1017
+2025-09-10 15:23:40.1349 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Ошибка при обработке входного файла SD2347773+.txt. Переход к следующему файлу. 
+2025-09-10 15:23:40.1917 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Ошибка при записи статуса в JSON. System.ArgumentNullException: Сессия не может быть null.
+Parameter name: session
+   at SpravkoBot_AsSapfir.SapfirManager.CloseSAPWindowByNex(GuiSession session) in C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\Managers\SapfirManager.cs:line 170
+   at SpravkoBot_AsSapfir.Program.Main(String[] args) in C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\Program.cs:line 1046
+2025-09-10 15:23:40.1937 | WARN | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.MoveToOwnFolderInInput | Файл 'SD2347773+.txt' перемещён в 'C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\bin\Debug\data\requests\input\SD2347773+' из-за ошибки обработки. 
+2025-09-10 15:23:40.1937 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Файлов для обработки нет. Робот завершает свою работу. 
+2025-09-10 15:25:18.7822 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *////* 
+2025-09-10 15:25:18.9612 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-09-10 15:25:19.0615 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена. 
+2025-09-10 15:25:19.0615 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Нет заявок для обработки. Робот завершает работу. 
+2025-09-10 15:25:34.6213 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *////* 
+2025-09-10 15:25:34.6493 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-09-10 15:25:34.7293 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена. 
+2025-09-10 15:25:34.7293 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-09-10 15:25:34.7293 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2347773+.txt. Начинаю извлечение данных из заявки. 
+2025-09-10 15:25:34.7293 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'organiz.title' не найден. 
+2025-09-10 15:25:34.7293 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'orgfilial.title' не найден. 
+2025-09-10 15:25:34.7293 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'formType.title' не найден. 
+2025-09-10 15:25:34.7293 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'docNumber' не найден. 
+2025-09-10 15:25:34.7293 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'regNumbDoc' не найден. 
+2025-09-10 15:25:34.7293 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'innString' не найден. 
+2025-09-10 15:25:34.7293 | WARN | SpravkoBot_AsSapfir.JsonManager | SpravkoBot_AsSapfir.JsonManager.GetValue | Ключ 'kppString' не найден. 
+2025-09-10 15:25:34.7293 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Для заявки SD2347773 создана сущность Request. 
+2025-09-10 15:25:34.7293 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-09-10 15:25:34.7293 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-09-10 15:25:34.7293 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2347773 
+2025-09-10 15:25:34.7293 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => Годовая инвентаризация (по всем контрагентам и договорам) 
+2025-09-10 15:25:34.7293 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга => ОЦО Акт сверки РГ 
+2025-09-10 15:25:34.7293 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-09-10 15:25:34.7293 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-09-10 15:25:34.7293 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-09-10 15:25:34.7293 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН =>  
+2025-09-10 15:25:34.7293 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП =>  
+2025-09-10 15:25:34.7293 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер (-а) договора в системе =>  
+2025-09-10 15:25:34.7293 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.01.2025 
+2025-09-10 15:25:34.7293 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-09-10 15:25:34.7293 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-09-10 15:25:34.7293 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Начинаю конвертирование excel файла в csv: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx 
+2025-09-10 15:25:34.7663 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.ConvertToCsv | Начало конвертации файла Excel 'C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx' в CSV. 
+2025-09-10 15:25:35.4972 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.SaveAsCsv | Сохранено как CSV: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.csv. Строк: 5485, столбцов: 11 
+2025-09-10 15:25:35.5098 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.ConvertToCsv | Файл успешно конвертирован в CSV: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.csv 
+2025-09-10 15:25:35.5098 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Выполняю фильтрацию по параметрам из заявки. Type: Годовая инвентаризация (по всем контрагентам и договорам); БЕ:Волжская ГЭС, ИНН:, КПП: 
+2025-09-10 15:25:35.5388 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | [Inventory] Начальный выбор по Branch='Волжская ГЭС': строк=279 
+2025-09-10 15:25:35.5388 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Формирую задачу для подписанта: 90002992 
+2025-09-10 15:25:35.5388 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: ЭДО 
+2025-09-10 15:25:35.5388 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результатов нет — задачу не добавляем. 
+2025-09-10 15:25:35.5388 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: Не ЭДО 
+2025-09-10 15:25:35.5388 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ----Задача для SAP---- 
+2025-09-10 15:25:35.5388 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | BeCode: 1050 
+2025-09-10 15:25:35.5388 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | INN: null, KPP: null 
+2025-09-10 15:25:35.5388 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ContractNumber: [] 
+2025-09-10 15:25:35.5388 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | CounterpartyNumbers: [1000000212, 1000049282, 1000008291, 1000127108, 4000001113, 1000031779, 5000008375, 1000124930, 1000000392, 1000008296, 1000008307, 1000008315, 1000008349, 1000008420, 1000008766, 1000008781, 1000008813, 1000008876, 1000008902, 1000008938, 1000008943, 1000008950, 1000009008, 1000009057, 1000009076, 1000009105, 1000009139, 1000009226, 1000009260, 1000009340, 1000009467, 1000009519, 1000009528, 1000009529, 1000009554, 1000009569, 1000009617, 1000009652, 1000009924, 1000010026, 1000010272, 1000010374, 1000010416, 1000010428, 1000010460, 1000010754, 1000011074, 1000011084, 1000011103, 1000011129, 1000011131, 1000011166, 1000011747, 1000011929, 1000012013, 1000012079, 1000012154, 1000014535, 1000014649, 1000014716, 1000014719, 1000014753, 1000014757, 1000014797, 1000014820, 1000014826, 1000014887, 1000014928, 1000014947, 1000015025, 1000015113, 1000015195, 1000015198, 1000015205, 1000015283, 1000015287, 1000015362, 1000016634, 1000016716, 1000016748, 1000016808, 1000031760, 1000031766, 1000031797, 1000032721, 1000033549, 1000033595, 1000033854, 1000034302, 1000034454, 1000034719, 1000035180, 1000038330, 1000038388, 1000038407, 1000039882, 1000040274, 1000040593, 1000040618, 1000041895, 1000042170, 1000042218, 1000043684, 1000045041, 1000045444, 1000045758, 1000045787, 1000047959, 1000049279, 1000050718, 1000050809, 1000051323, 1000051637, 1000053354, 1000055066, 1000055084, 1000055116, 1000055604, 1000055671, 1000055940, 1000056482, 1000056939, 1000057108, 1000059568, 1000059758, 1000059764, 1000060028, 1000060345, 1000061024, 1000061141, 1000061619, 1000062045, 1000062592, 1000062594, 1000066902, 1000067285, 1000067441, 1000079265, 1000079575, 1000087069, 1000088950, 1000089002, 1000089324, 1000091079, 1000091556, 1000093787, 1000093835, 1000094727, 1000095047, 1000095123, 1000097590, 1000097835, 1000097855, 1000097897, 1000097907, 1000097983, 1000098208, 1000098211, 1000098222, 1000098256, 1000098833, 1000099135, 1000100590, 1000101175, 1000101775, 1000102029, 1000102921, 1000103643, 1000103794, 1000103839, 1000103978, 1000104383, 1000104942, 1000105037, 1000105047, 1000105642, 1000105940, 1000105998, 1000107058, 1000107080, 1000107226, 1000108800, 1000109029, 1000109603, 1000110138, 1000122011, 1000122027, 1000122304, 1000122842, 1000122920, 1000123244, 1000123397, 1000125878, 1000126122, 1000126131, 1000126800, 1000128488, 1000128514, 1000129323, 1000133802, 1000134569, 1000135065, 1000135137, 1000136133, 1000136182, 4000000894, 4000000937, 4000000950, 4000001012, 4000001013, 4000001030, 4000001048, 4000001074, 4000001094, 4000001107, 4000001163, 4000001188, 4000001289, 4000001417, 4000001759, 4000001762, 4000001861, 4000001903, 4000002029, 4000002197, 4000002557, 4000003007, 4000003147, 4000003292, 4000003301, 4000003361, 4000003622, 4000003736, 4000003742, 4000004845, 4000006083, 4000006665, 4000006873, 4000006901, 4000007034, 4000007036, 4000007214, 4000007315, 4000010143, 4000010154, 4000010220, 4000010370, 4000010949] 
+2025-09-10 15:25:35.5388 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | SignatoryNumbers: [90002992] 
+2025-09-10 15:25:35.5388 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | Status: Не ЭДО 
+2025-09-10 15:25:35.5388 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | DateStart: 01.01.2025, DateEnd: 30.06.2025 
+2025-09-10 15:25:35.5388 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | vgo: False 
+2025-09-10 15:25:35.5388 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Формирую задачу для подписанта: 90002916 
+2025-09-10 15:25:35.5388 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: ЭДО 
+2025-09-10 15:25:35.5388 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ----Задача для SAP---- 
+2025-09-10 15:25:35.5388 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | BeCode: 1050 
+2025-09-10 15:25:35.5388 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | INN: null, KPP: null 
+2025-09-10 15:25:35.5388 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ContractNumber: [] 
+2025-09-10 15:25:35.5388 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | CounterpartyNumbers: [1000127089, 1000008293, 1000008300, 1000008313, 1000008314, 1000008590, 1000008665, 1000008824, 1000008941, 1000009148, 1000009829, 1000010583, 1000010595, 1000011017, 1000011228, 1000011575, 1000011754, 1000012084, 1000014569, 1000014634, 1000014717, 1000015004, 1000040511, 1000045292, 1000045301, 1000045328, 1000052730, 1000057163, 1000090692, 1000104844, 1000109647] 
+2025-09-10 15:25:35.5388 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | SignatoryNumbers: [90002916] 
+2025-09-10 15:25:35.5388 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | Status: ЭДО 
+2025-09-10 15:25:35.5388 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | DateStart: 01.01.2025, DateEnd: 30.06.2025 
+2025-09-10 15:25:35.5388 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | vgo: False 
+2025-09-10 15:25:35.5388 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main |   Формирую задачу для статуса: Не ЭДО 
+2025-09-10 15:25:35.5388 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Результатов нет — задачу не добавляем. 
+2025-09-10 15:25:35.5388 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инвентаризация: сформировано задач: 2 
+2025-09-10 15:25:42.0522 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | SAP Logon успешно запущен. 
+2025-09-10 15:25:44.3597 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Сессия SAP успешно получена. 
+2025-09-10 15:25:44.4627 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход в SAP. 
+2025-09-10 15:25:46.5567 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Транзакция ZTSF_AKT_SVERKI успешно запущена. 
+2025-09-10 15:25:46.5567 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход и запущена транзакция ZTSF_AKT_SVERKI 
+2025-09-10 15:25:58.0940 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Переходим в ветку по счету - 60 
+2025-09-10 15:26:26.4353 | WARN | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | По данному контрагенту уже есть сформированные документы. Выполнено повторное формирование. 
+2025-09-10 15:26:36.9863 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Божескова Оксана Михайловна 
+2025-09-10 15:43:04.9876 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Статус SAP: Журнал обновлен 
+2025-09-10 15:43:14.4581 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Файл ошибок сохранён: C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\bin\Debug\data\requests\temp\errorsAC_1050_60_Не ЭДО.xls. Фраза 'Список не содержит данных' не найдена. 
+2025-09-10 15:43:16.8929 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Нажали на кнопку "Сформировать документы" 
+2025-09-10 15:43:56.6461 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Элемент найден. Нажата клавиша Enter. 
+2025-09-10 15:44:50.4901 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *////* 
+2025-09-10 15:44:50.5637 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-09-10 15:44:50.6167 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена. 
+2025-09-10 15:44:50.6167 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-09-10 15:44:50.6167 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2356036+.txt. Начинаю извлечение данных из заявки. 
+2025-09-10 15:44:50.6167 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Для заявки SD2356036 создана сущность Request. 
+2025-09-10 15:44:50.6167 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-09-10 15:44:50.6167 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-09-10 15:44:50.6167 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2356036 
+2025-09-10 15:44:50.6167 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => По одному контрагенту по всем договорам 
+2025-09-10 15:44:50.6167 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга => ОЦО Акт сверки РГ 
+2025-09-10 15:44:50.6167 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-09-10 15:44:50.6167 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-09-10 15:44:50.6167 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-09-10 15:44:50.6167 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН => 6345012488 
+2025-09-10 15:44:50.6167 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП => 343503001 
+2025-09-10 15:44:50.6167 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер (-а) договора в системе => Все договоры 
+2025-09-10 15:44:50.6167 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.06.2025 
+2025-09-10 15:44:50.6167 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-09-10 15:44:50.6167 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-09-10 15:44:50.6167 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Начинаю конвертирование excel файла в csv: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx 
+2025-09-10 15:44:50.6377 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.ConvertToCsv | Начало конвертации файла Excel 'C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx' в CSV. 
+2025-09-10 15:44:51.3974 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.SaveAsCsv | Сохранено как CSV: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.csv. Строк: 5485, столбцов: 11 
+2025-09-10 15:44:51.4084 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.ConvertToCsv | Файл успешно конвертирован в CSV: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.csv 
+2025-09-10 15:44:51.4084 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Выполняю фильтрацию по параметрам из заявки. Type: По одному контрагенту по всем договорам; БЕ:Волжская ГЭС, ИНН:6345012488, КПП:343503001 
+2025-09-10 15:44:51.4384 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.SearchSingleByBranchInnKpp | Найдено строк по INN/KPP: 2. 
+2025-09-10 15:44:51.4384 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.SearchSingleByBranchInnKpp | При выборке по ИНН и КПП в реестре КА нашлось несколько результатов. Просьба проверить корректность данных 
+2025-09-10 15:44:51.4384 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.SearchSingleByBranchInnKpp | 649 | Загорская ГАЭС | Гидроремонт-ВКК АО Волжский филиалг. Волжский | 1000014717 | 6345012488 | 343503001 | ЭДО | 90002916 
+2025-09-10 15:44:51.4384 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.SearchSingleByBranchInnKpp | 898 | Волжская ГЭС | Гидроремонт-ВКК АО Волжский филиалг. Волжский | 1000014717 | 6345012488 | 343503001 | ЭДО | 90002916 
+2025-09-10 15:44:51.4384 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Ошибка при обработке входного файла SD2356036+.txt. Переход к следующему файлу. 
+2025-09-10 15:47:10.4161 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *////* 
+2025-09-10 15:47:10.4422 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-09-10 15:47:10.4811 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена. 
+2025-09-10 15:47:10.4811 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-09-10 15:47:10.4811 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2356026+.txt. Начинаю извлечение данных из заявки. 
+2025-09-10 15:47:10.4811 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Для заявки SD2356026 создана сущность Request. 
+2025-09-10 15:47:10.4811 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-09-10 15:47:10.4811 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-09-10 15:47:10.4811 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2356026 
+2025-09-10 15:47:10.4811 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => По одному договору 
+2025-09-10 15:47:10.4811 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга => ОЦО Акт сверки РГ 
+2025-09-10 15:47:10.4811 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-09-10 15:47:10.4811 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-09-10 15:47:10.4811 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-09-10 15:47:10.4811 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН => 1902018248 
+2025-09-10 15:47:10.4811 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП => 190201001 
+2025-09-10 15:47:10.4811 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер (-а) договора в системе => 1010-1452-2022 
+2025-09-10 15:47:10.4811 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.06.2025 
+2025-09-10 15:47:10.4811 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-09-10 15:47:10.4811 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-09-10 15:47:10.4811 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Начинаю конвертирование excel файла в csv: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx 
+2025-09-10 15:47:10.5033 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.ConvertToCsv | Начало конвертации файла Excel 'C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx' в CSV. 
+2025-09-10 15:47:11.2048 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.SaveAsCsv | Сохранено как CSV: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.csv. Строк: 5485, столбцов: 11 
+2025-09-10 15:47:11.2158 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.ConvertToCsv | Файл успешно конвертирован в CSV: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.csv 
+2025-09-10 15:47:11.2158 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Выполняю фильтрацию по параметрам из заявки. Type: По одному договору; БЕ:Волжская ГЭС, ИНН:1902018248, КПП:190201001 
+2025-09-10 15:47:11.2448 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.SearchSingleByBranchInnKpp | Найдено строк по INN/KPP: 19. 
+2025-09-10 15:47:11.2448 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.SearchSingleByBranchInnKpp | При выборке по ИНН и КПП в реестре КА нашлось несколько результатов. Просьба проверить корректность данных 
+2025-09-10 15:47:11.2448 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.SearchSingleByBranchInnKpp | 422 | Загорская ГАЭС | ТК РусГидро АО | 1000008313 | 1902018248 | 190201001 | ЭДО | 90002916 
+2025-09-10 15:47:11.2448 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.SearchSingleByBranchInnKpp | 832 | Волжская ГЭС | ТК РусГидро АО | 1000008313 | 1902018248 | 190201001 | ЭДО | 90002916 
+2025-09-10 15:47:11.2448 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.SearchSingleByBranchInnKpp | 1733 | Зейская ГЭС | ТК РусГидро АО | 1000008313 | 1902018248 | 190201001 | не ЭДО | 90002995 
+2025-09-10 15:47:11.2448 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.SearchSingleByBranchInnKpp | 2273 | Каскад Верхневолжских ГЭС | ТК РусГидро АО | 1000008313 | 1902018248 | 190201001 | ЭДО | 90002916 
+2025-09-10 15:47:11.2448 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.SearchSingleByBranchInnKpp | 2846 | Саяно-Шушенская ГЭС (СШГЭС им. П.С. Непорожнего) | ТК РусГидро АО | 1000008313 | 1902018248 | 190201001 | ЭДО | 90002916 
+2025-09-10 15:47:11.2448 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.SearchSingleByBranchInnKpp | 2946 |  | ТК РусГидро АО | 1000008313 | 1902018248 | 190201001 | ЭДО | 90002916 
+2025-09-10 15:47:11.2448 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.SearchSingleByBranchInnKpp | 2947 |  | ТК РусГидро АО | 1000008313 | 1902018248 | 190201001 | ЭДО | 90002916 
+2025-09-10 15:47:11.2448 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.SearchSingleByBranchInnKpp | 2953 |  | ТК РусГидро АО | 1000008313 | 1902018248 | 190201001 | ЭДО | 90002916 
+2025-09-10 15:47:11.2448 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.SearchSingleByBranchInnKpp | 2975 |  | ТК РусГидро АО | 1000008313 | 1902018248 | 190201001 | ЭДО | 90003092 
+2025-09-10 15:47:11.2448 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.SearchSingleByBranchInnKpp | 2984 |  | ТК РусГидро АО | 1000008313 | 1902018248 | 190201001 | ЭДО | 1330 
+2025-09-10 15:47:11.2448 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.SearchSingleByBranchInnKpp | 3048 | Камская ГЭС | ТК РусГидро АО | 1000008313 | 1902018248 | 190201001 | ЭДО | 90002916 
+2025-09-10 15:47:11.2448 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.SearchSingleByBranchInnKpp | 3049 | Карачаево-Черкесский филиал | ТК РусГидро АО | 1000008313 | 1902018248 | 190201001 | ЭДО | 90002916 
+2025-09-10 15:47:11.2448 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.SearchSingleByBranchInnKpp | 3050 | Каскад Кубанских ГЭС | ТК РусГидро АО | 1000008313 | 1902018248 | 190201001 | ЭДО | 90002916 
+2025-09-10 15:47:11.2448 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.SearchSingleByBranchInnKpp | 3051 | Северо-Осетинский филиал | ТК РусГидро АО | 1000008313 | 1902018248 | 190201001 | ЭДО | 1800537 
+2025-09-10 15:47:11.2448 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.SearchSingleByBranchInnKpp | 3284 | Бурейская ГЭС | ТК РусГидро АО | 1000008313 | 1902018248 | 190201001 | ЭДО | 90002916 
+2025-09-10 15:47:11.2448 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.SearchSingleByBranchInnKpp | 3461 | Новосибирская ГЭС | ТК РусГидро АО | 1000008313 | 1902018248 | 190201001 | ЭДО | 90002916 
+2025-09-10 15:47:11.2448 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.SearchSingleByBranchInnKpp | 3506 | Чебоксарская ГЭС | ТК РусГидро АО | 1000008313 | 1902018248 | 190201001 | ЭДО | 90002916 
+2025-09-10 15:47:11.2448 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.SearchSingleByBranchInnKpp | 5232 | Саратовская ГЭС | ТК РусГидро АО | 1000008313 | 1902018248 | 190201001 | ЭДО | 90002916 
+2025-09-10 15:47:11.2448 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.SearchSingleByBranchInnKpp | 5470 | Нижегородская ГЭС | ТК РусГидро АО | 1000008313 | 1902018248 | 190201001 | ЭДО | 90002916 
+2025-09-10 15:47:11.2448 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Ошибка при обработке входного файла SD2356026+.txt. Переход к следующему файлу. 
+2025-09-10 15:50:38.3144 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *////* 
+2025-09-10 15:50:38.3414 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Инициализация успешно завершена. 
+2025-09-10 15:50:38.3824 | INFO | SpravkoBot_AsSapfir.ConfigManager | SpravkoBot_AsSapfir.ConfigManager.LoadConfig | Конфигурация успешно загружена. 
+2025-09-10 15:50:38.3824 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | В папке C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\bin\Debug\data\requests\input найдено 1 входящих файл(-а)(-ов) для обработки. 
+2025-09-10 15:50:38.3824 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Обработка заявки: SD2356026+.txt. Начинаю извлечение данных из заявки. 
+2025-09-10 15:50:38.3824 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Для заявки SD2356026 создана сущность Request. 
+2025-09-10 15:50:38.3824 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные из заявки извлечены: 
+2025-09-10 15:50:38.3824 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ******************************************** 
+2025-09-10 15:50:38.3824 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер заявки => SD2356026 
+2025-09-10 15:50:38.3824 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Тип заявки => По одному договору 
+2025-09-10 15:50:38.3824 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Услуга => ОЦО Акт сверки РГ 
+2025-09-10 15:50:38.3824 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Организация => ПАО "РусГидро" 
+2025-09-10 15:50:38.3824 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | *..........................................* 
+2025-09-10 15:50:38.3824 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * БЕ => Волжская ГЭС 
+2025-09-10 15:50:38.3824 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * ИНН => 1902018248 
+2025-09-10 15:50:38.3824 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * КПП => 190201001 
+2025-09-10 15:50:38.3824 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Номер (-а) договора в системе => 1010-1452-2022 
+2025-09-10 15:50:38.3824 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Начало периода => 01.06.2025 
+2025-09-10 15:50:38.3824 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | * Конец периода => 30.06.2025 
+2025-09-10 15:50:38.3824 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | ********************************************** 
+2025-09-10 15:50:38.3824 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Начинаю конвертирование excel файла в csv: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx 
+2025-09-10 15:50:38.4024 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.ConvertToCsv | Начало конвертации файла Excel 'C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.xlsx' в CSV. 
+2025-09-10 15:50:39.1067 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.SaveAsCsv | Сохранено как CSV: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.csv. Строк: 5485, столбцов: 11 
+2025-09-10 15:50:39.1207 | INFO | SpravkoBot_AsSapfir.ExcelConverter | SpravkoBot_AsSapfir.ExcelConverter.ConvertToCsv | Файл успешно конвертирован в CSV: C:\Users\RobinSapAC\Desktop\02-04-2025\SpravkoBot_AsSapfir\bin\Debug\KA\Реестр по всем БЕ.csv 
+2025-09-10 15:50:39.1207 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Выполняю фильтрацию по параметрам из заявки. Type: По одному договору; БЕ:Волжская ГЭС, ИНН:1902018248, КПП:190201001 
+2025-09-10 15:50:39.1547 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.SearchSingleByBranchInnKpp | Найдено строк по INN/KPP: 1. 
+2025-09-10 15:50:39.1547 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ----Задача для SAP---- 
+2025-09-10 15:50:39.1547 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | BeCode: 1050 
+2025-09-10 15:50:39.1547 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | INN: 1902018248, KPP: 190201001 
+2025-09-10 15:50:39.1547 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | ContractNumber: [1010-1452-2022] 
+2025-09-10 15:50:39.1547 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | CounterpartyNumbers: [1000008313] 
+2025-09-10 15:50:39.1547 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | SignatoryNumbers: [90002916] 
+2025-09-10 15:50:39.1547 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | Status: ЭДО 
+2025-09-10 15:50:39.1547 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | DateStart: 01.06.2025, DateEnd: 30.06.2025 
+2025-09-10 15:50:39.1547 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.DumpTaskToLog | vgo: False 
+2025-09-10 15:50:45.7400 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | SAP Logon успешно запущен. 
+2025-09-10 15:50:47.5794 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Сессия SAP успешно получена. 
+2025-09-10 15:50:48.2102 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход в SAP. 
+2025-09-10 15:50:50.3019 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Транзакция ZTSF_AKT_SVERKI успешно запущена. 
+2025-09-10 15:50:50.3019 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Успешно выполнен вход и запущена транзакция ZTSF_AKT_SVERKI 
+2025-09-10 15:51:18.1276 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Ожидаю появления окна "Акт сверки расчетов с контрагентами: ALV отчет", текущее окно: Акт сверки расчетов с контрагентами 
+2025-09-10 15:51:18.1276 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Данные по контрагенту не найдены или допущены ошибки в заполнении. Статус окна: К указанному ключу табличные записи не найдены.. Перехожу к следующей задаче. 
+2025-09-10 15:51:18.1336 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Ошибка при обработке счета '*'. Пропускаю этот счёт и перехожу к следующему. System.Exception: Exception of type 'System.Exception' was thrown.
+   at SpravkoBot_AsSapfir.Program.Main(String[] args) in C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\Program.cs:line 714
+2025-09-10 15:51:18.2536 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Ошибка при обработке входного файла SD2356026+.txt. Переход к следующему файлу. 
+2025-09-10 15:51:18.3257 | ERROR | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Ошибка при записи статуса в JSON. System.ArgumentNullException: Сессия не может быть null.
+Parameter name: session
+   at SpravkoBot_AsSapfir.SapfirManager.CloseSAPWindowByNex(GuiSession session) in C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\Managers\SapfirManager.cs:line 170
+   at SpravkoBot_AsSapfir.Program.Main(String[] args) in C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\Program.cs:line 1049
+2025-09-10 15:51:18.3257 | WARN | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.MoveToOwnFolderInInput | Файл 'SD2356026+.txt' перемещён в 'C:\Users\RobinSapAC\Desktop\RobinSap_Robot\as_test_rb-main\bin\Debug\data\requests\input\SD2356026+' из-за ошибки обработки. 
+2025-09-10 15:51:18.3257 | INFO | SpravkoBot_AsSapfir.Program | SpravkoBot_AsSapfir.Program.Main | Файлов для обработки нет. Робот завершает свою работу. 
