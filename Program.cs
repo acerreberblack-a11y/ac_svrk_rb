@@ -94,6 +94,7 @@ namespace SpravkoBot_AsSapfir
                 {
                     var currentFile = MoveToOwnFolderInInput(file);
                     string fileName = Path.GetFileName(currentFile);
+                    string outputDir = CreateOutputFolderForFile(currentFile);
                     Log.Info($"Обработка заявки: {fileName}. Начинаю извлечение данных из заявки.");
 
                     SapfirManager sapfir = null;
@@ -1059,6 +1060,10 @@ namespace SpravkoBot_AsSapfir
 
                         continue;
                     }
+                    finally
+                    {
+                        MoveFileToFolder(currentFile, outputDir);
+                    }
                 }
 
                 Log.Info("Файлов для обработки нет. Робот завершает свою работу.");
@@ -1278,6 +1283,53 @@ namespace SpravkoBot_AsSapfir
             {
                 Log.Error(moveEx, "Не удалось переместить входной файл в подпапку внутри input.");
                 return file;
+            }
+        }
+
+        private static string CreateOutputFolderForFile(string file)
+        {
+            try
+            {
+                if (!_appFolders.TryGetValue("output", out string outputBase) || string.IsNullOrWhiteSpace(outputBase))
+                {
+                    Log.Error("Инициализация выходной папки output произошла с ошибкой.");
+                    return null;
+                }
+
+                var baseName = Path.GetFileNameWithoutExtension(file);
+                var dirName = baseName.TrimEnd('+');
+                var dirPath = Path.Combine(outputBase, dirName);
+                Directory.CreateDirectory(dirPath);
+                return dirPath;
+            }
+            catch (Exception ex)
+            {
+                Log.Error(ex, "Не удалось создать подпапку в output.");
+                return null;
+            }
+        }
+
+        private static void MoveFileToFolder(string sourceFile, string targetDir)
+        {
+            if (string.IsNullOrWhiteSpace(sourceFile) || string.IsNullOrWhiteSpace(targetDir))
+                return;
+
+            try
+            {
+                var fileName = Path.GetFileName(sourceFile);
+                var destPath = Path.Combine(targetDir, fileName);
+                if (File.Exists(destPath))
+                {
+                    var stamp = DateTime.Now.ToString("yyyyMMdd_HHmmss");
+                    destPath = Path.Combine(targetDir, $"{Path.GetFileNameWithoutExtension(fileName)}_{stamp}{Path.GetExtension(fileName)}");
+                }
+
+                File.Move(sourceFile, destPath);
+                Log.Info($"Файл '{fileName}' перемещён в '{targetDir}'.");
+            }
+            catch (Exception ex)
+            {
+                Log.Error(ex, $"Не удалось переместить файл '{sourceFile}' в '{targetDir}'.");
             }
         }
 
