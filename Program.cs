@@ -92,13 +92,14 @@ namespace SpravkoBot_AsSapfir
 
                 foreach (var file in files)
                 {
-                    string fileName = Path.GetFileName(file);
+                    var currentFile = MoveToOwnFolderInInput(file);
+                    string fileName = Path.GetFileName(currentFile);
                     Log.Info($"Обработка заявки: {fileName}. Начинаю извлечение данных из заявки.");
 
                     SapfirManager sapfir = null;
                     try
                     {
-                        _jsonManager = new JsonManager(file, true);
+                        _jsonManager = new JsonManager(currentFile, true);
                         Request request = RequestManager.FromJson(_jsonManager);
                         Log.Info($"Для заявки {request.UIID} создана сущность Request.");
 
@@ -300,7 +301,7 @@ namespace SpravkoBot_AsSapfir
 
                                     _jsonManager.SetValue("status", "OK");
                                     _jsonManager.SetValue("message", $"Сформировано задач: {tasks.Count}");
-                                    _jsonManager.SaveToFile(file);
+                                    _jsonManager.SaveToFile(currentFile);
 
                                     break;
                                 }
@@ -828,8 +829,8 @@ namespace SpravkoBot_AsSapfir
                                                                    "radSPOPLI-SELFLAG[1,0]", true);
                                             sapfir.PressButton("wnd[1]/tbar[0]/btn[0]");
 
-                                            _appFolders.TryGetValue("temp", out string tempFolder);
-                                            sapfir.SetText("wnd[1]/usr/ctxtDY_PATH", tempFolder);
+                                            _appFolders.TryGetValue("error", out string errorFolder);
+                                            sapfir.SetText("wnd[1]/usr/ctxtDY_PATH", errorFolder);
                                             string filename_err = $"errorsAC_{taskToRun.BeCode}_{account}_{taskToRun.Status}.xls";
                                             sapfir.SetText("wnd[1]/usr/ctxtDY_FILENAME", filename_err);
                                             sapfir.PressButton("wnd[1]/tbar[0]/btn[0]");
@@ -837,7 +838,7 @@ namespace SpravkoBot_AsSapfir
                                             // === ЧТЕНИЕ errors-файла через Interop.Excel ===
                                             try
                                             {
-                                                string errFullPath = Path.Combine(tempFolder ?? "", filename_err);
+                                                string errFullPath = Path.Combine(errorFolder ?? "", filename_err);
                                                 // даём ОС договорить запись файла
                                                 Thread.Sleep(1500);
 
@@ -850,7 +851,7 @@ namespace SpravkoBot_AsSapfir
                                                         Log.Warn(msg);
                                                         _jsonManager.SetValue("status", "error");
                                                         _jsonManager.SetValue("message", msg);
-                                                        _jsonManager.SaveToFile(file);
+                                                        _jsonManager.SaveToFile(currentFile);
                                                     }
                                                     else
                                                     {
@@ -1037,7 +1038,7 @@ namespace SpravkoBot_AsSapfir
 
                         _jsonManager.SetValue("status", "OK");
                         _jsonManager.SetValue("message", "Успешно обработано.");
-                        _jsonManager.SaveToFile(file);
+                        _jsonManager.SaveToFile(currentFile);
                     }
                     catch (Exception ex)
                     {
@@ -1049,14 +1050,13 @@ namespace SpravkoBot_AsSapfir
                             sapfir.CloseSAPWindowByNex(session);
                             _jsonManager?.SetValue("status", "error");
                             _jsonManager?.SetValue("message", ex.Message);
-                            _jsonManager?.SaveToFile(file);
+                            _jsonManager?.SaveToFile(currentFile);
                         }
                         catch (Exception jsonEx)
                         {
                             Log.Error(jsonEx, "Ошибка при записи статуса в JSON.");
                         }
 
-                        MoveToOwnFolderInInput(file);
                         continue;
                     }
                 }
@@ -1252,7 +1252,7 @@ namespace SpravkoBot_AsSapfir
             Log.Info($"vgo: {t.vgo}");
         }
 
-        private static void MoveToOwnFolderInInput(string file)
+        private static string MoveToOwnFolderInInput(string file)
         {
             try
             {
@@ -1271,11 +1271,13 @@ namespace SpravkoBot_AsSapfir
                 }
 
                 File.Move(file, destPath);
-                Log.Warn($"Файл '{fileName}' перемещён в '{targetDir}' из-за ошибки обработки.");
+                Log.Info($"Файл '{fileName}' перемещён в '{targetDir}'.");
+                return destPath;
             }
             catch (Exception moveEx)
             {
                 Log.Error(moveEx, "Не удалось переместить входной файл в подпапку внутри input.");
+                return file;
             }
         }
 
