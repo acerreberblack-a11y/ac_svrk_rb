@@ -167,20 +167,25 @@ namespace SpravkoBot_AsSapfir
         {
             if (session == null)
             {
-                throw new ArgumentNullException(nameof(session), "Сессия не может быть null.");
+                Log.Warn("CloseSAPWindowByNex вызван без активной сессии.");
+                return;
             }
 
             try
             {
-                var mainWindow = session.FindById("wnd[0]") as GuiMainWindow ??
-                                 throw new InvalidOperationException("Главное окно 'wnd[0]' не найдено.");
+                var mainWindow = session.FindById("wnd[0]") as GuiMainWindow;
+                if (mainWindow == null)
+                {
+                    Log.Warn("Главное окно 'wnd[0]' не найдено при попытке закрытия.");
+                    return;
+                }
 
                 // Выполняем команду /nex напрямую через HardCopy
                 session.SendCommand("/nex");
             }
             catch (Exception ex)
             {
-                throw new InvalidOperationException($"Ошибка при закрытии окна SAP: {ex.Message}", ex);
+                Log.Error(ex, $"Ошибка при закрытии окна SAP: {ex.Message}");
             }
         }
 
