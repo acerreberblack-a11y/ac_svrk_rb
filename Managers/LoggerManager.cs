@@ -60,16 +60,23 @@ internal class LoggerManager
                 var fileInfo = new FileInfo(file);
                 if (fileInfo.LastWriteTime < cutoffDate)
                 {
-                    fileInfo.Delete();
-                    Log.Info(
-                        $"Удаление старого лога: {fileInfo.Name} ({fileInfo.Length} байт) Последнее изменение: {fileInfo.LastWriteTime}");
+                    try
+                    {
+                        fileInfo.Delete();
+                        Log.Info(
+                            $"Удаление старого лога: {fileInfo.Name} ({fileInfo.Length} байт) Последнее изменение: {fileInfo.LastWriteTime}");
+                    }
+                    catch (Exception fileEx)
+                    {
+                        Log.Warn(fileEx, $"Не удалось удалить лог-файл {fileInfo.Name}");
+                    }
                 }
             }
         }
         catch (Exception ex)
         {
             Log.Error(ex, "Ошибка при удалении старых логов");
+        }
     }
-}
-}
+    }
 }
